@@ -1,26 +1,26 @@
 .NavBar{
   position: fixed;
-  top: 0;
+  margin-top: 0;
 
   height: 100px;
   width: 100vw;
-  background-color: rgba(18, 18, 18, 0.5);
   z-index: 1;
 
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-right:  5vw;
-  
+  /* background-color: rgba(0, 0, 0, .2);  */
 }
 .NavBar img{
-    filter: hue-rotate(100deg);
     display: flex;
     justify-content: flex-start;
     height: 50px;
+    margin-left: 40px;
     }
-    .NavBar a{
-      margin-right: 20px;
-    }
+.NavBar a{
+  justify-content: space-between;
+  margin-right: 40px;
+  font-size: small;
+}
 
     

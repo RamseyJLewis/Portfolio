@@ -1,16 +1,32 @@
 
+import React from 'react';
+import {BrowserRouter as Router, Route, Switch} from  'react-router-dom';
 import './App.css';
 import NavBar from './components/NavBar/NavBar';
-import Logo from './components/Logo/Logo';
-import Intro from './components/Intro/Intro';
+import LandingPage from './components/LandingPage/LandingPage'
+import Portfolio from "./components/Portfolio/Portfolio";
 
 
 function App() {
   return (
     <div className="App">
-     <NavBar/>
-        <Logo/>
-        <Intro/>
+           <NavBar/>
+      <div className='Overlay'> </div>
+      <div className='Container'>
+        <Router>
+          <Switch>
+            <Route exact path= '/' component={LandingPage} />
+            <Route path= '/Portfolio' component={Portfolio}/>
+            {/* <Route exact path= '/About' component={About}/> */}
+            {/* <Route exact path= '/Life-Experience' component={Life-Experience}/>
+            <Route exact path= '/Resume' component={Resume}/>
+            <Route exact path= '/Contact' component={Contact}/> */}
+            <Route/>
+          </Switch>
+          {/* <LandingPage/> */}
+        </Router>
+       
+      </div>
     </div>
   );
 }

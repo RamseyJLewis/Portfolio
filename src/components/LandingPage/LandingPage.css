@@ -1,0 +1,35 @@
+/* .LandingPage{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-top: 200px;
+    padding-left: 150px;
+    color:  #92e5a1;
+    font-size: xx-large;
+    margin: 0px;
+    width: 100%;
+} */
+.Name{
+    color: white;
+}
+.Greeting{
+    color: #5cfc79;
+    display: flex;
+    justify-content: flex-start;
+}
+.MainText{
+    color: rgba(255, 255, 255, 0.7);
+}
+.Objective{
+    color: rgba(255, 255, 255, 0.7);
+    font-size: medium;
+    max-width: 500px;
+
+} 
+
+.Greeting, .MainText, .Name, .Objective{
+margin: 10px;
+text-align: left;
+}

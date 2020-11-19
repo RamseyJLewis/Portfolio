@@ -1,16 +1,17 @@
-import Logo from '../Logo/Logo'
-import './NavBar.css'
+import Logo from '../Logo/Logo';
+import './NavBar.css';
+import {Link} from 'react-scroll';
+
 function NavBar(){
     return(
         <div className ='NavBar'>
             <Logo/> 
-            <intro/>
             <div>
-            <a className='link' href='/About'>About</a>
-            <a className='link' href='/Portfolio'>Portfolio</a>
-            <a className='link' href='/Life-Experience'>Life Experience</a>
-            <a className='link' href='/Resume'>Resume</a>
-            <a className='link' href='/Contact'>Contact</a>
+                <Link className='link' to='About'smooth = {true}> About </Link>
+                <Link className='link' to='Portfolio'smooth = {true}> Portfolio </Link>
+                <Link className='link' to='Life-Expirence'smooth = {true}> Life-Expirence </Link>
+                <Link className='link' to='Resume'smooth = {true}> Resume </Link>
+                <Link className='link' to='Conatct'smooth = {true}> Conatct </Link>
             </div>
         </div>
     )

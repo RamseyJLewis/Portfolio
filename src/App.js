@@ -5,6 +5,8 @@ import './App.css';
 import NavBar from './components/NavBar/NavBar';
 import LandingPage from './components/LandingPage/LandingPage'
 import Portfolio from "./components/Portfolio/Portfolio";
+import About from  "./components/About/About"
+
 
 
 function App() {
@@ -17,7 +19,7 @@ function App() {
           <Switch>
             <Route exact path= '/' component={LandingPage} />
             <Route path= '/Portfolio' component={Portfolio}/>
-            {/* <Route exact path= '/About' component={About}/> */}
+            <Route exact path= '/About' component={About}/>
             {/* <Route exact path= '/Life-Experience' component={Life-Experience}/>
             <Route exact path= '/Resume' component={Resume}/>
             <Route exact path= '/Contact' component={Contact}/> */}
@@ -25,7 +27,8 @@ function App() {
           </Switch>
           {/* <LandingPage/> */}
         </Router>
-       
+        <About/>
+       <Portfolio/>
       </div>
     </div>
   );

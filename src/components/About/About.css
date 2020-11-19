@@ -1,0 +1,12 @@
+.About{
+    padding-top: 800px;
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px; 
+    max-width: 100vw; 
+    z-index: 2;
+    background-color: #111D13;
+    
+    
+    font-size: large;
+    }

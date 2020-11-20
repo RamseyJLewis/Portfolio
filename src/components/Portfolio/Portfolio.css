@@ -2,20 +2,46 @@
 padding-top: 800px;
 display: flex;
 flex-wrap: wrap;
-justify-content: flex-start;
+flex-direction: column;
+justify-content: flex-start; 
 padding: 20px; 
+
+max-height: 100vh;
 max-width: 100vw; 
-z-index: 2;
-background-color: #111D13;
+z-index: 2; 
 
-
-font-size: large;
+font-size: large;  
 }
 
 .projectCard{
     padding: 20px;
-    margin: 20px;
-    height: 300px;
+    margin: 30px;
+    height: 400px;
     width: 400px;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.45);
+    display: flex;
+    flex-direction: column; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: opacity .5s;
+
+    opacity: 0.3;
 }
+.projectCard:hover{
+    transition: opacity .2s;
+    opacity: 100;
+
+}
+
+.PortfolioText{
+    display: flex;
+    flex-direction: column;    
+}
+
+.ProjectsContainer{
+display: flex;
+flex-direction: column;
+}
+
+
+

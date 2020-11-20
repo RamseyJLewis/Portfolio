@@ -11,7 +11,7 @@ class About extends Component{
     render(){
         return(
             <div className = 'About' name='About'>
-                <h1> About </h1>
+                <div className='AboutText'>  < h2> About </h2> </div>
                 <div className='AboutCard'>
 
                 </div>

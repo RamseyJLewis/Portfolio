@@ -21,6 +21,17 @@
   justify-content: space-between;
   margin-right: 40px;
   font-size: medium;
+  transition:  .2s;
+}
+
+.NavBar a:hover{
+  border: .5px solid  #92e5a1;
+  border-radius: 25px;
+  
+  padding: 8px;
+  transition:  .2s;
+  cursor: pointer;
+
 }
 
     

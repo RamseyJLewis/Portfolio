@@ -6,7 +6,7 @@ flex-direction: column;
 justify-content: flex-start; 
 padding: 20px; 
 
-max-height: 100vh;
+
 max-width: 100vw; 
 z-index: 2; 
 
@@ -16,26 +16,28 @@ font-size: large;
 .projectCard{
     padding: 20px;
     margin: 30px;
-    height: 400px;
-    width: 400px;
+    height: 500px;
+    width: 800px;
     background-color: rgba(0, 0, 0, 0.45);
     display: flex;
     flex-direction: column; 
     background-size: cover;
     background-repeat: no-repeat;
-    transition: opacity .5s;
-
-    opacity: 0.3;
+    transition: opacity 1s;
+    opacity: 0.6;
 }
-.projectCard:hover{
+.projectCard:hover {
     transition: opacity .2s;
-    opacity: 100;
+    opacity: 1;
 
 }
 
 .PortfolioText{
+    padding-left: 900px;
+    padding-top: 10px;
     display: flex;
     flex-direction: column;    
+    text-align: left;
 }
 
 .ProjectsContainer{

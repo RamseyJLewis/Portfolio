@@ -52,9 +52,11 @@ class Portfolio extends Component{
             // creates a card
                 return(
                     <div key={project.title} className= "projectCard" style={{backgroundImage: `url( ${project.img || this.state.backgroundImage})`}}>
-                       <div className='PortfolioText'> <h2>{project.title}</h2></div>
-                        <p>{project.desc}</p>
-                        <p>{project.tech.map(tech => <p> {tech}</p>)}</p>
+                       <div className='PortfolioText'> 
+                            <h2>{project.title}</h2>
+                            <p>{project.tech.map(tech => <p> {tech}</p>)}</p>
+                            <p>{project.desc}</p>
+                        </div>
                     </div>
                 )
             })

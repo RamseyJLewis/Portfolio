@@ -26,9 +26,9 @@
 
 .NavBar a:hover{
   border: .5px solid  #92e5a1;
-  border-radius: 25px;
+  border-radius: var(--border-radius);
   
-  padding: 8px;
+  padding: 3px;
   transition:  .2s;
   cursor: pointer;
 

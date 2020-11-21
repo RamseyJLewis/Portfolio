@@ -18,21 +18,21 @@ class Portfolio extends Component{
             {
                 url: 'https://ramseyjlewis.github.io/Not-Flix/',
                 title: 'Not-Flix',
-                desc: 'My take on a netflix type webpage',
-                tech: [,'HTML', 'CSS','JAVASCRIPT','API'],
+                desc: 'Gastropub tofu la croix adaptogen salvia literally taiyaki. Flexitarian tbh vaporware man bun listicle franzen unicorn squid deep v normcore locavore godard. Roof party organic messenger bag, knausgaard jean shorts sriracha letterpress fanny pack cred disrupt raclette truffaut.',
+                tech: [,'HTML' ,'CSS', 'JAVASCRIPT', 'API'],
                 img: card1
             },
             {
                 url: 'https://ramseyjlewis.github.io/Space-Force-moon-of-gold/',
                 title: 'Space-Force-moon-of-gold',
-                desc: 'A space Invades likes game',
+                desc: 'Gastropub tofu la croix adaptogen salvia literally taiyaki. Flexitarian tbh vaporware man bun listicle franzen unicorn squid deep v normcore locavore godard. Roof party organic messenger bag, knausgaard jean shorts sriracha letterpress fanny pack cred disrupt raclette truffaut.',
                 tech: ['HTML', 'CSS','JAVASCRIPT'],
                 img: card2
             },
             {
                 url: 'https://ramseyjlewis.github.io/Basic-Calculator/',
                 title: 'Basic Calculator',
-                desc: 'A working Calculator',
+                desc: 'Gastropub tofu la croix adaptogen salvia literally taiyaki. Flexitarian tbh vaporware man bun listicle franzen unicorn squid deep v normcore locavore godard. Roof party organic messenger bag, knausgaard jean shorts sriracha letterpress fanny pack cred disrupt raclette truffaut.',
                 tech: ['HTML', 'CSS','JAVASCRIPT'],
                 img: card3
             },
@@ -51,13 +51,15 @@ class Portfolio extends Component{
                 console.log(project)
             // creates a card
                 return(
+                   <div className= 'wrapper'key= {index} >
                     <div key={project.title} className= "projectCard" style={{backgroundImage: `url( ${project.img || this.state.backgroundImage})`}}>
+                          </div>
                        <div className='PortfolioText'> 
                             <h2>{project.title}</h2>
-                            <p>{project.tech.map(tech => <p> {tech}</p>)}</p>
                             <p>{project.desc}</p>
+                            {project.tech.map((tech, idx) => <p key={idx}> {tech}</p>)}
                         </div>
-                    </div>
+                </div>
                 )
             })
         )

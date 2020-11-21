@@ -12,6 +12,10 @@
     
     font-size: large;  
     }
+    .LandingPage{
+        align-self: flex-start;
+        padding-left: 300px;
+    }
 
 
     .AboutCard{

@@ -9,26 +9,31 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+
   background-color: rgba(0, 0, 0, .1); 
+  backdrop-filter: blur(4px);
+  
 }
 .NavBar img{
-    display: flex;
-    justify-content: flex-start;
-    height: 50px;
-    margin-left: 40px;
+  display: flex;
+  justify-content: flex-start;
+  height: 50px;
+  margin-left: 40px;
     }
 .NavBar a{
-  justify-content: space-between;
-  margin-right: 40px;
+  margin-right: 50px;
   font-size: medium;
   transition:  .2s;
+  text-align: center;
+}
+.NavBarText{
+  text-align: center;
 }
 
-.NavBar a:hover{
+.NavBarText a:hover{
   border: .5px solid  #92e5a1;
-  border-radius: var(--border-radius);
-  
-  padding: 3px;
+
+  padding: 5px;
   transition:  .2s;
   cursor: pointer;
 

@@ -25,7 +25,6 @@ function App() {
             <Route exact path= '/Contact' component={Contact}/> */}
             <Route/>
           </Switch>
-          {/* <LandingPage/> */}
         </Router>
         <About/>
        <Portfolio/>

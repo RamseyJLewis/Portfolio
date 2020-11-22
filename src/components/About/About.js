@@ -11,9 +11,12 @@ class About extends Component{
     render(){
         return(
             <div className = 'About' name='About'>
-                <div className='AboutText'>  < h2> About </h2> </div>
+                <div className='AboutTitle'>  < h2> About   Me </h2> </div>
                 <div className='AboutCard'>
-
+                    <p> 'Gastropub tofu la croix adaptogen salvia literally taiyaki. Flexitarian tbh vaporware man bun listicle franzen unicorn squid deep v normcore locavore godard. Roof party organic messenger bag, knausgaard jean shorts sriracha letterpress fanny pack cred disrupt raclette truffaut.' </p>
+                    <p> 'Gastropub tofu la croix adaptogen salvia literally taiyaki. Flexitarian tbh vaporware man bun listicle franzen unicorn squid deep v normcore locavore godard. Roof party organic messenger bag, knausgaard jean shorts sriracha letterpress fanny pack cred disrupt raclette truffaut.' </p>
+                    <p> 'Gastropub tofu la croix adaptogen salvia literally taiyaki. Flexitarian tbh vaporware man bun listicle franzen unicorn squid deep v normcore locavore godard. Roof party organic messenger bag, knausgaard jean shorts sriracha letterpress fanny pack cred disrupt raclette truffaut.' </p>
+                    <p> 'Gastropub tofu la croix adaptogen salvia literally taiyaki. Flexitarian tbh vaporware man bun listicle franzen unicorn squid deep v normcore locavore godard. Roof party organic messenger bag, knausgaard jean shorts sriracha letterpress fanny pack cred disrupt raclette truffaut.' </p>
                 </div>
             </div> 
             )

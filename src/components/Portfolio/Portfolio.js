@@ -69,7 +69,8 @@ class Portfolio extends Component{
     render(){
         return(
             <div className = 'Portfolio' name='Portfolio'>
-                <h2>Projects</h2>
+
+               <div className='ProjectTitle'> <h2>Projects</h2></div> 
                 <div className='ProjectsContainer'> 
                 {this.createCard()}
                 </div>

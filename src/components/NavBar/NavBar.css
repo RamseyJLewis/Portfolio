@@ -15,13 +15,14 @@
   
 }
 .NavBar img{
-  display: flex;
-  justify-content: flex-start;
-  height: 50px;
-  margin-left: 40px;
+    display: flex;
+    justify-content: flex-start;
+    height: 50px;
+    margin-left: 40px;
     }
 .NavBar a{
-  margin-right: 50px;
+
+  margin-right: 40px;
   font-size: medium;
   transition:  .2s;
   text-align: center;

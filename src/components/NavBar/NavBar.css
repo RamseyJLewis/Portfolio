@@ -12,6 +12,7 @@
 
   background-color: rgba(0, 0, 0, .1); 
   backdrop-filter: blur(4px);
+ 
   
 }
 .NavBar img{
@@ -26,18 +27,18 @@
   font-size: medium;
   transition:  .2s;
   text-align: center;
+  color: white;
+
 }
 .NavBarText{
   text-align: center;
+
 }
 
 .NavBarText a:hover{
-  border: .5px solid  #92e5a1;
-
-  padding: 5px;
+ color: #92e5a1;
   transition:  .2s;
   cursor: pointer;
-
 }
 
     

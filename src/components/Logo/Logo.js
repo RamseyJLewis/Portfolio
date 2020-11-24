@@ -1,9 +1,10 @@
 import logo from '../../logo.svg';
+import {Link} from 'react-scroll';
 function Logo(){
     return(
-        <a href='/'>
+        <Link to='Home'smooth = {true}>
         <img src={logo} className="App-logo" alt="logo" />
-        </a>
+        </Link>
     )
 }
 export default Logo   

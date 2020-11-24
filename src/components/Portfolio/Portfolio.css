@@ -12,7 +12,7 @@ flex-wrap: wrap;
 flex-direction: column;
 justify-content: center;
 align-items: center; 
-padding-top: 200px; 
+padding-top: 100px; 
 
 max-width: 100%; 
 z-index: 2; 
@@ -32,13 +32,12 @@ font-size: large;
     background-size: cover;
     background-repeat: no-repeat;
     transition: opacity 1s;
-    opacity: 0.6;
+    opacity: 0.7;
     border-radius: 10px;
 }
 .projectCard:hover {
     transition: opacity .2s;
     opacity: 1;
-
 }
 
 .PortfolioText{
@@ -54,11 +53,10 @@ font-size: large;
     text-align: center;
     color: rgba(255, 255, 255, 0.7);
 }
-.projectCard:hover .PortfolioText{
+
+.wrapper:hover{
     color: white;
 }
-
-
 
 .ProjectTitle{
     color:  #5cfc79;

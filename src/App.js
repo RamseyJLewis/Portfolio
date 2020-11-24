@@ -11,7 +11,7 @@ import About from  "./components/About/About"
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" name='Home'>
            <NavBar/>
       <div className='Overlay'> </div>
       <div className='Container'>

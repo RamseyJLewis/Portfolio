@@ -3,9 +3,9 @@ import React from 'react';
 import {BrowserRouter as Router, Route, Switch} from  'react-router-dom';
 import './App.css';
 import NavBar from './components/NavBar/NavBar';
-import LandingPage from './components/LandingPage/LandingPage'
+import LandingPage from './components/LandingPage/LandingPage';
 import Portfolio from "./components/Portfolio/Portfolio";
-import About from  "./components/About/About"
+import About from  "./components/About/About";
 
 
 

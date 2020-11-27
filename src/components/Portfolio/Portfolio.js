@@ -65,7 +65,6 @@ class Portfolio extends Component{
         )
     }
 
-    
     render(){
         return(
             <div className = 'Portfolio' name='Portfolio'>

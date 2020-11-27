@@ -12,6 +12,7 @@
     color:white;
 }
 
+
 .Portfolio{
 display: flex;
 flex-wrap: wrap;
@@ -40,10 +41,6 @@ font-size: large;
     
     border-radius: 10px;
 }
-/* .projectCard:hover {
-    transition: opacity .2s;
-    opacity: 1;
-} */
 
 .PortfolioText{
     height: 500px;
@@ -59,9 +56,6 @@ font-size: large;
 
 }
 
-.wrapper:hover{
-    color: white;
-}
 
 .ProjectTitle{
     color:  #5cfc79;

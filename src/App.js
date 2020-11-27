@@ -6,7 +6,7 @@ import NavBar from './components/NavBar/NavBar';
 import LandingPage from './components/LandingPage/LandingPage';
 import Portfolio from "./components/Portfolio/Portfolio";
 import About from  "./components/About/About";
-
+import LifeExperience from  "./components/LifeExperience/LifeExperience";
 
 
 function App() {
@@ -20,14 +20,15 @@ function App() {
             <Route exact path= '/' component={LandingPage} />
             <Route path= '/Portfolio' component={Portfolio}/>
             <Route exact path= '/About' component={About}/>
-            {/* <Route exact path= '/Life-Experience' component={Life-Experience}/>
-            <Route exact path= '/Resume' component={Resume}/>
+            <Route exact path= '/LifeExperience' component={LifeExperience}/>
+            {/* <Route exact path= '/Resume' component={Resume}/>
             <Route exact path= '/Contact' component={Contact}/> */}
             <Route/>
           </Switch>
         </Router>
         <About/>
        <Portfolio/>
+       <LifeExperience/>
       </div>
     </div>
   );

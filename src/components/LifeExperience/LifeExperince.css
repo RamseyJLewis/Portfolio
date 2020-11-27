@@ -1,0 +1,39 @@
+.LifeExperience{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+
+    z-index: 2; 
+    font-size: large;  
+    padding-top: 100px;
+    }
+    
+    .LifeExperienceTitle{
+        color:  #5cfc79;
+    }
+
+    .LifeExperienceCard{
+        height: 400px;
+        width: 1000px;
+        background-color: rgba(11, 9, 10, .5);
+        display: flex;
+        justify-content: center;
+        flex-direction: column; 
+        text-align: center;
+        color: rgba(255, 255, 255, 0.7);
+
+        border-radius: 10px;
+        padding-bottom: 250px;
+        transition: opacity 1s;
+        opacity: 0.7;
+    }
+    .LifeExperienceCard:hover{
+        color: white;
+        opacity: 1;
+    }
+    
+    .LifeExperiencesContainer{
+    display: flex;
+    flex-direction: row;
+    }

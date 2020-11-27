@@ -9,7 +9,7 @@ function NavBar(){
             <div className = 'NavBarText'>
                 <Link className='link' to='About'smooth = {true}> About </Link>
                 <Link className='link' to='Portfolio'smooth = {true}> Portfolio </Link>
-                <Link className='link' to='Life-Expirence'smooth = {true}> Life-Experience </Link>
+                <Link className='link' to='LifeExperience'smooth = {true}> Life-Experience </Link>
                 <Link className='link' to='Resume'smooth = {true}> Resume </Link>
                 <Link className='link' to='Conatct'smooth = {true}> Conatct </Link>
             </div>

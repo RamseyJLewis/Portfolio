@@ -1,7 +1,6 @@
 .NavBar{
   position: fixed;
   margin-top: 0;
-
   height: 90px;
   width: 100vw;
   z-index: 4;
@@ -11,18 +10,17 @@
   align-items: center;
 
   background-color: rgba(0, 0, 0, .1); 
-  backdrop-filter: blur(4px);
- 
-  
+  backdrop-filter: blur(4px); 
 }
+
 .NavBar img{
     display: flex;
     justify-content: flex-start;
     height: 50px;
     margin-left: 40px;
     }
-.NavBar a{
 
+.NavBar a{
   margin-right: 40px;
   font-size: medium;
   transition:  .1s;
@@ -31,11 +29,10 @@
   border: 2px;
   padding-top: 15px;
   padding-bottom: 15px;
-
 }
+
 .NavBarText{
   text-align: center;
-
 }
 
 .NavBarText a:hover{

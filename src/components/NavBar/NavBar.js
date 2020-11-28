@@ -11,7 +11,7 @@ function NavBar(){
                 <Link className='link' to='Portfolio'smooth = {true}> Portfolio </Link>
                 <Link className='link' to='LifeExperience'smooth = {true}> Life-Experience </Link>
                 <Link className='link' to='Resume'smooth = {true}> Resume </Link>
-                <Link className='link' to='Conatct'smooth = {true}> Conatct </Link>
+                <Link className='contact' to='Conatct'smooth = {true}> Contact </Link>
             </div>
         </div>
     )

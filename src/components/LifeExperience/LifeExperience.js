@@ -18,6 +18,14 @@ class LifeExperience extends Component{
                     <p> 'Gastropub tofu la croix adaptogen salvia literally taiyaki. Flexitarian tbh vaporware man bun listicle franzen unicorn squid deep v normcore locavore godard. Roof party organic messenger bag, knausgaard jean shorts sriracha letterpress fanny pack cred disrupt raclette truffaut.' </p>
                     <p> 'Gastropub tofu la croix adaptogen salvia literally taiyaki. Flexitarian tbh vaporware man bun listicle franzen unicorn squid deep v normcore locavore godard. Roof party organic messenger bag, knausgaard jean shorts sriracha letterpress fanny pack cred disrupt raclette truffaut.' </p>
                 </div>
+                <div className='LifeExperienceTitle'>  < h2> Modeling </h2> </div>
+                <div className='LifeExperienceCard'>
+                    <p> 'Gastropub tofu la croix adaptogen salvia literally taiyaki. Flexitarian tbh vaporware man bun listicle franzen unicorn squid deep v normcore locavore godard. Roof party organic messenger bag, knausgaard jean shorts sriracha letterpress fanny pack cred disrupt raclette truffaut.' </p>
+                    <p> 'Gastropub tofu la croix adaptogen salvia literally taiyaki. Flexitarian tbh vaporware man bun listicle franzen unicorn squid deep v normcore locavore godard. Roof party organic messenger bag, knausgaard jean shorts sriracha letterpress fanny pack cred disrupt raclette truffaut.' </p>
+                    <p> 'Gastropub tofu la croix adaptogen salvia literally taiyaki. Flexitarian tbh vaporware man bun listicle franzen unicorn squid deep v normcore locavore godard. Roof party organic messenger bag, knausgaard jean shorts sriracha letterpress fanny pack cred disrupt raclette truffaut.' </p>
+                    <p> 'Gastropub tofu la croix adaptogen salvia literally taiyaki. Flexitarian tbh vaporware man bun listicle franzen unicorn squid deep v normcore locavore godard. Roof party organic messenger bag, knausgaard jean shorts sriracha letterpress fanny pack cred disrupt raclette truffaut.' </p>
+                </div>
+
             </div> 
             )
     }

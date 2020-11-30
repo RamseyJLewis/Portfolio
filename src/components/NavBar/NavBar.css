@@ -31,14 +31,14 @@
   padding-bottom: 15px;
 }
 .contact{
-  color:  #92e5a1;
+  color:  #afd377;
   border: 2px solid rgb(146, 229, 161);
   padding-left: 5px ;
   padding-right: 5px ;
   border-radius: 10px;
 }
 .contact:hover{
-  background-color: rgba(146, 229, 161, .1);
+  background-color: #48872f;
   transition:  5s;
 }
 
@@ -47,7 +47,7 @@
 }
 
 .NavBarText a:hover{
-  color: #92e5a1;
+  color: #afd377;
   transition:  .2s;
   cursor: pointer;
 }

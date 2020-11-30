@@ -27,14 +27,15 @@
         padding-bottom: 250px;
         transition: opacity 1s;
         transition: color  1s;
-        transition: box-shadow .5s;
+        transition: box-shadow 1s;
         opacity: 0.9;
-        
     }
+
     .AboutCard:hover{
         color: white;
         opacity: 1;
-        box-shadow: 0 20px 50px -11px #afd377;
+        box-shadow: 0 15px 35px -15px #afd377;
+        
     }
     
     .AboutsContainer{

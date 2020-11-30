@@ -11,7 +11,7 @@
 
   background-color: rgba(0, 0, 0, .05); 
   backdrop-filter: blur(10px); 
-  box-shadow: 0 5px 30px -15px black;
+  box-shadow: 0 5px 20px -15px black;
 }
 
 .NavBar img{
@@ -29,6 +29,7 @@
  
   padding-top: 15px;
   padding-bottom: 15px;
+ 
 }
 .contact{
   color:  #afd377;
@@ -40,6 +41,8 @@
 .contact:hover{
   background-color: #004232;
   transition:  5s;
+  position: relative; 
+  top: -1px;
 }
 
 .NavBarText{
@@ -50,6 +53,8 @@
   color: #afd377;
   transition:  .2s;
   cursor: pointer;
+  position: relative; 
+  top: -1px;
 }
 
 .link.contact{

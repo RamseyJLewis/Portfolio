@@ -25,20 +25,20 @@
   font-size: medium;
   transition:  .1s;
   text-align: center;
-  color: white;
+ 
   padding-top: 15px;
   padding-bottom: 15px;
 }
 .contact{
+  color:  #92e5a1;
   border: 2px solid white;
   padding-left: 5px ;
   padding-right: 5px ;
   border-radius: 10px;
-
 }
 .contact:hover{
   background-color: rgba(255, 255, 255, .1);
-
+  transition:  5s;
 }
 
 .NavBarText{
@@ -46,7 +46,7 @@
 }
 
 .NavBarText a:hover{
- color: #92e5a1;
+  color: #92e5a1;
   transition:  .2s;
   cursor: pointer;
 }

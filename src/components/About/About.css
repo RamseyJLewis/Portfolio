@@ -16,7 +16,7 @@
     .AboutCard{
         height: 400px;
         width: 1000px;
-        background-color: rgba(11, 9, 10, .5);
+        background-color: #081c15;
         display: flex;
         justify-content: center;
         flex-direction: column; 
@@ -25,15 +25,16 @@
 
         border-radius: 10px;
         padding-bottom: 250px;
-        transition: opacity 2s;
+        transition: opacity 1s;
         transition: color  1s;
-        opacity: 0.7;
+        transition: box-shadow .5s;
+        opacity: 0.9;
         
     }
     .AboutCard:hover{
         color: white;
         opacity: 1;
-        box-shadow: 0 10px 30px -15px black;
+        box-shadow: 0 20px 50px -11px #afd377;
     }
     
     .AboutsContainer{

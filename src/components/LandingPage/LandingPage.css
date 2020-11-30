@@ -9,10 +9,12 @@
    
 }
 .MainText{
-    color: rgba(255, 255, 255, 0.7);
+    color: white;
+    /* color: rgba(255, 255, 255, 0.7); */
 }
 .Objective{
-    color: rgba(255, 255, 255, 0.7);
+    color: white;
+    /* color: rgba(255, 255, 255, 0.7); */
     font-size: medium;
     max-width: 500px;
     padding-bottom: 260px;

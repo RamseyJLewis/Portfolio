@@ -10,6 +10,7 @@
 .wrapper:hover{
     opacity: 1;
     color:white;
+ 
 }
 
 
@@ -40,6 +41,11 @@ font-size: large;
     background-repeat: no-repeat;
     
     border-radius: 10px;
+ 
+}
+
+.PortfolioText:hover{
+box-shadow: 0 10px 30px -15px black;
 }
 
 .PortfolioText{

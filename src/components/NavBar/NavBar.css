@@ -38,9 +38,10 @@
   padding-right: 5px ;
   border-radius: 10px;
 }
+
 .contact:hover{
-  background-color: #004232;
-  transition:  5s;
+  color: #ffffff;
+  background-color:  rgba(24, 167, 121, .1);;
   position: relative; 
   top: -1px;
 }

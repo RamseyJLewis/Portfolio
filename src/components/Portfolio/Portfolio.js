@@ -18,21 +18,21 @@ class Portfolio extends Component{
             {
                 url: 'https://ramseyjlewis.github.io/Not-Flix/',
                 title: 'Not-Flix',
-                desc: 'Gastropub tofu la croix adaptogen salvia literally taiyaki. Flexitarian tbh vaporware man bun listicle franzen unicorn squid deep v normcore locavore godard. Roof party organic messenger bag, knausgaard jean shorts sriracha letterpress fanny pack cred disrupt raclette truffaut.',
+                desc: 'A Netflix search imitation using the IMBD API. This project focuses on making a seamless design using JavaScript, HTML and CSS. Pulling information from the IMBD database, the app then displays movie information onto cards. Initially the cards have a front and upon hovering over the movie-card a new request gathers more detailed information which is displayed after flipping the card.',
                 tech: [,'HTML' ,'CSS', 'JAVASCRIPT', 'API'],
                 img: card1
             },
             {
                 url: 'https://ramseyjlewis.github.io/Space-Force-moon-of-gold/',
                 title: 'Space-Force-moon-of-gold',
-                desc: 'Gastropub tofu la croix adaptogen salvia literally taiyaki. Flexitarian tbh vaporware man bun listicle franzen unicorn squid deep v normcore locavore godard. Roof party organic messenger bag, knausgaard jean shorts sriracha letterpress fanny pack cred disrupt raclette truffaut.',
+                desc: 'An arcade shooter inspired by Space Invaders but with 360-degree gameplay. Escape the massive swarm of churning aliens, all of which are being tracked through mathematics, objects and arrays. This object-oriented program is built using JavaScript, HTML and CSS. The Swarm of enemies try to crash into the player. The objective is to last until backup arrives',
                 tech: ['HTML', 'CSS','JAVASCRIPT'],
                 img: card2
             },
             {
                 url: 'https://ramseyjlewis.github.io/Basic-Calculator/',
                 title: 'Basic Calculator',
-                desc: 'Gastropub tofu la croix adaptogen salvia literally taiyaki. Flexitarian tbh vaporware man bun listicle franzen unicorn squid deep v normcore locavore godard. Roof party organic messenger bag, knausgaard jean shorts sriracha letterpress fanny pack cred disrupt raclette truffaut.',
+                desc: ' A basic calculator built with HTML, CSS & JavaScript that can perform basic asthmatic. Created with a design intended to make user experience more pleasant than traditional online calculators.',
                 tech: ['HTML', 'CSS','JAVASCRIPT'],
                 img: card3
             },

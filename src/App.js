@@ -7,7 +7,7 @@ import LandingPage from './components/LandingPage/LandingPage';
 import Portfolio from "./components/Portfolio/Portfolio";
 import About from  "./components/About/About";
 import LifeExperience from  "./components/LifeExperience/LifeExperience";
-
+import Resume from  "./components/Resume/Resume";
 
 function App() {
   return (
@@ -21,14 +21,15 @@ function App() {
             <Route path= '/Portfolio' component={Portfolio}/>
             <Route exact path= '/About' component={About}/>
             <Route exact path= '/LifeExperience' component={LifeExperience}/>
-            {/* <Route exact path= '/Resume' component={Resume}/>
-            <Route exact path= '/Contact' component={Contact}/> */}
+            <Route exact path= '/Resume' component={Resume}/>
+            {/* <Route exact path= '/Contact' component={Contact}/> */}
             <Route/>
           </Switch>
         </Router>
         <About/>
        <Portfolio/>
        <LifeExperience/>
+       <Resume/>
       </div>
     </div>
   );

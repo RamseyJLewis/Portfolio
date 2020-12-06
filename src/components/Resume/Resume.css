@@ -1,0 +1,48 @@
+.Resume{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+
+    z-index: 2; 
+    font-size: large;  
+    padding-top: 200px;
+    }
+    
+    .ResumeTitle{
+        color:  #90bc42;
+    }
+
+    .img{
+        height: 400px;
+        width: 1000px;
+        background-color: rgba(11, 9, 10, .5);
+        display: flex;
+        justify-content: center;
+        
+        flex-direction: column; 
+        text-align: center;
+        color: rgba(255, 255, 255, 0.7);
+  
+
+        border-radius: 10px;
+        transition: opacity 1s;
+        opacity: 0.9;
+        transition: box-shadow .4s;
+        
+        margin-bottom: 100px;
+
+        line-height: 1.6;
+    }
+    .ResumeCard:hover{
+        color: white;
+        opacity: 1;
+        box-shadow: 0 20px 50px -11px #afd377;
+    }
+    
+    .ResumesContainer{
+    display: flex;
+    flex-direction: row;
+    }
+
+ 

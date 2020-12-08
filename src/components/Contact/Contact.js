@@ -15,8 +15,8 @@ class Contact extends Component {
                 <div className='ContactTitle'>  < h2> Get In Touch </h2> </div>
                 <div className='ContactCard'>
                     <div className='contactText'>
-                        <p> (631-639-4366) </p>
-                        <p>  TheRamseyLewis@gmail.com</p>
+                        <p> Phone: (631-639-4366) </p>
+                        <p>  E-Mail: TheRamseyLewis@gmail.com</p>
                     </div>
                     <div className='logo'>                       
                         <FontAwesomeIcon icon={faGithub} />

@@ -9,7 +9,7 @@
   justify-content: space-between;
   align-items: center;
 
-  background-color: rgba(0, 0, 0, .05); 
+  background-color: rgba(8, 27, 20, .4); 
   backdrop-filter: blur(10px); 
   box-shadow: 0 5px 20px -15px black;
 }
@@ -23,7 +23,6 @@
 
 .NavBar a{
   margin-right: 40px;
-  font-size: medium;
   transition:  .1s;
   text-align: center;
  
@@ -48,6 +47,7 @@
 
 .NavBarText{
   text-align: center;
+
 }
 
 .NavBarText a:hover{
@@ -58,6 +58,7 @@
   top: -1px;
 }
 
-.link.contact{
-  border: 2px solid white;
+.navlink{
+
+color: white;
 }

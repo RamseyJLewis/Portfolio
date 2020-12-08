@@ -7,11 +7,11 @@ function NavBar(){
         <div className ='NavBar'>
             <Logo/> 
             <div className = 'NavBarText'>
-                <Link className='link' to='About'smooth = {true}> About </Link>
-                <Link className='link' to='Portfolio'smooth = {true}> Portfolio </Link>
-                <Link className='link' to='LifeExperience'smooth = {true}> Life-Experience </Link>
-                <Link className='link' to='Resume'smooth = {true}> Resume </Link>
-                <Link className='link' to='Contact'smooth = {true}> Contact </Link>
+                <Link className='navlink' to='About'smooth = {true}> About </Link>
+                <Link className='navlink' to='Portfolio'smooth = {true}> Portfolio </Link>
+                <Link className='navlink' to='LifeExperience'smooth = {true}> Life-Experience </Link>
+                <Link className='navlink' to='Resume'smooth = {true}> Resume </Link>
+                <Link className='navlink' to='Contact'smooth = {true}> Contact </Link>
             </div>
         </div>
     )

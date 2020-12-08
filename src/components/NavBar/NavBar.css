@@ -25,40 +25,44 @@
   margin-right: 40px;
   transition:  .1s;
   text-align: center;
+  text-decoration:none;
+  transition:  .2s;
  
   padding-top: 15px;
   padding-bottom: 15px;
   cursor: pointer;
 }
-.contact{
+.ResumeNav{
   color:  #afd377;
   border: 2px solid rgb(146, 229, 161);
+  display: inline-block;
   padding-left: 5px ;
   padding-right: 5px ;
   border-radius: 10px;
+  height: 19px;
+  min-width: 100px;
+ 
 }
 
-.contact:hover{
+.ResumeNav:hover{
+  top: 0 !important;
   color: #ffffff;
-  background-color:  rgba(24, 167, 121, .1);;
+  background-color:  rgba(0, 0, 0, 0.3);;
   position: relative; 
-  top: -1px;
+  min-width: 100px;
 }
 
 .NavBarText{
   text-align: center;
-
 }
 
 .NavBarText a:hover{
   color: #afd377;
-  transition:  .2s;
   cursor: pointer;
   position: relative; 
   top: -1px;
 }
 
 .navlink{
-
 color: white;
 }

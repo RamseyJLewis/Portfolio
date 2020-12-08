@@ -14,8 +14,9 @@
     }
 
     .AboutCard{
-        height: 400px;
-        width: 1000px;
+        height: 90%;
+        width: 80%;
+        padding: 2%;
         background-color: #081c15;
         display: flex;
         justify-content: center;
@@ -24,7 +25,7 @@
         color: rgba(255, 255, 255, 0.7);
 
         border-radius: 10px;
-        padding-bottom: 250px;
+      
         transition: opacity 1s;
         transition: color  1s;
         transition: box-shadow 1s;
@@ -41,5 +42,6 @@
     .AboutsContainer{
     display: flex;
     flex-direction: row;
+
     }
     

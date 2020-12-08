@@ -1,4 +1,4 @@
-.Resume{
+.Contact{
     display: flex;
     flex-direction: column;
     justify-content: center; 
@@ -9,11 +9,11 @@
     padding-top: 200px;
     }
     
-    .ResumeTitle{
+    .ContactTitle{
         color:  #90bc42;
     }
 
-    .img{
+    .ContactCard{
         height: 400px;
         width: 1000px;
         background-color: rgba(11, 9, 10, .5);
@@ -34,16 +34,15 @@
 
         line-height: 1.6;
     }
-    .ResumeCard:hover{
+    .ContactCard:hover{
         color: white;
         opacity: 1;
         box-shadow: 0 20px 50px -11px #afd377;
     }
     
-    .ResumesContainer{
+    .ContactsContainer{
     display: flex;
     flex-direction: row;
     }
 
-    
  

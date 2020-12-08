@@ -8,6 +8,7 @@ import Portfolio from "./components/Portfolio/Portfolio";
 import About from  "./components/About/About";
 import LifeExperience from  "./components/LifeExperience/LifeExperience";
 import Resume from  "./components/Resume/Resume";
+import Contact from  "./components/Contact/Contact";
 
 function App() {
   return (
@@ -22,7 +23,7 @@ function App() {
             <Route exact path= '/About' component={About}/>
             <Route exact path= '/LifeExperience' component={LifeExperience}/>
             <Route exact path= '/Resume' component={Resume}/>
-            {/* <Route exact path= '/Contact' component={Contact}/> */}
+            <Route exact path= '/Contact' component={Contact}/>
             <Route/>
           </Switch>
         </Router>
@@ -30,6 +31,7 @@ function App() {
        <Portfolio/>
        <LifeExperience/>
        <Resume/>
+       <Contact/>
       </div>
     </div>
   );

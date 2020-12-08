@@ -12,7 +12,7 @@ class Resume extends Component{
     render(){
         return(
             <div className = 'Resume' name='Resume'>
-                <div className='ResumeTitle'> </div>
+                <div className='ResumeTitle' > <h2>Resume</h2> </div>
                 <div className='ResumeCard'>
                 <img src={ResumeSC} /> 
                 </div>

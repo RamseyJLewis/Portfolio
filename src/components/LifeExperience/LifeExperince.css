@@ -14,7 +14,8 @@
     }
 
     .LifeExperienceCard{
-        height: 400px;
+        height: fit-content;
+        padding: 2%;
         max-width: 1000px;
         min-width: 50vw;
         background-color: rgba(11, 9, 10, .5);

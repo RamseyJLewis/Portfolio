@@ -8,5 +8,5 @@ Insert Life Experince into portfolio[]
 Insert resume into logo[]
 Edit CONTACT ME to stand out[] 
 somehow add refernces to this website[] 
-Take || chose a profession picture to my About []
+Take || chose a profession picture to mmy About []
 

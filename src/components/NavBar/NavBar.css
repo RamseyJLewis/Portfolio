@@ -31,7 +31,9 @@
   padding-top: 15px;
   padding-bottom: 15px;
   cursor: pointer;
+  width:50px
 }
+
 .ResumeNav{
   color:  #afd377;
   border: 2px solid rgb(146, 229, 161);
@@ -40,7 +42,7 @@
   padding-right: 5px ;
   border-radius: 10px;
   height: 19px;
-  min-width: 100px;
+  min-width: 10px;
  
 }
 
@@ -49,8 +51,7 @@
   color: #ffffff;
   background-color:  rgba(0, 0, 0, 0.3);;
   position: relative; 
-  max-width: 100px;
-  min-width: 10vw;
+  width:50px
 }
 
 .NavBarText{

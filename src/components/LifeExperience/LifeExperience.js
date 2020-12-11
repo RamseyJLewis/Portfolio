@@ -20,7 +20,7 @@ class LifeExperience extends Component{
                 </div>
                 <div className='LifeExperienceTitle'>  < h2> Business In Fashion </h2> </div>
                 <div className='LifeExperienceCard'>
-                    <p> 'Male Model working with high end fashion designers and agencies. I worked closely with clients, photographers, fashion coordinators and make-up artists to produce commissioned projects to meet the client's specifications </p>
+                    <p> My modeling career got its start at the Fashion Institute of Technology in 2019. Since then I've worked on countless photoshoots, been in multiple magazines and walked on runways. One of my main takeaways from modeling is how important the work environment is,  collaboration is a key skill to have in every industry. Often how well or poorly a team works is how well or poorly the final product comes out. My second takeaway from modeling is how important time management is, wasting people's  time is the fastest way to create problems </p>
                 </div>
             </div> 
             )

@@ -34,6 +34,12 @@
   width:50px
 }
 
+@media (max-width: 375px) {
+.NavBar a {
+ 
+  }
+}
+
 .ResumeNav{
   color:  #afd377;
   border: 2px solid rgb(146, 229, 161);
@@ -42,9 +48,18 @@
   padding-right: 5px ;
   border-radius: 10px;
   height: 19px;
-  min-width: 10px;
- 
+  min-width: 10px
 }
+
+@media (max-width: 375px) {
+  .ResumeNav{
+    height: 10px;
+    width: 25% !important;
+    padding-top: 0px ;
+    padding-left: 0px ;
+    padding-right: 0px ;
+    }
+  }
 
 .ResumeNav:hover{
   top: 0 !important;
@@ -54,10 +69,20 @@
   width:50px
 }
 
+
 .NavBarText{
   text-align: center;
 }
+@media (max-width: 375px) {
+  .navlink{
+    text-align: right;
+    font-size: small;
+    margin: 2px;    
+    justify-content: flex-end;
+    align-items: flex-end;
 
+    }
+  }
 .NavBarText a:hover{
   color: #afd377;
   cursor: pointer;
@@ -68,3 +93,10 @@
 .navlink{
 color: white;
 }
+@media (max-width: 375px) {
+  .navlink{
+    font-size: small;
+    margin: 2px;    
+    }
+  }
+  

@@ -29,3 +29,11 @@ text-align: left;
     padding-left: 30%;
     padding-bottom: 10%;
   }
+
+  @media (max-width: 375px) {
+    .LandingPage {
+        padding-left: 0;
+        justify-content: center;
+        align-items: center;
+    }
+  }

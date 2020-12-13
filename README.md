@@ -3,10 +3,11 @@ OBJECTIVE: Create a website that is highly functional with a focus in ux.... com
 
                                         Tasks
 
-Make Portfolo cards run a gif of my projects running []
-Insert Life Experince into portfolio[]
-Insert resume into logo[]
-Edit CONTACT ME to stand out[] 
-somehow add refernces to this website[] 
-Take || chose a profession picture to mmy About []
+Link to instagram work []
+Link to Github works []
+Link to email works and opens an email tab []
+Nav bar usese hash and side nav when scalled to mobile []
+use gifs on page to replace pngn in portfolio section []
+add a modeling png to life ex secton []
+add a cota logo or link to website in philantropy section []
 

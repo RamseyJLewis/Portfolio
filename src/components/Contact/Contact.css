@@ -35,7 +35,12 @@
     align-items: center;
     color: white;
  }
-
+ .email :hover{
+   color:  #afd377;
+   border-radius: 50px;
+   position: relative; 
+   top: -1px;   
+}
  .logo svg{
     margin: 30px;
     font-size: 200%;

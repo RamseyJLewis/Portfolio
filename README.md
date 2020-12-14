@@ -12,3 +12,4 @@ use gifs on page to replace pngn in portfolio section []
 add a modeling png to life ex secton []
 add a cota logo or link to website in philantropy section []
 
+mailto:TheRamseyLewis@gmail.com

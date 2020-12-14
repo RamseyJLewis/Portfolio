@@ -11,8 +11,10 @@ function Contact() {
             <div className='ContactTitle'>  < h2> Get In Touch </h2> </div>
             <div className='ContactCard'>
                 <div className='contactText'>
-                    <p> Phone: (631-639-4366) </p>
-                    <p>  E-Mail: TheRamseyLewis@gmail.com</p>
+                    <p> Phone: (631-639-4366) </p> 
+                    <div className='email'>             
+                    <a className='logo' href='mailto:TheRamseyLewis@gmail.com' download>{<p>  E-Mail: TheRamseyLewis@gmail.com</p>}</a>
+                    </div>      
                 </div>
                 <div className='logo'>                  
                     <a className='logo' href='https://github.com/RamseyJLewis' download>{<FontAwesomeIcon icon={faGithub} />}</a>

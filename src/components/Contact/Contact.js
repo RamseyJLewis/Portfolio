@@ -15,8 +15,8 @@ function Contact() {
                         <p>  E-Mail: TheRamseyLewis@gmail.com</p>
                     </div>
                     <div className='logo'>                       
-                        <FontAwesomeIcon icon={faGithub} />
-                        <FontAwesomeIcon icon={faLinkedin} />                                         
+                        <FontAwesomeIcon icon={faGithub} />                
+                        <a  className = 'logo' href='https://www.linkedin.com/in/ramsey-lewis-6483321b2/' download>{ <FontAwesomeIcon icon={faLinkedin} />}</a>                                           
                             <a  className = 'logo' href='https://www.instagram.com/ramseyjlewis/' download>{<FontAwesomeIcon icon={faInstagram} />}</a>                         
                     </div>
                 </div>

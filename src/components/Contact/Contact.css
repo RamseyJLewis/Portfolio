@@ -37,7 +37,7 @@
  }
 
  .logo svg{
-    margin: 20px;
+    margin: 30px;
     font-size: 200%;
     color: white;
     background: 50px color transparent;
@@ -49,5 +49,5 @@
      color:  #afd377;
      border-radius: 50px;
      position: relative; 
-     top: -1px;
+     top: -1px;   
  }

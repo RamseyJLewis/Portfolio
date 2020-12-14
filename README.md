@@ -3,8 +3,9 @@ OBJECTIVE: Create a website that is highly functional with a focus in ux.... com
 
                                         Tasks
 
-Link to instagram work []
-Link to Github works []
+Link to instagram work [✓]
+Link to Github works [✓]
+make link icons move on hover[]
 Link to email works and opens an email tab []
 Nav bar usese hash and side nav when scalled to mobile []
 use gifs on page to replace pngn in portfolio section []

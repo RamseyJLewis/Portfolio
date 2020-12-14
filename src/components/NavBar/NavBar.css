@@ -60,9 +60,9 @@
   color: #ffffff;
   background-color:  rgba(0, 0, 0, 0.3);;
   position: relative; 
-  width:50px
+  width:200px
+  
 }
-
 
 .NavBarText{
   text-align: center;
@@ -77,6 +77,7 @@
 
     }
   }
+
 .NavBarText a:hover{
   color: #afd377;
   cursor: pointer;

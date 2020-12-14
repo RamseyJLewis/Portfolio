@@ -1,15 +1,11 @@
 import React, { Component } from 'react';
 import './Contact.css';
+import { useState } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
-class Contact extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {};
-    }
-
-    render() {
+function Contact() {
+        const [hover, setHover] = useState(false)
         return (
             <div className='Contact' name='Contact'>
                 <div className='ContactTitle'>  < h2> Get In Touch </h2> </div>
@@ -20,14 +16,12 @@ class Contact extends Component {
                     </div>
                     <div className='logo'>                       
                         <FontAwesomeIcon icon={faGithub} />
-                        <FontAwesomeIcon icon={faLinkedin} />
-                        <FontAwesomeIcon icon={faInstagram} />
+                        <FontAwesomeIcon icon={faLinkedin} />                                         
+                            <a  className = 'logo' href='https://www.instagram.com/ramseyjlewis/' download>{<FontAwesomeIcon icon={faInstagram} />}</a>                         
                     </div>
                 </div>
             </div>
         )
     }
-}
-
 
 export default Contact

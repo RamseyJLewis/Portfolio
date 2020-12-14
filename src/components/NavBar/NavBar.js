@@ -20,8 +20,7 @@ function NavBar(){
                     
                     hover? <FontAwesomeIcon icon={faFileDownload} /> :'Resume'                 
                 }
-                </a>
-                
+                </a>                
             </div>
         </div>
     )

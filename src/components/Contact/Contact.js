@@ -13,13 +13,13 @@ function Contact() {
                 <div className='contactText'>
                     <p> Phone: (631-639-4366) </p> 
                     <div className='email'>             
-                    <a className='logo' href='mailto:TheRamseyLewis@gmail.com' download>{<p>  E-Mail: TheRamseyLewis@gmail.com</p>}</a>
+                    <a className='logo' target="_blank" href='mailto:TheRamseyLewis@gmail.com' download>{<p>  E-Mail: TheRamseyLewis@gmail.com</p>}</a>
                     </div>      
                 </div>
                 <div className='logo'>                  
-                    <a className='logo' href='https://github.com/RamseyJLewis' download>{<FontAwesomeIcon icon={faGithub} />}</a>
-                    <a className='logo' href='https://www.linkedin.com/in/ramsey-lewis-6483321b2/' download>{<FontAwesomeIcon icon={faLinkedin} />}</a>
-                    <a className='logo' href='https://www.instagram.com/ramseyjlewis/' download>{<FontAwesomeIcon icon={faInstagram} />}</a>
+                    <a className='logo' target="_blank" href='https://github.com/RamseyJLewis' download>{<FontAwesomeIcon icon={faGithub} />}</a>
+                    <a className='logo' target="_blank" href='https://www.linkedin.com/in/ramsey-lewis-6483321b2/' download>{<FontAwesomeIcon icon={faLinkedin} />}</a>
+                    <a className='logo' target="_blank" href='https://www.instagram.com/ramseyjlewis/' download>{<FontAwesomeIcon icon={faInstagram} />}</a>
                 </div>
             </div>
         </div>

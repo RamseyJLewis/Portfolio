@@ -21,7 +21,7 @@ class LifeExperience extends Component{
                 </div>
                 <div className='LifeExperienceTitle'>  < h2> Business In Fashion </h2> </div>
                 <div className='LifeExperienceCard'>
-                    <p> My modeling career got its start at the Fashion Institute of Technology in 2019. Since then I've worked on countless photoshoots, been in multiple magazines and walked on runways. One of my main takeaways from modeling is the importance of the work environment. Cooperation,   </p>
+                    <p>  My modeling career got its start at the Fashion Institute of Technology in 2019. Since then I've worked on countless photoshoots, been in multiple magazines and walked on runways. One of my main takeaways from modeling is the importance of the work environment. Cooperation,  collaboration and decorum are the key skills to have in every industry. Often how well or poorly a team works is how well or poorly the final product comes out. My second takeaway from modeling is the importance of time management; wasting people's  time is the fastest way to create problems and undermine the final project.  </p>
                 </div>
             </div> 
             )

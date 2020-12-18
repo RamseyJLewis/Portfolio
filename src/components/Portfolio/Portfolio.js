@@ -52,8 +52,7 @@ class Portfolio extends Component{
             // creates a card
                 return(
                    <div className= 'wrapper'key= {index} >
-                    <div key={project.title} className= "projectCard" style={{backgroundImage: `url( ${project.img || this.state.backgroundImage})`}}>
-                          </div>
+                    <a href={project.url} target='blank' > <div key={project.title} className= "projectCard" style={{backgroundImage: `url( ${project.img || this.state.backgroundImage})`}}></div></a>
                        <div className='PortfolioText'> 
                             <h2>{project.title}</h2>
                             <p>{project.desc}</p>

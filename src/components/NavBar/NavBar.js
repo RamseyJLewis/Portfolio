@@ -2,8 +2,9 @@ import Logo from '../Logo/Logo';
 import { useState } from 'react'
 import './NavBar.css';
 import { Link } from 'react-scroll';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFileDownload } from '@fortawesome/free-solid-svg-icons';
+import resume from '../../Assets/ResumeSC.pdf';
 
 function NavBar(){
     const [hover, setHover] = useState(false)
@@ -16,7 +17,7 @@ function NavBar(){
                 <Link className='navlink' to='LifeExperience'smooth = {true}> Life-Experience </Link>
                 <Link className='navlink' to='Contact'smooth = {true}> Contact </Link>    
                 <a onMouseEnter = { () => setHover(true)}  onMouseLeave = { () => setHover(false)} className='ResumeNav' 
-                style = {{width: '100px'}} href='../../Assets/ResumeSC.png' download>{
+                style = {{width: '100px'}} href= {resume} download>{
                    
                     
                     hover? <FontAwesomeIcon icon={faFileDownload} /> :'Resume'                 

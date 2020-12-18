@@ -56,3 +56,18 @@
      position: relative; 
      top: -1px;   
  }
+
+
+ .gitubLogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+ }
+
+ .gitubLogo :hover{
+   color:  #afd377;
+   border-radius: 50px;
+   position: relative; 
+   top: -1px;   
+}

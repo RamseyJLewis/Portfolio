@@ -17,6 +17,7 @@ function NavBar(){
                 <Link className='navlink' to='Contact'smooth = {true}> Contact </Link>    
                 <a onMouseEnter = { () => setHover(true)}  onMouseLeave = { () => setHover(false)} className='ResumeNav' 
                 style = {{width: '100px'}} href='../../Assets/ResumeSC.png' download>{
+                   
                     
                     hover? <FontAwesomeIcon icon={faFileDownload} /> :'Resume'                 
                 }

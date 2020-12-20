@@ -35,6 +35,7 @@
   width:50px
 }
 
+
 .ResumeNav{
   color:  #afd377;
   border: 2px solid rgb(146, 229, 161);
@@ -50,7 +51,7 @@
 @media (max-width: 375px) {
   .ResumeNav{
     height: 10px;
-    width: 25% !important;
+    min-width: 30% ;
     padding-top: 0px ;
     padding-left: 0px ;
     padding-right: 0px ;

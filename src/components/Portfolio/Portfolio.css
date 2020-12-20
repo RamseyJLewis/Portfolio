@@ -39,6 +39,9 @@ border-radius: 10px;
 }
 
 .projectCard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 400px;
     width: 650px;  
     background-color: rgba(0, 0, 0, 0.3);
@@ -57,16 +60,9 @@ border-radius: 10px;
   }
   @media (max-width: 414px) {
     .projectCard {
-        width: 90vw;
-        height: 40vh;
+        width: 250px;
+        height: 150px;
         padding: 0px !important;
-    }
-  }
-  @media (max-width: 414px) {
-    .projectCard a{
-        width: 90vw;
-        height: 40vh;
-        padding: 10px !important;
     }
   }
 

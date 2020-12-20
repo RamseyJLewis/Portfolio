@@ -51,8 +51,8 @@ border-radius: 10px;
 }
 @media (max-width: 700px) {
     .projectCard {
-        width: 337px;
-        height: 525%;
+        width: 525px;
+        height: 337px;
     }
   }
   @media (max-width: 414px) {

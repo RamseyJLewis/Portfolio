@@ -9,7 +9,6 @@
   justify-content: space-between;
   align-items: center;
 
-  
   backdrop-filter: blur(10px); 
   box-shadow: 0 5px 20px -15px black;
 }
@@ -48,15 +47,7 @@
   
 }
 
-@media (max-width: 375px) {
-  .ResumeNav{
-    height: 10px;
-    min-width: 30% ;
-    padding-top: 0px ;
-    padding-left: 0px ;
-    padding-right: 0px ;
-    }
-  }
+
 
 .ResumeNav:hover{
   top: 0 !important;
@@ -70,16 +61,6 @@
 .NavBarText{
   text-align: center;
 }
-@media (max-width: 375px) {
-  .navlink{
-    text-align: right;
-    font-size: small;
-    margin: 2px;    
-    justify-content: flex-end;
-    align-items: flex-end;
-
-    }
-  }
 
 .NavBarText a:hover{
   color: #afd377;
@@ -91,10 +72,67 @@
 .navlink{
 color: white;
 }
+
+  
+@media (max-width: 375px) {    
+    .NavBar{
+        display: block;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        right: -45%;
+        transition: all 0.2s ease;
+    }
+    .NavBar{
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        flex-direction: column;
+        height: auto;
+        width: 45%;
+        transition: left 0.35s ease;
+        box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    }
+}
 @media (max-width: 375px) {
-  .navlink{
-    font-size: small;
-    margin: 2px;    
+  .NavBarText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   flex-direction: column;
+   
+
     }
   }
+
+@media (max-width: 375px) {
+  .navlink{
+    text-align: right;
+    font-size: small;
+    margin: 2px;    
+    justify-content: flex-end;
+    align-items: flex-end;
+
+    }
+  }
+
+@media(max-width: 357px){
+  .NavBar img{
+   display: none;
+   height: 0px;
+ }
   
+}
+  @media (max-width: 375px) {
+    .ResumeNav{
+      display: flex;
+      justify-content: center;
+      height: 10px;
+      min-width: 30% ;
+      padding-top: 0px ;
+      padding-left: 0px ;
+      padding-right: 0px ;
+      border: none;
+      }
+    }

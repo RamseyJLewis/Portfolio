@@ -4,27 +4,53 @@ import './NavBar.css';
 import { Link } from 'react-scroll';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFileDownload } from '@fortawesome/free-solid-svg-icons';
+// import React, { useLayoutEffect, useState } from 'react';
 import resume from '../../Assets/ResumeSC.pdf';
 
-function NavBar(){
+function NavBar() {
     const [hover, setHover] = useState(false)
-    return(
-        <div className ='NavBar'>
-            <Logo/> 
-            <div className = 'NavBarText'>
-                <Link className='navlink' to='About'smooth = {true}> About </Link>
-                <Link className='navlink' to='Portfolio'smooth = {true}> Portfolio </Link>
-                <Link className='navlink' to='LifeExperience'smooth = {true}> Life-Experience </Link>
-                <Link className='navlink' to='Contact'smooth = {true}> Contact </Link>    
-                <a onMouseEnter = { () => setHover(true)}  onMouseLeave = { () => setHover(false)} className='ResumeNav' 
-                style = {{width: '100px'}} href= {resume} download>{
-                   
-                    
-                    hover? <FontAwesomeIcon icon={faFileDownload} /> :'Resume'                 
-                }
-                </a>                
+    const [click, setClick] = useState(false)
+    
+    const mobileNav = () => setClick(!click)
+    return (
+        <>
+        <div className='NavBar'>
+            <Logo />
+            <div className='NavBarText'>
+                <Link className='navlink' to='About' smooth={true}> About </Link>
+                <Link className='navlink' to='Portfolio' smooth={true}> Portfolio </Link>
+                <Link className='navlink' to='LifeExperience' smooth={true}> Life-Experience </Link>
+                <Link className='navlink' to='Contact' smooth={true}> Contact </Link>
+                <a onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false)} className='ResumeNav'
+                    style={{ width: '100px' }} href={resume} download>{
+
+
+                        hover ? <FontAwesomeIcon icon={faFileDownload} /> : 'Resume'
+                    }
+                </a>
             </div>
-        </div>
+            </div>
+
+
+            <div className='mobileButton'> <FontAwesomeIcon icon={faFileDownload} onClick= {mobileNav}/>  </div>
+            {  click ?  
+            <div className='NavBarMobile'>
+                <div className='NavBarTextMobile'>
+                <Logo />
+                    <Link className='navlinkMobile' to='About' smooth={true}> About </Link>
+                    <Link className='navlinkMobile' to='Portfolio' smooth={true}> Portfolio </Link>
+                    <Link className='navlinkMobile' to='LifeExperience' smooth={true}> Life-Experience </Link>
+                    <Link className='navlinkMobile' to='Contact' smooth={true}> Contact </Link>
+                    <a onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false)} className='ResumeNavMobile'
+                        style={{ width: '100px' }} href={resume} download>{
+
+                            hover ? <FontAwesomeIcon icon={faFileDownload} /> : 'ResumeMobile'
+                        }
+                    </a>
+                </div>
+            </div> : <div> </div>}
+        
+        </>
     )
 }
 export default NavBar  

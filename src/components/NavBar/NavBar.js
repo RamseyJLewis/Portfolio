@@ -3,7 +3,7 @@ import { useState } from 'react'
 import './NavBar.css';
 import { Link } from 'react-scroll';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFileDownload } from '@fortawesome/free-solid-svg-icons';
+import { faBars, faFileDownload } from '@fortawesome/free-solid-svg-icons';
 // import React, { useLayoutEffect, useState } from 'react';
 import resume from '../../Assets/ResumeSC.pdf';
 
@@ -32,10 +32,10 @@ function NavBar() {
             </div>
 
 
-            <div className='mobileButton'> <FontAwesomeIcon icon={faFileDownload} onClick= {mobileNav}/>  </div>
+            <div className='mobileButton'> <FontAwesomeIcon className='Bars' icon={faBars} onClick= {mobileNav}/>  </div>
             {  click ?  
             <div className='NavBarMobile'>
-                <div className='NavBarTextMobile'>
+                <div className='NavBarTextMobile'>                
                 <Logo />
                     <Link className='navlinkMobile' to='About' smooth={true}> About </Link>
                     <Link className='navlinkMobile' to='Portfolio' smooth={true}> Portfolio </Link>
@@ -44,7 +44,7 @@ function NavBar() {
                     <a onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false)} className='ResumeNavMobile'
                         style={{ width: '100px' }} href={resume} download>{
 
-                            hover ? <FontAwesomeIcon icon={faFileDownload} /> : 'ResumeMobile'
+                        <FontAwesomeIcon icon={faFileDownload}/> 
                         }
                     </a>
                 </div>

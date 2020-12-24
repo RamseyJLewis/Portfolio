@@ -32,19 +32,19 @@ function NavBar() {
             </div>
 
 
-            <div className='mobileButton'> <FontAwesomeIcon className='Bars' icon={faBars} onClick= {mobileNav}/>  </div>
+            <div className='mobileButton'> <FontAwesomeIcon className='Bars' icon={faBars} onClick= {mobileNav}/>   </div>
             {  click ?  
             <div className='NavBarMobile'>
-                <div className='NavBarTextMobile'>                
-                <Logo />
+                <div className='NavBarTextMobile'>                               
+                    <Link className='navlinkMobile' to='Home' smooth={true}> Home </Link>
                     <Link className='navlinkMobile' to='About' smooth={true}> About </Link>
                     <Link className='navlinkMobile' to='Portfolio' smooth={true}> Portfolio </Link>
                     <Link className='navlinkMobile' to='LifeExperience' smooth={true}> Life-Experience </Link>
                     <Link className='navlinkMobile' to='Contact' smooth={true}> Contact </Link>
-                    <a onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false)} className='ResumeNavMobile'
+                    <p className='navlinkMobile' >Resume</p> 
+                    <a onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false)} className='ResumeNavMobile'                       
                         style={{ width: '100px' }} href={resume} download>{
-
-                        <FontAwesomeIcon icon={faFileDownload}/> 
+                        <FontAwesomeIcon className='resumeIcon' icon={faFileDownload} /> 
                         }
                     </a>
                 </div>

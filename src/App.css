@@ -68,7 +68,11 @@
   background-size: cover;
 }
 
-
+@media (max-width: 380px){
+  .Container{
+      padding-top: 50px;
+  }
+}
 
 ::-webkit-scrollbar {
   width: 0.25rem;

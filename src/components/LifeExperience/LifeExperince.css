@@ -39,8 +39,7 @@
     }
 
     @media (max-width: 375px) {
-        .LifeExperienceCard {
-            padding: 0px !important;
+        .LifeExperienceCard {            
             width: 90vw;
         }
       }

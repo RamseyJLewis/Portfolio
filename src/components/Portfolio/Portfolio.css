@@ -10,7 +10,7 @@
     height: fit-content;
     padding: 15px;  
 }
-@media (max-width: 414px) {
+@media (max-width: 557px) {
     .wrapper {
         width: 90vw;
     }
@@ -58,7 +58,7 @@ border-radius: 10px;
         height: 337px;
     }
   }
-  @media (max-width: 414px) {
+  @media (max-width: 557px) {
     .projectCard {
         width: 250px;
         height: 150px;
@@ -83,7 +83,7 @@ border-radius: 10px;
     transition: box-shadow .5s;
     border-radius: 10px;
 }
-@media (max-width: 414px) {
+@media (max-width: 557px) {
     .PortfolioText {
         height: fit-content;
  
@@ -106,7 +106,7 @@ border-radius: 10px;
         line-height: 1.6;
     }
   }
-@media (max-width: 414px) {
+@media (max-width: 557px) {
     .PortfolioText {
         height: fit-content;
  

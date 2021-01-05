@@ -30,7 +30,7 @@ text-align: left;
     padding-bottom: 10%;
   }
 
-  @media (max-width: 414px) {
+  @media (max-width: 557px) {
     .LandingPage {
         padding-left: 0;
         justify-content: center;

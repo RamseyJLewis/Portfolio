@@ -41,12 +41,13 @@ function NavBar() {
                     <Link className='navlinkMobile' to='Portfolio' smooth={true}> Portfolio </Link>
                     <Link className='navlinkMobile' to='LifeExperience' smooth={true}> Life-Experience </Link>
                     <Link className='navlinkMobile' to='Contact' smooth={true}> Contact </Link>
-                    <p className='navlinkMobile' >Resume</p> 
-                    <a onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false)} className='ResumeNavMobile'                       
-                        style={{ width: '100px' }} href={resume} download>{
-                        <FontAwesomeIcon className='resumeIcon' icon={faFileDownload} /> 
+                    <div className='Resume'> 
+                    <p className='navlinkMobile' >Resume</p> <a onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false)} className='ResumeNavMobile'                       
+                        style={{ }} href={resume} download>{
+                        <FontAwesomeIcon className='resumeIcon' icon={faFileDownload} >  Resume </FontAwesomeIcon>
                         }
                     </a>
+                    </div>
                 </div>
             </div> : <div> </div>}
         

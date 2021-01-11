@@ -222,5 +222,11 @@ color: white;
       @media(max-width:720px){
         .resumeIcon{
           color: white;
+          padding-top: 25px;
         }
+      }
+
+      .Resume{
+        display: flex;
+        flex-direction: row;
       }

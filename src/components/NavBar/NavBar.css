@@ -216,6 +216,7 @@ color: white;
           transition: 5s;
           color: white;      
           transition: var(--transition);
+          padding: 10px;
         }
       }
       

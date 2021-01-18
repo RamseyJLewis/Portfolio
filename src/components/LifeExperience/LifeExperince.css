@@ -13,10 +13,24 @@
         width: 20vw; 
         border-radius: 10px;
         cursor: pointer;
+        padding-right: 7px;
     }
 
     .LifeExperienceTitle{
         color:  #90bc42;
+    }
+
+    .cOTALink{
+        text-decoration: none;
+        cursor: pointer;
+        color: white;
+    }
+
+    .cOTALink :hover{
+        color: #afd377;
+        cursor: pointer;
+        position: relative; 
+        top: -1px;
     }
 
     .LifeExperienceCardCOTA{
@@ -42,6 +56,13 @@
 
         line-height: 1.6;
     }
+    .LifeExperienceCardCOTA:hover{
+        color: white;
+        opacity: 1;
+        box-shadow: 0 20px 50px -11px black;
+    }
+
+    
     .LifeExperienceCardBIF{
         height: fit-content;
         padding: 2%;
@@ -65,6 +86,12 @@
 
         line-height: 1.6;
     }
+    .LifeExperienceCardBIF:hover{
+        color: white;
+        opacity: 1;
+        box-shadow: 0 20px 50px -11px black;
+    }
+    
 
     @media (max-width: 557px) {
         .LifeExperienceCardCOTA {            
@@ -78,12 +105,7 @@
         }
       }
 
-    .LifeExperienceCard:hover{
-        color: white;
-        opacity: 1;
-        box-shadow: 0 20px 50px -11px black;
-    }
-    
+ 
     .LifeExperiencesContainer{
     display: flex;
     flex-direction: row;

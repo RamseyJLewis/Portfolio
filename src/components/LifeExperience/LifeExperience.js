@@ -15,7 +15,9 @@ class LifeExperience extends Component {
             <div className='LifeExperience' name='LifeExperience'>
                 <div className='LifeExperienceTitle'>  < h2> Philanthropy </h2> </div>
                 <div className='LifeExperienceCardCOTA'>
+                    <a className='cOTALink' href='https://councilofthought.wordpress.com/' target='blank'> 
                     <p> C.O.T.A - COUNCIL OF THOUGHT AND ACTION  </p>
+                    </a>
                     <p> Organized projects  and events such as job fairs and ran summer classes for youth. This led me to co-manage a summer camp for youth while also helping parents & adults find work. The objective of C.O.T.A. is to increase employment rates among the  formerly incarcerated while reducing re-incarceration rates, improving individual’s lives and developing opportunities for at-risk youth.
 
                     </p>

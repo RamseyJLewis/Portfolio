@@ -8,13 +8,17 @@
     font-size: large;  
     padding-top: 200px;
     }
-    
+
+    .wwd{
+        width: 20%; 
+        border-radius: 10px;
+    }
 
     .LifeExperienceTitle{
         color:  #90bc42;
     }
 
-    .LifeExperienceCard{
+    .LifeExperienceCardCOTA{
         height: fit-content;
         padding: 2%;
         height: 90%;
@@ -37,10 +41,39 @@
 
         line-height: 1.6;
     }
+    .LifeExperienceCardBIF{
+        height: fit-content;
+        padding: 2%;
+        height: 90%;
+        width: 80%;
+        background-color: rgba(11, 9, 10, .5);
+        display: flex;
+        justify-content: center;
+        
+        flex-direction: row; 
+        text-align: center;
+        color: rgba(255, 255, 255, 0.7);
+  
+
+        border-radius: 10px;
+        transition: opacity 1s;
+        opacity: 0.9;
+        transition: box-shadow .4s;
+        
+        margin-bottom: 100px;
+
+        line-height: 1.6;
+    }
 
     @media (max-width: 557px) {
-        .LifeExperienceCard {            
+        .LifeExperienceCardCOTA {            
             width: 90vw;
+        }
+      }
+      @media (max-width: 557px) {
+        .LifeExperienceCardBIF {            
+            width: 90vw;
+            flex-direction: column;
         }
       }
 

@@ -10,8 +10,9 @@
     }
 
     .wwd{
-        width: 20%; 
+        width: 20vw; 
         border-radius: 10px;
+        cursor: pointer;
     }
 
     .LifeExperienceTitle{

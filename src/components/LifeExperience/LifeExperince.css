@@ -13,7 +13,15 @@
         width: 20vw; 
         border-radius: 10px;
         cursor: pointer;
-        padding-right: 7px;
+        padding-right: 7px;   
+        z-index: 3;     
+    }
+
+    img.wwd{
+        filter: grayscale(65%);
+    }
+    img.wwd:hover{
+        filter: none;
     }
 
     .LifeExperienceTitle{
@@ -23,9 +31,9 @@
     .cOTALink{
         text-decoration: none;
         cursor: pointer;
-        color: #afd377;
-        
+        color: #afd377; 
     }
+
     .cOTALink :hover{
         text-decoration: underline;
     }
@@ -109,7 +117,11 @@
             flex-direction: column;
         }
       }
-
+      @media (max-width: 557px) {
+        img.wwd{
+            filter: none;
+        }
+      }
  
     .LifeExperiencesContainer{
     display: flex;

@@ -18,7 +18,7 @@ class Portfolio extends Component {
         const allProjects = [
             {
                 url: 'https://www.unlockthebox.io/',
-                title: 'Unclock The Box',
+                title: 'Unlock The Box',
                 desc: 'An interactive web application to assist in teaching students through team based game play. Teachers can create accounts attached to an id connected to the database PostgreSQL, to create, delete , read and update questions for students hosted in rooms.Teachers can control every aspect of these rooms inculding the time given and possible hints distributed to assist in learning. In these rooms questions can be answered by students, and students are given live updates on how far along the challenge they themselves, and their friendly competition are.',
                 tech: ['React J.S','HTML','CSS','AWS','POSTGRESQL'],
                 img: card0

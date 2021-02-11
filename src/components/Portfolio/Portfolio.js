@@ -26,7 +26,7 @@ class Portfolio extends Component {
             },
             {
                 url: 'https://www.teammateme.com/',
-                title: 'TeammateMe.com',
+                title: 'Teammate Me',
                 desc: 'TeammateMe helps users find and create teams for their course, projects, classes, and extracurricular activities. Also, it helps them gain professional experience and sharpen their teamwork skills. At the same time, they can build lasting reputation scores for their resume.git ',
                 tech: ['HTML', 'CSS', 'JAVASCRIPT', 'API','React.js','Next.js'],
                 img: TeammateMe

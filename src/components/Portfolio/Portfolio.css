@@ -51,12 +51,12 @@ border-radius: 10px;
     background-repeat: no-repeat;
     margin: 30px;    
     border-radius: 10px;
-    filter: grayscale(65%);
+    filter: grayscale(90%);
 
 }
 
 .projectCard:hover{
-    transition: filter .5s;
+    transition: filter .9s;
     filter: none;
 }
 @media (max-width: 700px) {

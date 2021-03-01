@@ -29,7 +29,7 @@ class Portfolio extends Component {
                 url: 'https://energimeuniversity.org/',
                 title: 'Energime University',
                 desc: 'Energime University has the single mission of providing the means by which we mentor and empower our global population with the critical skills necessary to carry out this monumental effort. By creating a central education platform that connects the world in a unified and structured approach, we can manage our finite resources and protect our fragile environment. Energime University will prepare our future workforce by establishing learning annexes world-wide through a vast inter-connective partnership. This network will be supported by a growing and robust online capability created to foster this global collaborative effort.',
-                tech: ['HTML', 'CSS', 'JAVASCRIPT', 'API','React.js','Next.js'],
+                tech: ['HTML', 'CSS', 'JAVASCRIPT', 'API','React.js','ASP.NET'],
                 img: TeammateMe
             },
             {

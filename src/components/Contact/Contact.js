@@ -20,7 +20,7 @@ function Contact() {
                         <a className='logo' href='https://github.com/RamseyJLewis' target='blank'>{<FontAwesomeIcon icon={faGithub} />}</a>
                     </div>
                     <div className='gitubLogo'>
-                        <a className='logo' href='https://www.linkedin.com/in/ramsey-lewis-6483321b2/' target='blank'>{<FontAwesomeIcon icon={faLinkedin} />}</a>
+                        <a className='logo' href='https://www.linkedin.com/in/ramsey-lewis/' target='blank'>{<FontAwesomeIcon icon={faLinkedin} />}</a>
                     </div>
                     <div className='gitubLogo'>
                         <a className='logo' href='https://www.instagram.com/ramseyjlewis/' target='blank'>{<FontAwesomeIcon icon={faInstagram} />}</a>

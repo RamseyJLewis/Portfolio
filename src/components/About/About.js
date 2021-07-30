@@ -21,7 +21,7 @@ class About extends Component {
             <p>
               {" "}
               <Wave
-            text="I am a Frontend software engineer with years in technology and design. My approach is framed by a background in the formal analysis of art during his training at the Fashion Institute of Technology and years in agile web development. These attributes come together to make a creative & experienced frontend software engineer with a robust attention to detail. "
+            text="I am a Frontend Software Developer with years in technology and design. My approach is framed by a background in the formal analysis of art during his training at the Fashion Institute of Technology and years in agile web development. These attributes come together to make a creative & experienced frontend software engineer with a robust attention to detail. "
             effect="verticalFadeIn"
             effectDirection="left"
             speed="200"

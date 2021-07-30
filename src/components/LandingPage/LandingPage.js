@@ -11,13 +11,7 @@ const LandingPage = () => {
       <h1 className="MainText"> Ramsey Lewis</h1>
       <Fade bottom>
         <p className="Objective">
-        <Wave
-            text="My goal is to make every project like a great relationship, with a flow that feels as natural as carrying on a good conversation."
-            effect="verticalFadeIn"
-            effectDirection="left"
-            speed="150"
-            iterations="1"          
-          />
+        My goal is to make every project like a great relationship, with a flow that feels as natural as carrying on a good conversation.
         </p>
       </Fade>
     </div>

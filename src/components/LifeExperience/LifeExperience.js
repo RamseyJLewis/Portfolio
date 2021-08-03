@@ -11,33 +11,39 @@ class LifeExperience extends Component {
 
   render() {
     return (
-      <Fade bottom cascade >
+      <Fade bottom cascade>
+        <Fade bottom cascade>
+          <div className="LifeExperience" name="LifeExperience">
+            <div className="LifeExperienceTitle">
+              {" "}
+              <h2> Philanthropy </h2>{" "}
+            </div>
+            <div className="LifeExperienceCardCOTA">
+              <a
+                className="cOTALink"
+                href="https://councilofthought.wordpress.com/"
+                target="blank"
+              >
+                <p> C.O.T.A - COUNCIL OF THOUGHT AND ACTION </p>
+              </a>
+              <p>
+                {" "}
+                Organized projects and events such as job fairs and ran summer
+                classes for youth. This led me to co-manage a summer camp for
+                youth while also helping parents & adults find work. The
+                objective of C.O.T.A. is to increase employment rates among the
+                formerly incarcerated while reducing re-incarceration rates,
+                improving individual’s lives and developing opportunities for
+                at-risk youth.
+              </p>
+            </div>
+          </div>
+        </Fade>
+        <Fade bottom cascade>
         <div className="LifeExperience" name="LifeExperience">
           <div className="LifeExperienceTitle">
             {" "}
-            <h2> Philanthropy </h2>{" "}
-          </div>
-          <div className="LifeExperienceCardCOTA">
-            <a
-              className="cOTALink"
-              href="https://councilofthought.wordpress.com/"
-              target="blank"
-            >
-              <p> C.O.T.A - COUNCIL OF THOUGHT AND ACTION </p>
-            </a>
-            <p>
-              {" "}
-              Organized projects and events such as job fairs and ran summer
-              classes for youth. This led me to co-manage a summer camp for
-              youth while also helping parents & adults find work. The objective
-              of C.O.T.A. is to increase employment rates among the formerly
-              incarcerated while reducing re-incarceration rates, improving
-              individual’s lives and developing opportunities for at-risk youth.
-            </p>
-          </div>
-          <div className="LifeExperienceTitle">
-            {" "}
-            <h2> Business In Fashion </h2>{" "}
+            <h2>Fashion & Design </h2>{" "}
           </div>
           <div className="LifeExperienceCardBIF">
             <a
@@ -60,7 +66,8 @@ class LifeExperience extends Component {
               undermine the final project.{" "}
             </p>
           </div>
-        </div>
+          </div>
+        </Fade>
       </Fade>
     );
   }

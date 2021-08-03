@@ -18,7 +18,7 @@
     }
 
     img.wwd{
-        filter: grayscale(65%);
+        /* filter: grayscale(65%); */
     }
     img.wwd:hover{
         filter: none;

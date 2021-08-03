@@ -15,3 +15,8 @@ Add a secrion with orgaizations ive worked with[]
 make project sections a grid of some kind []
 
 mailto:TheRamseyLewis@gmail.com
+
+
+Blackish: #202020
+
+Gold (metallic) / #d4af37

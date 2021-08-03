@@ -4,6 +4,7 @@ import card0 from "../../Assets/UnlockTheBox.png";
 import card1 from "../../Assets/Not-Flix.png";
 import card2 from "../../Assets/SPACE-FORCE.png";
 import card3 from "../../Assets/CALC.png";
+import card4 from "../../Assets/FishCat.png"
 import TeammateMe from "../../Assets/TeammateMe.png";
 import Energime from "../../Assets/EnergimeUniversity.png";
 import Fade from "react-reveal/Fade";
@@ -20,11 +21,18 @@ class Portfolio extends Component {
   createCard = () => {
     const allProjects = [
       {
-        url: "https://www.unlockthebox.io/",
-        title: "Unlock The Box",
-        desc: "An interactive web application to assist in teaching students through team based game play. Teachers can create accounts attached to an id connected to the database PostgreSQL, to create, delete , read and update questions for students hosted in rooms.Teachers can control every aspect of these rooms inculding the time given and possible hints distributed to assist in learning. In these rooms questions can be answered by students, and students are given live updates on how far along the challenge they themselves, and their friendly competition are.",
-        tech: ["React J.S", "HTML", "CSS", "AWS", "POSTGRESQL"],
-        img: card0,
+        url: "https://www.teammateme.com/",
+        title: "TeammateMe",
+        desc: "TeammateMe helps users find and create teams for their course, projects, classes, and extracurricular activities. Also, it helps them gain professional experience and sharpen their teamwork skills. At the same time, they can build lasting reputation scores for their resume.git ",
+        tech: ["HTML", "CSS", "JAVASCRIPT", "API", "React.js", "Next.js"],
+        img: TeammateMe,
+      },
+      {
+        url: "https://fishcat.org/",
+        title: "FishCat",
+        desc: "FishCats goal is to empower global communities with conservation jobs that restore ecosystems, and help solve deforestation, extinction, and climate change. I created and updated the UX/UI of the site. The goal here was to make an inpsiring and comfrrbale site in order to drive up Donations.",
+        tech: ["HTML", "CSS", "JAVASCRIPT", "React.JS.", "Gatsby"],
+        img: card4,
       },
       {
         url: "https://energimeuniversity.org/",
@@ -34,12 +42,14 @@ class Portfolio extends Component {
         img: Energime,
       },
       {
-        url: "https://www.teammateme.com/",
-        title: "Teammate Me",
-        desc: "TeammateMe helps users find and create teams for their course, projects, classes, and extracurricular activities. Also, it helps them gain professional experience and sharpen their teamwork skills. At the same time, they can build lasting reputation scores for their resume.git ",
-        tech: ["HTML", "CSS", "JAVASCRIPT", "API", "React.js", "Next.js"],
-        img: TeammateMe,
+        url: "https://www.unlockthebox.io/",
+        title: "Unlock The Box",
+        desc: "An interactive web application to assist in teaching students through team based game play. Teachers can create accounts attached to an id connected to the database PostgreSQL, to create, delete , read and update questions for students hosted in rooms.Teachers can control every aspect of these rooms inculding the time given and possible hints distributed to assist in learning. In these rooms questions can be answered by students, and students are given live updates on how far along the challenge they themselves, and their friendly competition are.",
+        tech: ["React J.S", "HTML", "CSS", "AWS", "POSTGRESQL"],
+        img: card0,
       },
+     
+     
       {
         url: "https://ramseyjlewis.github.io/Not-Flix/",
         title: "Not-Flix",
@@ -49,18 +59,11 @@ class Portfolio extends Component {
       },
       {
         url: "https://ramseyjlewis.github.io/Space-Force-moon-of-gold/",
-        title: "Space-Force-moon-of-gold",
+        title: "Space Force Moon of gold",
         desc: "An arcade shooter inspired by Space Invaders but with 360-degree gameplay. Escape the massive swarm of churning aliens, all of which are being tracked through mathematics, objects and arrays. This object-oriented program is built using JavaScript, HTML and CSS. The Swarm of enemies try to crash into the player. The objective is to last until backup arrives",
         tech: ["HTML", "CSS", "JAVASCRIPT"],
         img: card2,
-      },
-      {
-        url: "https://ramseyjlewis.github.io/Basic-Calculator/",
-        title: "Basic Calculator",
-        desc: " A basic calculator built with HTML, CSS & JavaScript that can perform basic asthmatic. Created with a design intended to make user experience more pleasant than traditional online calculators.",
-        tech: ["HTML", "CSS", "JAVASCRIPT"],
-        img: card3,
-      },
+      },     
     ];
 
     return (
@@ -95,9 +98,11 @@ class Portfolio extends Component {
                 <div className="PortfolioText">
                   <h2>{project.title}</h2>
                   <p>{project.desc}</p>
+                  <div classname='techWrap'>
                   {project.tech.map((tech, idx) => (
-                    <p key={idx}> {tech}</p>
+                    <span classname='tech' key={idx}> {tech}</span>
                   ))}
+                  </div>
                 </div>
                 </Fade>
               </div>

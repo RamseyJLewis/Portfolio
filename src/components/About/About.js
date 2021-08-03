@@ -19,16 +19,8 @@ class About extends Component {
           </div>
           <div className="AboutCard">
             <p>
-              {" "}
-              <Wave
-            text="I am a Frontend Software Developer with years in technology and design. My approach is framed by a background in the formal analysis of art during his training at the Fashion Institute of Technology and years in agile web development. These attributes come together to make a creative & experienced frontend software engineer with a robust attention to detail. "
-            effect="verticalFadeIn"
-            effectDirection="left"
-            speed="200"
-            iterations="1"
-            //  paused='true'
-          />
-              
+              {" "}           
+            I am a Software Developer with years in technology and design. My approach is framed by a background in the formal analysis of art during his training at the Fashion Institute of Technology and years in agile web development. These attributes come together to make a creative & experienced frontend software engineer with a robust attention to detail.              
             </p>
             <p>
               {" "}

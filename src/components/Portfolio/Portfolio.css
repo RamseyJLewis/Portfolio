@@ -11,6 +11,25 @@
     height: fit-content;
     padding: 15px;  
 }
+.techWrap{
+    display: flex;
+    justify-content: left;
+    text-align: left;
+    align-items: left;
+    flex-direction: row;
+    width: 25% !important;
+
+
+    display : inline;
+    flex-wrap: wrap;
+    display: inline-flex;
+    width: 33%
+}
+.tech{
+    margin: 0px 5px 0px 5px;
+    color:  #90bc42;
+
+}
 @media (max-width: 557px) {
     .wrapper {
         width: 90vw;
@@ -89,6 +108,7 @@ border-radius: 10px;
     flex-direction: column;
     padding: 2%;
     text-align: center;
+    align-items: center;
     transition: box-shadow .5s;
     border-radius: 10px;
 }

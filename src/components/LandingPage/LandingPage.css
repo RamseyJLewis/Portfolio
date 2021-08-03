@@ -47,4 +47,17 @@ text-align: left;
     }
   }
 
+.headShot{
+    width: 300px;
+    float: right;
+    border-radius: 10px;
+}
+@media (max-width: 570px) {
+    .headShot{
+        display: block;
+        display: inline-block;
+        width: 190px;
+        /* float: center; */
+    }
+}
 

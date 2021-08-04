@@ -117,7 +117,7 @@ class Portfolio extends Component {
       <div className="Portfolio" name="Portfolio">
         <div className="ProjectTitle">
           {" "}
-          <h2>Projects</h2>
+          <p>Projects</p>
         </div>
         <div className="ProjectsContainer">{this.createCard()}</div>
       </div>

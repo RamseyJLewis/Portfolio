@@ -1,6 +1,5 @@
 import "./LandingPage.css";
 import Fade from "react-reveal/Fade";
-import { Wave } from "react-animated-text";
 import headshot from "../../Assets/RamseyHeadShot.jpg";
 
 const LandingPage = () => {
@@ -15,7 +14,7 @@ const LandingPage = () => {
         <h1 className="MainText">
           {" "}
           Ramsey Lewis{" "}
-          <img className="headShot" src={headshot} alt="headshot" />{" "}
+          <Fade top><img className="headShot" src={headshot} alt="headshot" />{" "}</Fade> 
         </h1>
       </div>
       <Fade left>

@@ -6,18 +6,19 @@
 
     z-index: 2; 
     font-size: large;  
-    /* padding-top: 100px; */
+    padding-top: 100px;
     }
     
     .AboutTitle{
         color:  #90bc42;
+        font-size: x-large;
     }
 
     .AboutCard{
         height: 90%;
         width: 80%;
         padding: 2%;
-        background-color: #081c15;
+        background-color: rgba(0, 0, 0, 0.3);
         display: flex;
         justify-content: center;
         flex-direction: column; 

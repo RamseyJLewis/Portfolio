@@ -9,17 +9,22 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import Fade from "react-reveal/Fade";
 
+
 function Contact() {
   return (
-    <Fade>
+
       <div className="Contact" name="Contact">
         <div className="ContactTitle">
           {" "}
           <h2> Get In Touch </h2>{" "}
         </div>
         <div className="ContactCard">
+     
           <div className="contactText">
+          <Fade left>
             <p> Phone: (631-639-4366) </p>
+            </Fade>
+            <Fade right>
             <div className="email">
               <a
                 className="logo"
@@ -29,8 +34,11 @@ function Contact() {
                 {<p> E-Mail: TheRamseyLewis@gmail.com</p>}
               </a>
             </div>
+            </Fade>
           </div>
+          
           <div className="logo">
+          <Fade bottom>
             <div className="gitubLogo">
               <a
                 className="logo"
@@ -40,6 +48,8 @@ function Contact() {
                 {<FontAwesomeIcon icon={faGithub} />}
               </a>
             </div>
+            </Fade>
+            <Fade top>
             <div className="gitubLogo">
               <a
                 className="logo"
@@ -49,6 +59,8 @@ function Contact() {
                 {<FontAwesomeIcon icon={faLinkedin} />}
               </a>
             </div>
+            </Fade>
+            <Fade bottom>
             <div className="gitubLogo">
               <a
                 className="logo"
@@ -58,10 +70,11 @@ function Contact() {
                 {<FontAwesomeIcon icon={faInstagram} />}
               </a>
             </div>
+            </Fade>
           </div>
         </div>
       </div>
-    </Fade>
+ 
   );
 }
 

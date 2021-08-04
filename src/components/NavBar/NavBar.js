@@ -16,7 +16,9 @@ function NavBar() {
   return (
     <>
       <div className="NavBar">
-        <Logo />
+      <Fade >
+        <div className='navLogo'><Logo /></div>
+        </Fade>
         <Fade right>
           <div className="NavBarText">
             <Link className="navlink" to="About" smooth={true}>

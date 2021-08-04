@@ -5,7 +5,7 @@ import { Link } from "react-scroll";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faFileDownload } from "@fortawesome/free-solid-svg-icons";
 // import React, { useLayoutEffect, useState } from 'react';
-import resume from "../../Assets/ResumeSC.pdf";
+import resume from "../../Assets/RamseyJLewisResume.pdf";
 import Fade from "react-reveal/Fade";
 
 function NavBar() {

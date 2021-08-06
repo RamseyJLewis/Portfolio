@@ -37,7 +37,7 @@
     .AboutCard:hover{
         color: white;
         opacity: 1;
-        box-shadow: 0 20px 50px -11px black;
+        box-shadow: 0 20px 50px -11px #90bc42;
         /* border-radius: 10px; */
     }
     

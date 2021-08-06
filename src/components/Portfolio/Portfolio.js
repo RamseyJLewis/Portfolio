@@ -8,6 +8,7 @@ import card4 from "../../Assets/FishCat.png"
 import TeammateMe from "../../Assets/TeammateMe.png";
 import Energime from "../../Assets/EnergimeUniversity.png";
 import Fade from "react-reveal/Fade";
+import { Wave } from "react-animated-text";
 
 class Portfolio extends Component {
   constructor(props) {
@@ -117,7 +118,17 @@ class Portfolio extends Component {
       <div className="Portfolio" name="Portfolio">
         <div className="ProjectTitle">
           {" "}
-          <p>Projects</p>
+          {/* <p>Projects</p> */}
+          <p>
+              {" "}
+              <Wave
+                effect="color"
+                effectDirection="up"
+                effectDuration={3}
+                effectChange={'#80ed99'}
+                text="        Projects        "
+              />{" "}
+            </p>{" "}
         </div>
         <div className="ProjectsContainer">{this.createCard()}</div>
       </div>

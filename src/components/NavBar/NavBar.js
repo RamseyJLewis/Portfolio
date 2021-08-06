@@ -7,6 +7,7 @@ import { faBars, faFileDownload } from "@fortawesome/free-solid-svg-icons";
 // import React, { useLayoutEffect, useState } from 'react';
 import resume from "../../Assets/RamseyJLewisResume.pdf";
 import Fade from "react-reveal/Fade";
+import { Wave } from "react-animated-text"
 
 function NavBar() {
   const [hover, setHover] = useState(false);
@@ -45,7 +46,15 @@ function NavBar() {
               href={resume}
               download
             >
-              {hover ? <FontAwesomeIcon icon={faFileDownload} /> : "Resume"}
+              {hover ? <FontAwesomeIcon icon={faFileDownload} /> : 
+              <Wave
+                effect="jump"                  
+                delay={5}
+                effectChange={1}         
+                text="Resume"
+              />
+              // <Wave text="Resume" effect="jump " effectChange={2.2} />
+              }
             </a>
           </div>
         </Fade>

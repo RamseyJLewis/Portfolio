@@ -1,6 +1,7 @@
 import "./LandingPage.css";
 import Fade from "react-reveal/Fade";
 import headshot from "../../Assets/RamseyHeadShot.jpg";
+import { Wave } from "react-animated-text";
 
 const LandingPage = () => {
   return (
@@ -14,12 +15,22 @@ const LandingPage = () => {
         <h1 className="MainText">
           {" "}
           Ramsey Lewis{" "}
-          <Fade top><img className="headShot" src={headshot} alt="headshot" />{" "}</Fade> 
+          <Fade right><div className='headshotHov'><img className="headShot" src={headshot} alt="headshot" />{" "}</div></Fade> 
         </h1>
       </div>
       <Fade left>
         {" "}
-        <p className="Greeting"> Sofware Developer </p>
+        <p className="Greeting">
+              {" "}
+              <Wave
+                effect="color"
+                effectDirection="up"
+                effectDuration={3}
+                effectChange={'#80ed99'}
+                text="Sofware Developer"
+              />{" "}
+            </p>{" "}
+        {/* <p className="Greeting"> Sofware Developer </p> */}
       </Fade>
       <Fade bottom>
         <p className="Objective">

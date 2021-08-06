@@ -12,10 +12,19 @@ class About extends Component {
   render() {
     return (
       <div className="About" name="About">
-        <Fade >
+        <Fade>
           <div className="AboutTitle">
             {" "}
-            <p> About Me </p>{" "}
+            <p>
+              {" "}
+              <Wave
+                effect="color"
+                effectDirection="up"
+                effectDuration={3}
+                effectChange={'#80ed99'}
+                text="        About Me        "
+              />{" "}
+            </p>{" "}
           </div>
         </Fade>
         <Fade bottom>

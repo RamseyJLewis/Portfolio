@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import WWD from "../../Assets/WWD.RH.png";
 import "./LifeExperince.css";
 import Fade from "react-reveal/Fade";
+import { Wave } from "react-animated-text";
 
 class LifeExperience extends Component {
   constructor(props) {
@@ -16,7 +17,17 @@ class LifeExperience extends Component {
           <div className="LifeExperience" name="LifeExperience">
             <div className="LifeExperienceTitle">
               {" "}
-              <p> Philanthropy </p>{" "}
+              <p>
+                {" "}
+                <Wave
+                  effect="color"
+                  effectDirection="up"
+                  effectDuration={3}
+                  effectChange={"#80ed99"}
+                  text="        Philanthropy        "
+                />{" "}
+              </p>{" "}
+              {/* <p> Philanthropy </p>{" "} */}
             </div>
             <div className="LifeExperienceCardCOTA">
               <a
@@ -40,32 +51,42 @@ class LifeExperience extends Component {
           </div>
         </Fade>
         <Fade bottom cascade>
-        <div className="LifeExperience" name="LifeExperience">
-          <div className="LifeExperienceTitle">
-            {" "}
-            <p>Time In Fashion</p>{" "}
-          </div>
-          <div className="LifeExperienceCardBIF">
-            <a
-              href="https://wwd.com/fashion-news/shows-reviews/gallery/romeo-hunte-rtw-fall-1203013267/romeo-hunte-rtw-fall-2019-21/"
-              target="blank"
-            >
-              <img className="wwd" src={WWD} alt="WWD" />
-            </a>
-            <p>
+          <div className="LifeExperience" name="LifeExperience">
+            <div className="LifeExperienceTitle">
               {" "}
-              My modeling career got its start at the Fashion Institute of
-              Technology in 2019. Since then I've worked on countless
-              photoshoots, been in multiple magazines and walked on runways. One
-              of my main takeaways from modeling is the importance of the work
-              environment. Cooperation, collaboration and decorum are the key
-              skills to have in every industry. Often how well or poorly a team
-              works is how well or poorly the final product comes out. My second
-              takeaway from modeling is the importance of time management;
-              wasting people's time is the fastest way to create problems and
-              undermine the final project.{" "}
-            </p>
-          </div>
+              <p>
+                {" "}
+                <Wave
+                  effect="color"
+                  effectDirection="up"
+                  effectDuration={3}
+                  effectChange={"#80ed99"}
+                  text="     Time In Fashion     "
+                />{" "}
+              </p>{" "}
+              {/* <p>Time In Fashion</p>{" "} */}
+            </div>
+            <div className="LifeExperienceCardBIF">
+              <a
+                href="https://wwd.com/fashion-news/shows-reviews/gallery/romeo-hunte-rtw-fall-1203013267/romeo-hunte-rtw-fall-2019-21/"
+                target="blank"
+              >
+                <img className="wwd" src={WWD} alt="WWD" />
+              </a>
+              <p>
+                {" "}
+                My modeling career got its start at the Fashion Institute of
+                Technology in 2019. Since then I've worked on countless
+                photoshoots, been in multiple magazines and walked on runways.
+                One of my main takeaways from modeling is the importance of the
+                work environment. Cooperation, collaboration and decorum are the
+                key skills to have in every industry. Often how well or poorly a
+                team works is how well or poorly the final product comes out. My
+                second takeaway from modeling is the importance of time
+                management; wasting people's time is the fastest way to create
+                problems and undermine the final project.{" "}
+              </p>
+            </div>
           </div>
         </Fade>
       </Fade>

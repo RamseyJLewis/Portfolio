@@ -83,14 +83,24 @@
 }
 
 ::-webkit-scrollbar {
-  width: 0.25rem;
+  width: .25rem;
+  border-radius: 15;
+  transition: width 3s !important;
+  transition-delay: 10s;
+  border-radius: 35px;
+  height: 500px;
 }
-
+::-webkit-scrollbar:hover{
+  width: .65rem;
+ 
+}
 ::-webkit-scrollbar-track {
-  background: #020204;
+  background: #202020;
+  border-radius: 65;
 }
 
 ::-webkit-scrollbar-thumb {
   background: #afd377;
+  border-radius: 35px;
 }
 

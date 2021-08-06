@@ -95,7 +95,7 @@ border-radius: 10px;
   }
 
 .projectCard:hover + .PortfolioText, .PortfolioText:hover{
-    box-shadow: 0 10px 30px -11px black;     
+    box-shadow: 0 10px 30px -11px #90bc42;     
 }
 
 

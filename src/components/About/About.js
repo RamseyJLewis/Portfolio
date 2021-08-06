@@ -54,27 +54,27 @@ class About extends Component {
               {/* {<FontAwesomeIcon icon={faJs} />} */}
            
              
-                  <div class="container">
-                    <span class="react-logo">
-                      <span class="nucleo"></span>
+                  <div className="container">
+                    <span className="react-logo">
+                      <span className="nucleo"></span>
                     </span>
                   </div>
             
          
          
            
-                  <div class="container">
-                    <span class="react-logo">
-                      <span class="nucleo"></span>
+                  <div className="container">
+                    <span className="react-logo">
+                      <span className="nucleo"></span>
                     </span>
                   </div>
               
            
  
               
-                  <div class="container">
-                    <span class="react-logo">
-                      <span class="nucleo"></span>
+                  <div className="container">
+                    <span className="react-logo">
+                      <span className="nucleo"></span>
                     </span>
                   </div>
    

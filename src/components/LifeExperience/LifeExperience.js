@@ -1,15 +1,17 @@
 import React, { Component } from "react";
-import WWD from "../../Assets/WWD.RH.png";
+// import WWD from "../../Assets/WWD.RH.png";
 import "./LifeExperince.css";
 import Fade from "react-reveal/Fade";
 import { Wave } from "react-animated-text";
-import calvin from "../../Assets/Calvin.jpeg";
-import pause2 from "../../Assets/ramseyPause2.jpeg";
+import calvin from "../../Assets/Calvin.png";
+import pause2 from "../../Assets/ramseyPause2.png";
 
 class LifeExperience extends Component {
   constructor(props) {
     super(props);
     this.state = {};
+    console.log(calvin);
+    console.log(pause2);
   }
 
   render() {
@@ -71,7 +73,7 @@ class LifeExperience extends Component {
             <div className="LifeExperienceCardBIF">
               <div>
               <Fade>
-                <div>
+                <div className='wwd'>
                 <a
                   href="https://www.qmanagementinc.com/talent/ramsey-lewis"
                   target="blank"
@@ -93,7 +95,7 @@ class LifeExperience extends Component {
               </p>
               <div>
                 <Fade>
-                <div>
+                <div className='wwd'>
                   <a
                     href="https://www.qmanagementinc.com/talent/ramsey-lewis"
                     target="blank"

@@ -22,7 +22,7 @@ class About extends Component {
                 effectDirection="up"
                 effectDuration={3}
                 effectChange={'#80ed99'}
-                text="        About Me        "
+                text="         Methodology         "
               />{" "}
             </p>{" "}
           </div>

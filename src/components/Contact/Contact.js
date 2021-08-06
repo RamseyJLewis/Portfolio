@@ -8,23 +8,29 @@ import {
   faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
 import Fade from "react-reveal/Fade";
-
+import { Wave } from "react-animated-text";
 
 function Contact() {
   return (
-
-      <div className="Contact" name="Contact">
-        <div className="ContactTitle">
-          {" "}
-          <h2> Get In Touch </h2>{" "}
-        </div>
-        <div className="ContactCard">
-     
-          <div className="contactText">
+    <div className="Contact" name="Contact">
+      <div className="ContactTitle">
+         <p>
+              {" "}
+              <Wave
+                effect="color"
+                effectDirection="up"
+                effectDuration={3}
+                effectChange={'#80ed99'}
+                text="Get In Touch"
+              />{" "}
+            </p>{" "}
+      </div>
+      <div className="ContactCard">
+        <div className="contactText">
           <Fade left>
             <p> Phone: (631-639-4366) </p>
-            </Fade>
-            <Fade right>
+          </Fade>
+          <Fade right>
             <div className="email">
               <a
                 className="logo"
@@ -34,10 +40,10 @@ function Contact() {
                 {<p> E-Mail: TheRamseyLewis@gmail.com</p>}
               </a>
             </div>
-            </Fade>
-          </div>
-          
-          <div className="logo">
+          </Fade>
+        </div>
+
+        <div className="logo">
           <Fade bottom>
             <div className="gitubLogo">
               <a
@@ -48,8 +54,8 @@ function Contact() {
                 {<FontAwesomeIcon icon={faGithub} />}
               </a>
             </div>
-            </Fade>
-            <Fade top>
+          </Fade>
+          <Fade top>
             <div className="gitubLogo">
               <a
                 className="logo"
@@ -59,8 +65,8 @@ function Contact() {
                 {<FontAwesomeIcon icon={faLinkedin} />}
               </a>
             </div>
-            </Fade>
-            <Fade bottom>
+          </Fade>
+          <Fade bottom>
             <div className="gitubLogo">
               <a
                 className="logo"
@@ -70,11 +76,10 @@ function Contact() {
                 {<FontAwesomeIcon icon={faInstagram} />}
               </a>
             </div>
-            </Fade>
-          </div>
+          </Fade>
         </div>
       </div>
- 
+    </div>
   );
 }
 

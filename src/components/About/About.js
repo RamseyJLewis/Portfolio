@@ -40,11 +40,11 @@ class About extends Component {
             </p>
             <p>
               {" "}
-              Here Are A few technologies I've been working with recently below:{" "}
+              A few technologies I've been working with recently are below:{" "}
             </p>
-            <p> JavaScript, React, HTML, CSS,</p>
-            <p>Java, JSX, PostgreSQL, AWS S3</p>
-            <p> AWS EC2, AWS Cloudfront, AWS IAM, Node.js </p>
+            <p>Front-End: JavaScript (ES6), TypeScript, React, Next, JSX, HTML5, CSS3, Bootstrap, Material UI, SCSS</p>
+            <p>Back-End: Node.js, Express, AWS (Amplify, RDS, S3, EC2, Cognito), PostgreSQL, RESTful API, JWT</p>
+            <p>Tools: Git, VS Code, DevOps, Trello, MSFT Teams, MSFT OneNote, Slack, Google Analytics, Mixpanel </p>
           </div>
         </Fade>
       </div>

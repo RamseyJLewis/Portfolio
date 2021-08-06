@@ -52,11 +52,10 @@ text-align: left;
 .headShot{
     width: 300px;
     float: right;
-    border-radius: 10px;
-    transition: box-shadow 1s;  
-    box-shadow: 0 0 0 0 #90bc42;
-    transform: scale(0);
-	animation: pulse 2s infinite;  
+    border-radius: 10px;  
+    border-color: #90bc42;
+    border-radius: 20px;
+  
 }
 @media (max-width: 570px) {
     .headShot{
@@ -67,21 +66,4 @@ text-align: left;
     }
 }
 
-
-@keyframes pulse {
-	0% {
-		transform: scale(0.98);
-		box-shadow: 0 0 0 0 #8fbc42c2;
-	}
-
-	70% {
-		transform: scale(1);
-		box-shadow: 0 0 0 10px #8fbc4204;
-	}
-
-	100% {
-		transform: scale(0.98);
-		box-shadow: 0 0 0 0 #8fbc4200;
-	}
-}
 

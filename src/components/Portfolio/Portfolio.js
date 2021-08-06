@@ -124,7 +124,7 @@ class Portfolio extends Component {
               <Wave
                 effect="color"
                 effectDirection="up"
-                effectDuration={3}
+                effectDuration={1}
                 effectChange={'#80ed99'}
                 text="Oragnizations + Projects"
               />{" "}

@@ -72,8 +72,30 @@ border-radius: 10px;
     margin: 30px;    
     border-radius: 10px;
     /* filter: grayscale(90%); */
+    transition: box-shadow 1s;  
+    box-shadow: 0 0 0 0 #90bc42;
+    transform: scale(0);
+	animation: pulse 2s infinite; 
 
 }
+
+@keyframes pulse {
+	0% {
+		transform: scale(0.98);
+		box-shadow: 0 0 0 0 rgb(146, 229, 161);;
+	}
+
+	70% {
+		transform: scale(1);
+		box-shadow: 0 0 0 19px #8fbc4204;
+	}
+
+	100% {
+		transform: scale(0.98);
+		box-shadow: 0 0 0 0 #8fbc4200;
+	}
+}
+
 
 .projectCard:hover{
     transition: filter .9s;
@@ -94,9 +116,9 @@ border-radius: 10px;
     }
   }
 
-.projectCard:hover + .PortfolioText, .PortfolioText:hover{
-    box-shadow: 0 10px 30px -11px #90bc42;     
-}
+/* .projectCard:hover + .PortfolioText, .PortfolioText:hover{
+    box-shadow: 0 10px 30px -11px black;     
+} */
 
 
 .PortfolioText{

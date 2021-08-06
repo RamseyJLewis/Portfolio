@@ -3,6 +3,7 @@ import WWD from "../../Assets/WWD.RH.png";
 import "./LifeExperince.css";
 import Fade from "react-reveal/Fade";
 import { Wave } from "react-animated-text";
+import CTP from "../../Assets/RamseyCentralPark.jpeg"
 
 class LifeExperience extends Component {
   constructor(props) {
@@ -22,7 +23,7 @@ class LifeExperience extends Component {
                 <Wave
                   effect="color"
                   effectDirection="up"
-                  effectDuration={3}
+                  effectDuration={1}
                   effectChange={"#80ed99"}
                   text="        Philanthropy        "
                 />{" "}
@@ -59,7 +60,7 @@ class LifeExperience extends Component {
                 <Wave
                   effect="color"
                   effectDirection="up"
-                  effectDuration={3}
+                  effectDuration={1}
                   effectChange={"#80ed99"}
                   text="     Time In Fashion     "
                 />{" "}
@@ -67,12 +68,14 @@ class LifeExperience extends Component {
               {/* <p>Time In Fashion</p>{" "} */}
             </div>
             <div className="LifeExperienceCardBIF">
+            <Fade >
               <a
                 href="https://wwd.com/fashion-news/shows-reviews/gallery/romeo-hunte-rtw-fall-1203013267/romeo-hunte-rtw-fall-2019-21/"
                 target="blank"
               >
                 <img className="wwd" src={WWD} alt="WWD" />
               </a>
+              </Fade>
               <p>
                 {" "}
                 My modeling career got its start at the Fashion Institute of
@@ -86,7 +89,15 @@ class LifeExperience extends Component {
                 management; wasting people's time is the fastest way to create
                 problems and undermine the final project.{" "}
               </p>
-            </div>
+              <Fade >
+              <a
+                href="https://www.qmanagementinc.com/talent/ramsey-lewis"
+                target="blank"
+              >
+                <img className="wwd" src={CTP} alt="WWD" />
+              </a>
+              </Fade>
+            </div>           
           </div>
         </Fade>
       </Fade>

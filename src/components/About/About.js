@@ -2,17 +2,6 @@ import React, { Component } from "react";
 import "./About.css";
 import Fade from "react-reveal/Fade";
 import { Wave } from "react-animated-text";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faAws,
-  faCss3,
-  faGithub,
-  faInstagram,
-  faJs,
-  faLinkedin,
-  faReact,
-} from "@fortawesome/free-brands-svg-icons";
-
 class About extends Component {
   constructor(props) {
     super(props);
@@ -52,32 +41,24 @@ class About extends Component {
               target="blank"
             >
               {/* {<FontAwesomeIcon icon={faJs} />} */}
-           
-             
-                  <div className="container">
-                    <span className="react-logo">
-                      <span className="nucleo"></span>
-                    </span>
-                  </div>
-            
-         
-         
-           
-                  <div className="container">
-                    <span className="react-logo">
-                      <span className="nucleo"></span>
-                    </span>
-                  </div>
-              
-           
- 
-              
-                  <div className="container">
-                    <span className="react-logo">
-                      <span className="nucleo"></span>
-                    </span>
-                  </div>
-   
+
+              <div className="container">
+                <span className="react-logo">
+                  <span className="nucleo"></span>
+                </span>
+              </div>
+
+              <div className="container">
+                <span className="react-logo">
+                  <span className="nucleo"></span>
+                </span>
+              </div>
+
+              <div className="container">
+                <span className="react-logo">
+                  <span className="nucleo"></span>
+                </span>
+              </div>
 
               {/* {<FontAwesomeIcon icon={faCss3} />} */}
             </a>

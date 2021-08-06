@@ -71,7 +71,7 @@ border-radius: 10px;
     background-repeat: no-repeat;
     margin: 30px;    
     border-radius: 10px;
-    /* filter: grayscale(90%); */
+    /* filter: grayscale(90%); */   
     transition: box-shadow 1s;  
     box-shadow: 0 0 0 0 #90bc42;
     transform: scale(0);

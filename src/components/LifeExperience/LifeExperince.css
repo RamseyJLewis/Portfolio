@@ -49,6 +49,11 @@
         position: relative; 
         top: -1px;
     }
+    .modelingCard{
+        height: fit-content;
+        background-color: rgba(11, 9, 10, .5);
+        flex-direction: row; 
+    }
 
     .LifeExperienceCardCOTA{
         height: fit-content;

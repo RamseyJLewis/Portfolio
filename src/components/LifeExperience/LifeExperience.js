@@ -3,7 +3,8 @@ import WWD from "../../Assets/WWD.RH.png";
 import "./LifeExperince.css";
 import Fade from "react-reveal/Fade";
 import { Wave } from "react-animated-text";
-import CTP from "../../Assets/RamseyCentralPark.jpeg"
+import calvin from "../../Assets/Calvin.jpeg";
+import pause2 from "../../Assets/ramseyPause2.jpeg"
 
 class LifeExperience extends Component {
   constructor(props) {
@@ -68,13 +69,13 @@ class LifeExperience extends Component {
               {/* <p>Time In Fashion</p>{" "} */}
             </div>
             <div className="LifeExperienceCardBIF">
-            <Fade >
-              <a
-                href="https://wwd.com/fashion-news/shows-reviews/gallery/romeo-hunte-rtw-fall-1203013267/romeo-hunte-rtw-fall-2019-21/"
-                target="blank"
-              >
-                <img className="wwd" src={WWD} alt="WWD" />
-              </a>
+            <Fade>
+                <a
+                  href="https://www.qmanagementinc.com/talent/ramsey-lewis"
+                  target="blank"
+                >
+                  <img className="wwd" src={pause2} alt="calvinK" />
+                </a>
               </Fade>
               <p>
                 {" "}
@@ -83,21 +84,18 @@ class LifeExperience extends Component {
                 photoshoots, been in multiple magazines and walked on runways.
                 One of my main takeaways from modeling is the importance of the
                 work environment. Cooperation, collaboration and decorum are the
-                key skills to have in every industry. Often how well or poorly a
-                team works is how well or poorly the final product comes out. My
-                second takeaway from modeling is the importance of time
-                management; wasting people's time is the fastest way to create
-                problems and undermine the final project.{" "}
+                key skills to have in every industry. Often how well a team
+                works is how well the final product comes out.{" "}
               </p>
-              <Fade >
-              <a
-                href="https://www.qmanagementinc.com/talent/ramsey-lewis"
-                target="blank"
-              >
-                <img className="wwd" src={CTP} alt="WWD" />
-              </a>
+              <Fade>
+                <a
+                  href="https://www.qmanagementinc.com/talent/ramsey-lewis"
+                  target="blank"
+                >
+                  <img className="wwd" src={calvin} alt="calvinK" />
+                </a>
               </Fade>
-            </div>           
+            </div>
           </div>
         </Fade>
       </Fade>

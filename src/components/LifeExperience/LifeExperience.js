@@ -4,7 +4,7 @@ import "./LifeExperince.css";
 import Fade from "react-reveal/Fade";
 import { Wave } from "react-animated-text";
 import calvin from "../../Assets/Calvin.jpeg";
-import pause2 from "../../Assets/ramseyPause2.jpeg"
+import pause2 from "../../Assets/ramseyPause2.jpeg";
 
 class LifeExperience extends Component {
   constructor(props) {
@@ -69,14 +69,18 @@ class LifeExperience extends Component {
               {/* <p>Time In Fashion</p>{" "} */}
             </div>
             <div className="LifeExperienceCardBIF">
-            <Fade>
+              <div>
+              <Fade>
+                <div>
                 <a
                   href="https://www.qmanagementinc.com/talent/ramsey-lewis"
                   target="blank"
                 >
                   <img className="wwd" src={pause2} alt="calvinK" />
                 </a>
+                </div>
               </Fade>
+              </div>
               <p>
                 {" "}
                 My modeling career got its start at the Fashion Institute of
@@ -87,14 +91,18 @@ class LifeExperience extends Component {
                 key skills to have in every industry. Often how well a team
                 works is how well the final product comes out.{" "}
               </p>
-              <Fade>
-                <a
-                  href="https://www.qmanagementinc.com/talent/ramsey-lewis"
-                  target="blank"
-                >
-                  <img className="wwd" src={calvin} alt="calvinK" />
-                </a>
-              </Fade>
+              <div>
+                <Fade>
+                <div>
+                  <a
+                    href="https://www.qmanagementinc.com/talent/ramsey-lewis"
+                    target="blank"
+                  >
+                    <img className="wwd" src={calvin} alt="calvinK" />
+                  </a>
+                  </div>
+                </Fade>
+              </div>
             </div>
           </div>
         </Fade>

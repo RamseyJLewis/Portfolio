@@ -2,6 +2,16 @@ import React, { Component } from "react";
 import "./About.css";
 import Fade from "react-reveal/Fade";
 import { Wave } from "react-animated-text";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faAws,
+  faCss3,
+  faGithub,
+  faInstagram,
+  faJs,
+  faLinkedin,
+  faReact,
+} from "@fortawesome/free-brands-svg-icons";
 
 class About extends Component {
   constructor(props) {
@@ -12,22 +22,20 @@ class About extends Component {
   render() {
     return (
       <div className="About" name="About">
-        <Fade>
-          <div className="AboutTitle">
+        <div className="AboutTitle">
+          {" "}
+          <p>
             {" "}
-            <p>
-              {" "}
-              <Wave
-                effect="color"
-                effectDirection="up"
-                effectDuration={3}
-                effectChange={'#80ed99'}
-                text="Methodology"
-              />{" "}
-            </p>{" "}
-          </div>
-        </Fade>
-        <Fade bottom>
+            <Wave
+              effect="color"
+              effectDirection="up"
+              effectDuration={1}
+              effectChange={"#80ed99"}
+              text="    Methodology    "
+            />{" "}
+          </p>{" "}
+        </div>
+        <Fade bottom cascade>
           <div className="AboutCard">
             <p>
               {" "}
@@ -38,13 +46,57 @@ class About extends Component {
               make a creative & experienced frontend software engineer with a
               robust attention to detail.
             </p>
+            <a
+              className="logo"
+              href="https://github.com/RamseyJLewis"
+              target="blank"
+            >
+              {/* {<FontAwesomeIcon icon={faJs} />} */}
+           
+             
+                  <div className="container">
+                    <span className="react-logo">
+                      <span className="nucleo"></span>
+                    </span>
+                  </div>
+            
+         
+         
+           
+                  <div className="container">
+                    <span className="react-logo">
+                      <span className="nucleo"></span>
+                    </span>
+                  </div>
+              
+           
+ 
+              
+                  <div className="container">
+                    <span className="react-logo">
+                      <span className="nucleo"></span>
+                    </span>
+                  </div>
+   
+
+              {/* {<FontAwesomeIcon icon={faCss3} />} */}
+            </a>
             <p>
               {" "}
               A few technologies I've been working with recently are below:{" "}
             </p>
-            <p>Front-End: JavaScript (ES6), TypeScript, React, Next, JSX, HTML5, CSS3, Bootstrap, Material UI, SCSS</p>
-            <p>Back-End: Node.js, Express, AWS (Amplify, RDS, S3, EC2, Cognito), PostgreSQL, RESTful API, JWT</p>
-            <p>Tools: Git, VS Code, DevOps, Trello, MSFT Teams, MSFT OneNote, Slack, Google Analytics, Mixpanel </p>
+            <p>
+              Front-End: JavaScript (ES6), TypeScript, React, Next, JSX, HTML5,
+              CSS3, Bootstrap, Material UI, SCSS
+            </p>
+            <p>
+              Back-End: Node.js, Express, AWS (Amplify, RDS, S3, EC2, Cognito),
+              PostgreSQL, RESTful API, JWT
+            </p>
+            <p>
+              Tools: Git, VS Code, DevOps, Trello, MSFT Teams, MSFT OneNote,
+              Slack, Google Analytics, Mixpanel{" "}
+            </p>
           </div>
         </Fade>
       </div>

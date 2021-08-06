@@ -3,7 +3,6 @@ import "./Portfolio.css";
 import card0 from "../../Assets/UnlockTheBox.png";
 import card1 from "../../Assets/Not-Flix.png";
 import card2 from "../../Assets/SPACE-FORCE.png";
-import card3 from "../../Assets/CALC.png";
 import card4 from "../../Assets/FishCat.png"
 import TeammateMe from "../../Assets/TeammateMe.png";
 import Energime from "../../Assets/EnergimeUniversity.png";
@@ -99,9 +98,9 @@ class Portfolio extends Component {
                 <div className="PortfolioText">
                   <h2>{project.title}</h2>
                   <p>{project.desc}</p>
-                  <div classname='techWrap'>
+                  <div className='techWrap'>
                   {project.tech.map((tech, idx) => (
-                    <span classname='tech' key={idx}> {tech}</span>
+                    <span className='tech' key={idx}> {tech}</span>
                   ))}
                   </div>
                 </div>
@@ -124,7 +123,7 @@ class Portfolio extends Component {
               <Wave
                 effect="color"
                 effectDirection="up"
-                effectDuration={3}
+                effectDuration={1}
                 effectChange={'#80ed99'}
                 text="Oragnizations + Projects"
               />{" "}

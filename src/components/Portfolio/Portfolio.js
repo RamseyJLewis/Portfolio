@@ -30,7 +30,7 @@ class Portfolio extends Component {
       {
         url: "https://fishcat.org/",
         title: "FishCat",
-        desc: "FishCats goal is to empower global communities with conservation jobs that restore ecosystems, and help solve deforestation, extinction, and climate change. I created and updated the UX/UI of the site. The goal here was to make an inpsiring and comfrrbale site in order to drive up Donations.",
+        desc: "FishCats goal is to empower global communities with conservation jobs that restore ecosystems, and help solve deforestation, extinction, and climate change. I created and updated the UX/UI of the site. The goal here was to make an inspiring and comfortable site in order to drive up Donations.",
         tech: ["HTML", "CSS", "JavaScript (ES6)", "React.JS.", "Gatsby"],
         img: card4,
       },
@@ -44,7 +44,7 @@ class Portfolio extends Component {
       {
         url: "https://www.unlockthebox.io/",
         title: "Unlock The Box",
-        desc: "An interactive web application to assist in teaching students through team based game play. Teachers can create accounts attached to an id connected to the database PostgreSQL, to create, delete , read and update questions for students hosted in rooms.Teachers can control every aspect of these rooms inculding the time given and possible hints distributed to assist in learning. In these rooms questions can be answered by students, and students are given live updates on how far along the challenge they themselves, and their friendly competition are.",
+        desc: "An interactive web application to assist in teaching students through team based game play. Teachers can create accounts attached to an id connected to the database PostgreSQL, to create, delete , read and update questions for students hosted in rooms.Teachers can control every aspect of these rooms including the time given and possible hints distributed to assist in learning. In these rooms questions can be answered by students, and students are given live updates on how far along the challenge they themselves, and their friendly competition are.",
         tech: ["React J.S", "JavaScript (ES6)" ,"HTML" ,"CSS" ,"AWS","PostgreSQL"],
         img: card0,
       },
@@ -125,7 +125,7 @@ class Portfolio extends Component {
                 effectDirection="up"
                 effectDuration={1}
                 effectChange={'#80ed99'}
-                text="Oragnizations + Projects"
+                text="Organizations + Projects"
               />{" "}
             </p>{" "}
         </div>

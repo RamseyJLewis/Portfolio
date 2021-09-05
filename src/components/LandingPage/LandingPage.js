@@ -27,7 +27,7 @@ const LandingPage = () => {
                 effectDirection="up"
                 effectDuration={1}
                 effectChange={'#80ed99'}
-                text="Sofware Developer"
+                text="Software Developer"
               />{" "}
             </p>{" "}
         {/* <p className="Greeting"> Sofware Developer </p> */}

@@ -5,6 +5,7 @@ import card1 from "../../Assets/Not-Flix.png";
 import card2 from "../../Assets/SPACE-FORCE.png";
 import card4 from "../../Assets/FishCat.png"
 import TeammateMe from "../../Assets/TeammateMe.png";
+import dentsu from "../../Assets/dentsu.jpg";
 import Energime from "../../Assets/EnergimeUniversity.png";
 import Fade from "react-reveal/Fade";
 import { Wave } from "react-animated-text";
@@ -21,9 +22,16 @@ class Portfolio extends Component {
   createCard = () => {
     const allProjects = [
       {
+        url: "www.dentsu.com",
+        title: "Dentsu",
+        desc: "Dentsu Inc. is a Japanese international advertising and public relations joint stock company headquartered in Tokyo. Dentsu is currently the largest advertising agency and the fifth largest advertising agency network in the world in terms of worldwide revenues.",
+        tech: ["JavaScript (ES6)", "CSS", "ADOBE TARGET", "BIT BUCKET", "JIRA"],
+        img: dentsu,
+      },
+      {
         url: "https://www.teammateme.com/",
         title: "TeammateMe",
-        desc: "TeammateMe helps users find and create teams for their course, projects, classes, and extracurricular activities. Also, it helps them gain professional experience and sharpen their teamwork skills. At the same time, they can build lasting reputation scores for their resume.git ",
+        desc: "TeammateMe helps users find and create teams for their course, projects, classes, and extracurricular activities. Also, it helps them gain professional experience and sharpen their teamwork skills. At the same time, they can build lasting reputation scores for their resume.",
         tech: ["JavaScript (ES6)", "SCSS", "API", "Next.js", "PostgreSQL"],
         img: TeammateMe,
       },
@@ -44,7 +52,7 @@ class Portfolio extends Component {
       {
         url: "https://www.unlockthebox.io/",
         title: "Unlock The Box",
-        desc: "An interactive web application to assist in teaching students through team based game play. Teachers can create accounts attached to an id connected to the database PostgreSQL, to create, delete , read and update questions for students hosted in rooms.Teachers can control every aspect of these rooms including the time given and possible hints distributed to assist in learning. In these rooms questions can be answered by students, and students are given live updates on how far along the challenge they themselves, and their friendly competition are.",
+        desc: "An interactive web application to assist in teaching students through team based game play. Teachers can create accounts attached to an id connected to the database PostgreSQL, to create, delete , read and update questions for students hosted in rooms.",
         tech: ["React J.S", "JavaScript (ES6)" ,"HTML" ,"CSS" ,"AWS","PostgreSQL"],
         img: card0,
       },

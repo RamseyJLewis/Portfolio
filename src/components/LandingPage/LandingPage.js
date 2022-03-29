@@ -34,8 +34,8 @@ const LandingPage = () => {
       </Fade>
       <Fade bottom>
         <p className="Objective">
-          My goal is to make every project like a great relationship, with a
-          flow that feels as natural as carrying on a good conversation.
+         Make every project like a great relationship, 
+          with a flow thats as natural as a good conversation.
         </p>
       </Fade>
     </div>

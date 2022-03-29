@@ -25,7 +25,7 @@ class Portfolio extends Component {
         url: "www.dentsu.com",
         title: "Dentsu",
         desc: "Dentsu Inc. is a Japanese international advertising and public relations joint stock company headquartered in Tokyo. Dentsu is currently the largest advertising agency and the fifth largest advertising agency network in the world in terms of worldwide revenues.",
-        tech: ["JavaScript (ES6)", "CSS", "ADOBE TARGET", "BIT BUCKET", "JIRA"],
+        tech: ["JavaScript (ES6)", "CSS", "Adobe Target", "Bit-Bucket", "Jira"],
         img: dentsu,
       },
       {

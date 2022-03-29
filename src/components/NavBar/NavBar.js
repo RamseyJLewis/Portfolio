@@ -3,7 +3,7 @@ import { useState } from "react";
 import "./NavBar.css";
 import { Link } from "react-scroll";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars, faFileDownload } from "@fortawesome/free-solid-svg-icons";
+import { faBars, faFileDownload, faEnvelopeOpen } from "@fortawesome/free-solid-svg-icons";
 // import React, { useLayoutEffect, useState } from 'react';
 import resume from "../../Assets/RamseyJLewisResume.pdf";
 import Fade from "react-reveal/Fade";
@@ -47,7 +47,7 @@ function NavBar() {
               target="blank"
               download
             >
-              {hover ? <FontAwesomeIcon icon={faFileDownload} /> : 
+              {hover ? <FontAwesomeIcon icon={faEnvelopeOpen} /> : 
               <Wave
                 effect="jump"                  
                 delay={5}
@@ -103,7 +103,7 @@ function NavBar() {
                 target="blank"
               >
                 {
-                  <FontAwesomeIcon className="resumeIcon" icon={faFileDownload}>
+                  <FontAwesomeIcon className="resumeIcon" icon={faEnvelopeOpen}>
                     {" "}
                     Resume{" "}
                   </FontAwesomeIcon>

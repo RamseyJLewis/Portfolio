@@ -43,7 +43,8 @@ function NavBar() {
               onMouseLeave={() => setHover(false)}
               className="ResumeNav"
               style={{ width: "100px" }}
-              href={resume}
+              href={"https://docs.google.com/document/d/e/2PACX-1vQ9E0qSxZ7EOVq4O_pop_LBhdkP-E7Ozrw1jmKMooVABYZlS9lvr6ErqnBeNgK_O-TsCkZsMdAncOMR/pub" }
+              target="blank"
               download
             >
               {hover ? <FontAwesomeIcon icon={faFileDownload} /> : 
@@ -98,8 +99,8 @@ function NavBar() {
                 onMouseLeave={() => setHover(false)}
                 className="ResumeNavMobile"
                 style={{}}
-                href={resume}
-                download
+                href={"https://docs.google.com/document/d/e/2PACX-1vQ9E0qSxZ7EOVq4O_pop_LBhdkP-E7Ozrw1jmKMooVABYZlS9lvr6ErqnBeNgK_O-TsCkZsMdAncOMR/pub" }
+                target="blank"
               >
                 {
                   <FontAwesomeIcon className="resumeIcon" icon={faFileDownload}>

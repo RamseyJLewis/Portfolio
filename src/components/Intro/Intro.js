@@ -9,7 +9,6 @@ class Intro extends Component {
         }
     }
     handleInputChange = (e) =>{
-        console.log(e.target.id)
      let value = e.target.value;
         this.setState({futureName:value })
     }

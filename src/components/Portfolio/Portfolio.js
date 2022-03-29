@@ -82,9 +82,7 @@ class Portfolio extends Component {
           // .includes(this.state.filter)
         })
         .map((project, index) => {
-          console.log(project);
           //itterates through an array and call create card function for every item in array
-          console.log(project);
           // creates a card
           return (
               <div className="wrapper" key={index}>

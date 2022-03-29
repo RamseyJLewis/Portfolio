@@ -10,8 +10,6 @@ class LifeExperience extends Component {
   constructor(props) {
     super(props);
     this.state = {};
-    console.log(calvin);
-    console.log(pause2);
   }
 
   render() {

@@ -10,7 +10,6 @@ import LifeExperience from  "./components/LifeExperience/LifeExperience";
 import Contact from  "./components/Contact/Contact";
 
 function App() {
-  console.log('ping')
   return (
     <div className="App" name='Home'>
            <NavBar/>

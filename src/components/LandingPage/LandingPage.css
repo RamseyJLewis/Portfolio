@@ -53,6 +53,10 @@ text-align: left;
         justify-content: flex-start;
         width: 180px;
     }
+    .Objective{
+        padding-bottom: 240px;
+        padding-top: 22px;
+    } 
   }
 
 .headShot{
@@ -61,7 +65,7 @@ text-align: left;
     border-radius: 10px;  
     border-color: #3E735C;
     border-radius: 20px;
-  
+    padding: 2px;
 }
 @media (max-width: 570px) {
     .headShot{

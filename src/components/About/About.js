@@ -28,7 +28,7 @@ class About extends Component {
           <div className="AboutCard">
             <p>
               {" "}
-              As Software Developer with years in technology and design. My
+              As Software Engineer with years in technology and design. My
               approach is framed by a background in the formal analysis of art
               during my training at the Fashion Institute of Technology and
               years in agile web development. These attributes come together to

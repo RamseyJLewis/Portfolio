@@ -27,15 +27,15 @@ const LandingPage = () => {
                 effectDirection="up"
                 effectDuration={1}
                 effectChange={'#80ed99'}
-                text="Software Developer"
+                text="Software Engineer"
               />{" "}
             </p>{" "}
         {/* <p className="Greeting"> Sofware Developer </p> */}
       </Fade>
       <Fade bottom>
         <p className="Objective">
-         Make every project like a great relationship, 
-          with a flow thats as natural as a good conversation.
+         Make every project like a great friendship, 
+          with a flow as natural as good conversation.
         </p>
       </Fade>
     </div>

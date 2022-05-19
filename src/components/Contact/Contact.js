@@ -26,10 +26,7 @@ function Contact() {
             </p>{" "}
       </div>
       <div className="ContactCard">
-        <div className="contactText">
-          <Fade left>
-            <p> Phone: (631-639-4366) </p>
-          </Fade>
+        <div className="contactText"> 
           <Fade right>
             <div className="email">
               <a

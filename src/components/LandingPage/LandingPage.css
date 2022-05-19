@@ -6,7 +6,7 @@
     color: #3E735C;
     display: flex;
     justify-content: flex-start;
-   /* width: 100%; */
+    min-width: 180px;
    white-space: wrap;
 }
 .MainText{
@@ -62,7 +62,7 @@ text-align: left;
     .headShot{
         display: block;
         display: inline-block;
-        width: 195px;
+        width: 40%;
         /* float: center; */
     }
 }

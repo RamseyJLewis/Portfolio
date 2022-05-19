@@ -7,7 +7,7 @@
     display: flex;
     justify-content: flex-start;
    /* width: 100%; */
-   white-space: nowrap;
+   white-space: wrap;
 }
 .MainText{
     color: #F0EAD6;

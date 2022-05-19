@@ -28,6 +28,7 @@ const LandingPage = () => {
                 effectDuration={1}
                 effectChange={'#80ed99'}
                 text="Software Engineer"
+                wordWrap="none"
               />{" "}
             </p>{" "}
         {/* <p className="Greeting"> Sofware Developer </p> */}

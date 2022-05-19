@@ -16,7 +16,7 @@
         margin-right: 10px;   
         z-index: 3;  
         transition: box-shadow 1s;  
-        box-shadow: 0 0 0 0 #90bc42;
+        box-shadow: 0 0 0 0 #3E735C;
         transform: scale(0);
         animation: pulse 2s infinite;    
     }
@@ -25,7 +25,7 @@
     }
 
     .LifeExperienceTitle{
-        color:  #90bc42;
+        color:  #3E735C;
         font-size: x-large;
     }
 
@@ -64,7 +64,7 @@
         text-align: center;
         /* color: rgba(255, 255, 255, 0.7); */
   
-        color: white;
+        color: #F0EAD6;
         border-radius: 10px;
         transition: opacity 1s;
         /* opacity: 0.9; */
@@ -75,9 +75,9 @@
         line-height: 1.6;
     }
     .LifeExperienceCardCOTA:hover{
-        color: white;
+        color: #F0EAD6;
         opacity: 1;
-        /* box-shadow: 0 20px 50px -11px #90bc42; */
+        /* box-shadow: 0 20px 50px -11px #3E735C; */
        
     }
 
@@ -90,7 +90,7 @@
         background-color: rgba(11, 9, 10, .5);
         display: flex;
         justify-content: center;
-        color: white;
+        color: #F0EAD6;
         flex-direction: row; 
         text-align: center;
 
@@ -102,9 +102,9 @@
         line-height: 1.6;
     }
     .LifeExperienceCardBIF:hover{
-        color: white;
+        color: #F0EAD6;
         opacity: 1;
-        /* box-shadow: 0 20px 50px -11px #90bc42; */
+        /* box-shadow: 0 20px 50px -11px #3E735C; */
     }
     
 

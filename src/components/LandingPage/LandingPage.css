@@ -1,16 +1,16 @@
 
 .Name{
-    color: white;
+    color: #F0EAD6;
 }
 .Greeting{
-    color: #90bc42;
+    color: #3E735C;
     display: flex;
     justify-content: flex-start;
    /* width: 100%; */
-   white-space: 'nowrap';
+   #F0EAD6-space: 'nowrap';
 }
 .MainText{
-    color: white;
+    color: #F0EAD6;
 }
 .Objective{
     color: #878da6;
@@ -54,7 +54,7 @@ text-align: left;
     width: 300px;
     float: right;
     border-radius: 10px;  
-    border-color: #90bc42;
+    border-color: #3E735C;
     border-radius: 20px;
   
 }

@@ -7,7 +7,7 @@
     display: flex;
     justify-content: flex-start;
    /* width: 100%; */
-   #F0EAD6-space: 'nowrap';
+   white-space: 'nowrap';
 }
 .MainText{
     color: #F0EAD6;

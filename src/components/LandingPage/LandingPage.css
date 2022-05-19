@@ -9,6 +9,7 @@
     min-width: 170px;
    white-space: wrap;
 }
+
 .MainText{
     color: #F0EAD6;
 }
@@ -47,6 +48,13 @@ text-align: left;
      
         justify-content: center;
         align-items: center;
+    }
+    .Greeting{
+        color: #3E735C;
+        display: flex;
+        justify-content: flex-start;
+        width: 150px;
+       white-space: wrap;
     }
   }
 

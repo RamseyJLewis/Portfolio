@@ -71,12 +71,14 @@ class LifeExperience extends Component {
             <div className="LifeExperienceCardBIF">
               <div>
               <Fade>
-                <div className='wwd'>
+                <div className='wwd1'>
                 <a
-                  href="https://www.qmanagementinc.com/talent/ramsey-lewis"
+                                    href="https://www.qmanagementinc.com/talent/ramsey-lewis"
+
+             
                   target="blank"
                 >
-                  <img className="wwd" src={pause2} alt="calvinK" />
+                  <img className="wwd1" src={pause2} alt="calvinK" />
                 </a>
                 </div>
               </Fade>
@@ -93,12 +95,12 @@ class LifeExperience extends Component {
               </p>
               <div>
                 <Fade>
-                <div className='wwd'>
+                <div className='wwd2'>
                   <a
                     href="https://www.qmanagementinc.com/talent/ramsey-lewis"
                     target="blank"
                   >
-                    <img className="wwd" src={calvin} alt="calvinK" />
+                    <img className="wwd2" src={calvin} alt="calvinK" />
                   </a>
                   </div>
                 </Fade>

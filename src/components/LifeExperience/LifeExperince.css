@@ -9,7 +9,19 @@
     padding-top: 200px;
     }
 
-    .wwd{
+    .wwd1{
+        width: 20vw; 
+        border-radius: 10px;
+        cursor: pointer;
+        margin-right: 10px;   
+        z-index: 3;  
+        transition: box-shadow 1s;  
+        box-shadow: 0 0 0 0 #3E735C;
+        transform: scale(0);
+        animation: pulse 2s infinite;    
+    }
+    
+    .wwd2{
         width: 20vw; 
         border-radius: 10px;
         cursor: pointer;
@@ -106,28 +118,27 @@
         opacity: 1;
         /* box-shadow: 0 20px 50px -11px #3E735C; */
     }
-    
-
-    @media (max-width: 557px) {
-        .LifeExperienceCardCOTA {            
-            width: 90vw;
-        }
-      }
-      @media (max-width: 557px) {
-        .LifeExperienceCardBIF {            
-            width: 90vw;
-            flex-direction: column;
-        }
-      }
-      @media (max-width: 557px) {
-        img.wwd{
-            filter: none;
-        }
-      }
- 
     .LifeExperiencesContainer{
     display: flex;
     flex-direction: row;
     }
+    @media (max-width: 557px) {
+        .LifeExperienceCardBIF {            
+            width: 90vw;
+            flex-direction: column;
+        }
+        .LifeExperienceCardCOTA {            
+            width: 90vw;
+        }
+        img.wwd{
+            filter: none;
+        }
+        .wwd1{
+            display: none;
+        }
+        .wwd2 {
+            width: 100%;
+        }
+      }
 
  

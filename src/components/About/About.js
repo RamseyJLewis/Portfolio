@@ -28,12 +28,13 @@ class About extends Component {
           <div className="AboutCard">
             <p>
               {" "}
-              As Software Engineer with years in technology and design. My
-              approach is framed by a background in the formal analysis of art
-              during my training at the Fashion Institute of Technology and
-              years in agile web development. These attributes come together to
-              make a creative & experienced coder with a
-              robust attention to detail.
+              As a Software Engineer my approach is framed by years in
+              technology and design. With a background of the formal analysis of art, 
+              study of communications as well as User Experience, during my training at
+              the Fashion Institute of Technology. I’ve always enjoyed my ability to appreciate art and
+              design with their loose boundaries and interprications while also
+              having a deep love for logic, puzzles and their natural
+              rigidity.
             </p>
             <a
               className="logo"

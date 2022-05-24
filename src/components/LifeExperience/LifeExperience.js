@@ -70,18 +70,16 @@ class LifeExperience extends Component {
             </div>
             <div className="LifeExperienceCardBIF">
               <div>
-              <Fade>
-                <div className='wwd1'>
-                <a
-                                    href="https://www.qmanagementinc.com/talent/ramsey-lewis"
-
-             
-                  target="blank"
-                >
-                  <img className="wwd1" src={pause2} alt="calvinK" />
-                </a>
-                </div>
-              </Fade>
+                <Fade>
+                  <div className="wwd1">
+                    <a
+                      href="https://www.qmanagementinc.com/talent/ramsey-lewis"
+                      target="blank"
+                    >
+                      <img className="wwd1" src={pause2} alt="calvinK" />
+                    </a>
+                  </div>
+                </Fade>
               </div>
               <p>
                 {" "}
@@ -95,13 +93,13 @@ class LifeExperience extends Component {
               </p>
               <div>
                 <Fade>
-                <div className='wwd2'>
-                  <a
-                    href="https://www.qmanagementinc.com/talent/ramsey-lewis"
-                    target="blank"
-                  >
-                    <img className="wwd2" src={calvin} alt="calvinK" />
-                  </a>
+                  <div className="wwd2">
+                    <a
+                      href="https://www.qmanagementinc.com/talent/ramsey-lewis"
+                      target="blank"
+                    >
+                      <img className="wwd2" src={calvin} alt="calvinK" />
+                    </a>
                   </div>
                 </Fade>
               </div>

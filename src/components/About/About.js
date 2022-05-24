@@ -28,12 +28,9 @@ class About extends Component {
           <div className="AboutCard">
             <p>
               {" "}
-              As a Software Engineer my approach is framed by years in
-              technology and design. With a background of the formal analysis of art, 
-              study of communications as well as User Experience, during my training at
-              the Fashion Institute of Technology. I’ve always enjoyed my ability to appreciate art and
-              design with their loose boundaries and interprications while also
-              having a deep love for logic, puzzles and their natural
+              As a Software Engineer my approach is framed by years in technology and design. At the top design school the Fashion Institute of Technology my studies included the formal analysis of art, communications as well as User Experience.
+               I’ve always been proud of my ability to appreciate and understand art and
+              design with their loose boundaries and interprications, while on the other hand having a deep understanding and love for logic, puzzles and their natural
               rigidity.
             </p>
             <a
@@ -43,7 +40,7 @@ class About extends Component {
             >
               {/* {<FontAwesomeIcon icon={faJs} />} */}
 
-              <div className="container">
+              <div className="container">1
                 <span className="react-logo">
                   <span className="nucleo"></span>
                 </span>

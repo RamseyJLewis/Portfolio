@@ -40,7 +40,7 @@ class About extends Component {
             >
               {/* {<FontAwesomeIcon icon={faJs} />} */}
 
-              <div className="container">1
+              <div className="container">
                 <span className="react-logo">
                   <span className="nucleo"></span>
                 </span>

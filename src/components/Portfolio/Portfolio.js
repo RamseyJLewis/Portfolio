@@ -22,7 +22,7 @@ class Portfolio extends Component {
   createCard = () => {
     const allProjects = [
       {
-        url: "www.dentsu.com",
+        url: "https://www.dentsu.com",
         title: "Dentsu",
         desc: "Dentsu Inc. is a Japanese international advertising and public relations joint stock company headquartered in Tokyo. Dentsu is currently the largest advertising agency and the fifth largest advertising agency network in the world in terms of worldwide revenues.",
         tech: ["JavaScript (ES6)", "CSS", "Adobe Target", "BitBucket", "Jira"],

@@ -17,7 +17,7 @@
     .AboutCard{
         height: 90%;
         width: 80%;
-        padding: 2%;
+        padding: 20px;
         background-color: rgb(146 146 146 / 15%);
         display: flex;
         justify-content: center;

@@ -23,6 +23,9 @@
     display: inline-flex;
     width: 33%
 }
+.techWrapper{
+    padding: 20px;
+}
 .tech{
     margin: 0px 5px 0px 5px;
     color:  #878da6;
@@ -100,7 +103,6 @@ border-radius: 10px;
     .projectCard {
         width: 250px;
         height: 150px;
-        padding: 0px !important;
     }
   }
 
@@ -117,49 +119,24 @@ border-radius: 10px;
     transition: box-shadow .5s;
     border-radius: 10px;
 }
+
 @media (max-width: 557px) {
     .PortfolioText {
-        height: fit-content;
+        display: flex;
+        justify-content: center;
+        flex-direction: column; 
+        text-align: center;
+
+        padding: 20px;
  
         min-width: 80vw;
         background-color: rgb(146 146 146 / 15%);
-        display: flex;
-        justify-content: center;
-        
-        flex-direction: column; 
-        text-align: center;
-  
 
         border-radius: 10px;
         transition: opacity 1s;
         opacity: 0.9;
         transition: box-shadow .4s;
-        
         margin-bottom: 100px;
-
-        line-height: 1.6;
-    }
-  }
-@media (max-width: 557px) {
-    .PortfolioText {
-        height: fit-content;
- 
-        min-width: 80vw;
-        background-color: rgb(146 146 146 / 15%);;
-        display: flex;
-        justify-content: center;
-        
-        flex-direction: column; 
-        text-align: center;
-  
-
-        border-radius: 10px;
-        transition: opacity 1s;
-        opacity: 0.9;
-        transition: box-shadow .4s;
-        
-        margin-bottom: 100px;
-
         line-height: 1.6;
     }
   }

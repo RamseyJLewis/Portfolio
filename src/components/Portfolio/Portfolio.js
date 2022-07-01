@@ -104,7 +104,7 @@ class Portfolio extends Component {
                 <div className="PortfolioText">
                   <h2>{project.title}</h2>
                   <p>{project.desc}</p>
-                  <div >
+                  <div className='techWrapper'>
                   {project.tech.map((tech, idx) => (
                     <span className='tech' key={idx}> {tech}</span>
                   ))}

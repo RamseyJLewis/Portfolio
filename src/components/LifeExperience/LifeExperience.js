@@ -29,7 +29,6 @@ class LifeExperience extends Component {
                   text="        Philanthropy        "
                 />{" "}
               </p>{" "}
-              {/* <p> Philanthropy </p>{" "} */}
             </div>
             <div className="LifeExperienceCardCOTA">
               <a
@@ -66,7 +65,6 @@ class LifeExperience extends Component {
                   text="     Time In Fashion     "
                 />{" "}
               </p>{" "}
-              {/* <p>Time In Fashion</p>{" "} */}
             </div>
             <div className="LifeExperienceCardBIF">
               <div>

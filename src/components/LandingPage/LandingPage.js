@@ -6,10 +6,6 @@ import { Wave } from "react-animated-text";
 const LandingPage = () => {
   return (
     <div className="LandingPage">
-      {/* <Fade top>
-        <p className="Greeting">Hi, my name is </p>
-      </Fade> */}
-
       <div>
         {" "}
         <h1 className="MainText">
@@ -31,7 +27,6 @@ const LandingPage = () => {
                 wordWrap="none"
               />{" "}
             </p>{" "}
-        {/* <p className="Greeting"> Sofware Developer </p> */}
       </Fade>
       <Fade bottom>
         <p className="Objective">

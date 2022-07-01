@@ -24,12 +24,11 @@ padding-left: 30px;
     }
 
 .NavBar a{
-  margin-right: 40px;
+  margin-right: 2em;
   transition:  .1s;
   text-align: center;
   text-decoration:none;
   transition:  .2s;
- 
   padding-top: 15px;
   padding-left:4px ;
   padding-bottom: 15px;
@@ -77,62 +76,41 @@ color: #F0EAD6;
 }
 
   
-@media (max-width: 790px) {    
+@media (max-width: 780px) {    
   .svg-inline--fa {
     height: 3em;
 }
-    .NavBar{
-        display: block;
-        position: fixed;
-        top: 0;
-        bottom: 0;
-        right: -45%;
-        transition: all 0.2s ease;
-    }
-    .NavBar{
-        position: fixed;
-        top: 0;
-        bottom: 0;
-        right: 0;
-        flex-direction: column;
-        height: auto;
-        width: 45%;
-        transition: left 0.35s ease;
-        box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-    }
 }
 
-@media (max-width: 790px) {
+@media (max-width: 780px) {
   .NavBar{
     display: none;
     }
   }
-@media (max-width: 790px) {
+@media (max-width: 780px) {
   .NavBarText{
     display: none;
     }
   }
 
-@media (max-width: 790px) {
+@media (max-width: 780px) {
   .navlink{
     display: none;
 
     }
   }
 
-@media(max-width: 790px){
+@media(max-width: 780px){
   .NavBar img{
     
  }
   
 }
-  @media (max-width: 790px) {
+  @media (max-width: 780px) {
     .ResumeNav{
     display: none;
       }
     }
-
-    /* mobile */
     
         /* MOBILE  NAV BAR **********************************************/
             
@@ -150,7 +128,7 @@ color: #F0EAD6;
               cursor: pointer;
               } 
             
-        @media (max-width: 790px){
+        @media (max-width: 780px){
           .NavBarMobile{
             transition: visible 1s;
             visibility: visible;        
@@ -172,7 +150,7 @@ color: #F0EAD6;
             
           }
         }
-        @media (max-width: 790px) {
+        @media (max-width: 780px) {
           .NavBarTextMobile{
             padding-top: 50px ;
             display: flex;
@@ -182,7 +160,7 @@ color: #F0EAD6;
             }
           }
         
-        @media (max-width: 790px) {
+        @media (max-width: 780px) {
           .navlinkMobile{
             display: flex;
             text-align: right;
@@ -196,7 +174,7 @@ color: #F0EAD6;
             } 
           }
 
-          @media(max-width:790px){
+          @media(max-width:780px){
             .mobileButton{
               display: flex;
               justify-content: flex-end;
@@ -210,13 +188,13 @@ color: #F0EAD6;
               cursor: pointer;              
             }
           }
-          @media(max-width:790px){
+          @media(max-width:780px){
           .NavBarTextMobile img{
             height: 30px;
             width: 30px;
           }
         }
-        @media(max-width:790px){
+        @media(max-width:780px){
         .Bars{
           visibility: visible;
           transition: 5s;
@@ -226,7 +204,7 @@ color: #F0EAD6;
         }
       }
       
-      @media(max-width:790px){
+      @media(max-width:780px){
         .resumeIcon{
           color: #F0EAD6;
           padding-top: 25px;

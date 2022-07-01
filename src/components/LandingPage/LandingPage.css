@@ -14,7 +14,6 @@
 .Objective{
     color: #878da6;
     font-size: medium;
-    width: 100%;
     font-style: italic;
     padding-bottom: 260px;
     font-size: large;
@@ -30,7 +29,7 @@
 }
 
 .Greeting, .MainText, .Name, .Objective{
-margin: 10px;
+margin: 25px;
 text-align: left;
 }
 .LandingPage{    
@@ -72,7 +71,6 @@ text-align: left;
         display: block;
         display: inline-block;
         width: 40%;
-        /* float: center; */
     }
 }
 

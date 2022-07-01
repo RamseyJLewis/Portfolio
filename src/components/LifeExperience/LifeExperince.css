@@ -44,11 +44,12 @@
     .cOTALink{
         text-decoration: none;
         cursor: pointer;
-        color: #afd377; 
+        color: #F0EAD6;
+        text-decoration: underline;
     }
 
     .cOTALink :hover{
-        text-decoration: underline;
+        color: #afd377; 
     }
 
     .cOTALink :hover{
@@ -71,26 +72,18 @@
         background-color: rgb(146 146 146 / 15%);;
         display: flex;
         justify-content: center;
-        
         flex-direction: column; 
-        text-align: center;
-        /* color: rgba(255, 255, 255, 0.7); */
-  
+        text-align: center;  
         color: #F0EAD6;
         border-radius: 10px;
         transition: opacity 1s;
-        /* opacity: 0.9; */
         transition: box-shadow .4s;
-        
         margin-bottom: 100px;
-
         line-height: 1.6;
     }
     .LifeExperienceCardCOTA:hover{
         color: #F0EAD6;
-        opacity: 1;
-        /* box-shadow: 0 20px 50px -11px #3E735C; */
-       
+        opacity: 1;       
     }
 
     
@@ -105,10 +98,8 @@
         color: #F0EAD6;
         flex-direction: row; 
         text-align: center;
-
         border-radius: 10px;
         transition: opacity 1s;
-        /* opacity: 0.9; */
         transition: box-shadow .4s;        
         margin-bottom: 100px;
         line-height: 1.6;
@@ -116,19 +107,14 @@
     .LifeExperienceCardBIF:hover{
         color: #F0EAD6;
         opacity: 1;
-        /* box-shadow: 0 20px 50px -11px #3E735C; */
     }
     .LifeExperiencesContainer{
     display: flex;
     flex-direction: row;
     }
-    @media (max-width: 557px) {
+    @media (max-width: 780px) {
         .LifeExperienceCardBIF {            
-            width: 90vw;
             flex-direction: column;
-        }
-        .LifeExperienceCardCOTA {            
-            width: 90vw;
         }
         img.wwd{
             filter: none;

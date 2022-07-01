@@ -123,7 +123,6 @@ class Portfolio extends Component {
       <div className="Portfolio" name="Portfolio">
         <div className="ProjectTitle">
           {" "}
-          {/* <p>Projects</p> */}
           <p>
               {" "}
               <Wave

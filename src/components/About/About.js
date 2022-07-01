@@ -38,8 +38,6 @@ class About extends Component {
               href="https://github.com/RamseyJLewis"
               target="blank"
             >
-              {/* {<FontAwesomeIcon icon={faJs} />} */}
-
               <div className="container">
                 <span className="react-logo">
                   <span className="nucleo"></span>
@@ -57,8 +55,6 @@ class About extends Component {
                   <span className="nucleo"></span>
                 </span>
               </div>
-
-              {/* {<FontAwesomeIcon icon={faCss3} />} */}
             </a>
             <p>
               {" "}

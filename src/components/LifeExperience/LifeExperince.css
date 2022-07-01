@@ -59,7 +59,7 @@
     }
     .modelingCard{
         height: fit-content;
-        background-color: rgba(11, 9, 10, .5);
+        background-color: rgb(146 146 146 / 15%);;
         flex-direction: row; 
     }
 
@@ -68,7 +68,7 @@
         padding: 2%;
         height: 90%;
         width: 80%;
-        background-color: rgba(11, 9, 10, .5);
+        background-color: rgb(146 146 146 / 15%);;
         display: flex;
         justify-content: center;
         
@@ -99,7 +99,7 @@
         padding: 2%;
         height: 90%;
         width: 80%;
-        background-color: rgba(11, 9, 10, .5);
+        background-color: rgb(146 146 146 / 15%);;
         display: flex;
         justify-content: center;
         color: #F0EAD6;

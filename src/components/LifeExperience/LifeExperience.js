@@ -26,7 +26,7 @@ class LifeExperience extends Component {
                   effectDirection="up"
                   effectDuration={1}
                   effectChange={"#80ed99"}
-                  text="        Philanthropy        "
+                  text="        Humanitarian Work         "
                 />{" "}
               </p>{" "}
             </div>
@@ -62,7 +62,7 @@ class LifeExperience extends Component {
                   effectDirection="up"
                   effectDuration={1}
                   effectChange={"#80ed99"}
-                  text="     Time In Fashion     "
+                  text="     Fashion + The Arts     "
                 />{" "}
               </p>{" "}
             </div>

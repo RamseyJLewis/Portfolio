@@ -10,8 +10,11 @@
     }
     
     .AboutTitle{
-        color:  #3E735C;
-        font-size: x-large;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color:  #3E735C;
+      font-size: x-large;
     }
 
     .AboutCard{

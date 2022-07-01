@@ -144,5 +144,8 @@ border-radius: 10px;
 .ProjectTitle{
     color:  #3E735C;
     font-size: x-large;
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
 

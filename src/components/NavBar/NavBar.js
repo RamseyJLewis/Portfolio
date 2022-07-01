@@ -72,23 +72,23 @@ function NavBar() {
       {click ? (
         <div className="NavBarMobile">
           <div className="NavBarTextMobile">
-            <Link className="navlinkMobile" to="Home" smooth={true}>
+            <Link className="navlinkMobile" to="Home" smooth={true} onClick={mobileNav}>
               {" "}
               Home{" "}
             </Link>
-            <Link className="navlinkMobile" to="About" smooth={true}>
+            <Link className="navlinkMobile" to="About" smooth={true} onClick={mobileNav}>
               {" "}
               About{" "}
             </Link>
-            <Link className="navlinkMobile" to="Portfolio" smooth={true}>
+            <Link className="navlinkMobile" to="Portfolio" smooth={true} onClick={mobileNav}>
               {" "}
               Portfolio{" "}
             </Link>
-            <Link className="navlinkMobile" to="LifeExperience" smooth={true}>
+            <Link className="navlinkMobile" to="LifeExperience" smooth={true} onClick={mobileNav}>
               {" "}
               Life-Experience{" "}
             </Link>
-            <Link className="navlinkMobile" to="Contact" smooth={true}>
+            <Link className="navlinkMobile" to="Contact" smooth={true} onClick={mobileNav}>
               {" "}
               Contact{" "}
             </Link>

@@ -37,6 +37,9 @@
     }
 
     .LifeExperienceTitle{
+    display: flex;
+    justify-content: center;
+    align-self: center;
         color:  #3E735C;
         font-size: x-large;
     }

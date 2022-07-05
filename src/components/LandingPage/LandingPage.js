@@ -11,13 +11,14 @@ const LandingPage = () => {
         <h1 className="MainText">
           {" "}
           Ramsey Lewis{" "}
-          <Fade right><div className='headshotHov'><img className="headShot" src={headshot} alt="headshot" />{" "}</div></Fade> 
+          <Fade right><div className='headshotHov'><img className="headShot" src={headshot} alt="headshot" />{" "}</div></Fade>
         </h1>
       </div>
-      <Fade left>        
-        <div>
-        {" "}
-        <p className="Greeting">
+      <div>
+        <Fade left>
+          <div>
+            {" "}
+            <p className="Greeting">
               {" "}
               <Wave
                 effect="color"
@@ -27,12 +28,12 @@ const LandingPage = () => {
                 text="Software Engineer"
               />{" "}
             </p>{" "}
-            </div>
-      </Fade>
-
+          </div>
+        </Fade>
+      </div>
       <Fade bottom cascade>
         <p className="Objective">
-         Make every project like a great friendship, 
+          Make every project like a great friendship,
           with a flow as natural as good conversation.
         </p>
       </Fade>

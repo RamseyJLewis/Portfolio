@@ -31,7 +31,7 @@ const LandingPage = () => {
           </div>
         </Fade>
       </div>
-      <Fade bottom cascade>
+      <Fade bottom>
         <p className="Objective">
           Make every project like a great friendship,
           with a flow as natural as good conversation.

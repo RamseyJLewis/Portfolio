@@ -25,6 +25,7 @@ class About extends Component {
             />{" "}
           </p>{" "}
         </div>
+        </Fade>
           <div className="AboutCard">
             <p>
               {" "}
@@ -73,7 +74,6 @@ class About extends Component {
               Slack, Google Analytics, Mixpanel{" "}
             </p>
           </div>
-        </Fade>
       </div>
     );
   }

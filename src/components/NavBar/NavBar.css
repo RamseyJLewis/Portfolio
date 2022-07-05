@@ -208,6 +208,7 @@ color: #F0EAD6;
       @media(max-width:780px){
         .resumeIcon{
           color: #F0EAD6;
+          margin-top: .5em;
         }
       }
 

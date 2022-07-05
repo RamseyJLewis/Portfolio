@@ -13,19 +13,21 @@ import { Wave } from "react-animated-text";
 function Contact() {
   return (
     <div className="Contact" name="Contact">
-      <div className="ContactTitle">
-         <p>
-              {" "}
-              <Wave
-                effect="color"
-                effectDuration={1}
-                effectChange={'#80ed99'}
-                text="Get In Touch"
-              />{" "}
-            </p>{" "}
-      </div>
+      <Fade>
+        <div className="ContactTitle">
+          <p>
+            {" "}
+            <Wave
+              effect="color"
+              effectDuration={1}
+              effectChange={'#80ed99'}
+              text="Get In Touch"
+            />{" "}
+          </p>{" "}
+        </div>
+      </Fade>
       <div className="ContactCard">
-        <div className="contactText"> 
+        <div className="contactText">
           <Fade right>
             <div className="email">
               <a

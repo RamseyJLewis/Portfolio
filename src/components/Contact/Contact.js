@@ -13,8 +13,9 @@ import { Wave } from "react-animated-text";
 function Contact() {
   return (
     <div className="Contact" name="Contact">
-      <Fade>
+      <Fade bottom cascade>
         <div className="ContactTitle">
+        {" "}
           <p>
             {" "}
             <Wave

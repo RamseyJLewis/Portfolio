@@ -16,7 +16,7 @@ class LifeExperience extends Component {
     return (
       <Fade bottom >
           <div className="LifeExperience" name="LifeExperience">
-          <Fade bottom > 
+          <Fade bottom cascade > 
             <div className="LifeExperienceTitle">
               {" "}
               <p>

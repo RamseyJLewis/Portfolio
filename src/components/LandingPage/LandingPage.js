@@ -16,19 +16,21 @@ const LandingPage = () => {
       </div>
       <Fade left >
         {" "}
+        <div>
         <p className="Greeting">
               {" "}
               <Wave
                 effect="color"
-                effectDirection="bottom"
+                effectDirection="left"
                 effectDuration={1}
                 effectChange={'#80ed99'}
                 text="Software Engineer"
-                wordWrap="none"
               />{" "}
             </p>{" "}
+            </div>
       </Fade>
-      <Fade bottom>
+
+      <Fade bottom cascade>
         <p className="Objective">
          Make every project like a great friendship, 
           with a flow as natural as good conversation.

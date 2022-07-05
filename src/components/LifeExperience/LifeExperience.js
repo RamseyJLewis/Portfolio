@@ -14,8 +14,8 @@ class LifeExperience extends Component {
 
   render() {
     return (
-      <Fade bottom cascade>
-        <Fade bottom cascade>
+      <Fade bottom >
+        <Fade bottom >
           <div className="LifeExperience" name="LifeExperience">
             <div className="LifeExperienceTitle">
               {" "}
@@ -23,7 +23,7 @@ class LifeExperience extends Component {
                 {" "}
                 <Wave
                   effect="color"
-                  effectDirection="up"
+                  effectDirection="bottom"
                   effectDuration={1}
                   effectChange={"#80ed99"}
                   text="Humanitarian Work"

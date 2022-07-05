@@ -14,13 +14,13 @@ const LandingPage = () => {
           <Fade right><div className='headshotHov'><img className="headShot" src={headshot} alt="headshot" />{" "}</div></Fade> 
         </h1>
       </div>
-      <Fade left>
+      <Fade bottom>
         {" "}
         <p className="Greeting">
               {" "}
               <Wave
                 effect="color"
-                effectDirection="left"
+                effectDirection="bottom"
                 effectDuration={1}
                 effectChange={'#80ed99'}
                 text="Software Engineer"

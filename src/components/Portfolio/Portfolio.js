@@ -60,18 +60,18 @@ class Portfolio extends Component {
         url: "https://ramseyjlewis.github.io/Space-Force-moon-of-gold/",
         title: "Space Force Moon of gold",
         desc: "An arcade shooter inspired by Space Invaders but with 360-degree gameplay. Escape the massive swarm of churning aliens, all of which are being tracked through mathematics, objects and arrays. This object-oriented program is built using JavaScript, HTML and CSS. The Swarm of enemies try to crash into the player. The objective is to last until backup arrives",
-        tech: ["Vanilla-JavaScript", "HTML" ,"CSS"],
+        tech: ["Vanilla-JavaScript", "HTML", "CSS"],
         img: card2,
-      }, 
+      },
 
       {
         url: "https://ramseyjlewis.github.io/Not-Flix/",
         title: "Not-Flix",
         desc: "A Netflix search imitation using the IMBD API. This project focuses on making a seamless design using JavaScript, HTML and CSS. Pulling information from the IMBD database, the app then displays movie information onto cards. Initially the cards have a front and upon hovering over the movie-card a new request gathers more detailed information which is displayed after flipping the card.",
-        tech: [ "Vanilla-JavaScript","HTML" ,"CSS" ,"API"],
+        tech: ["Vanilla-JavaScript", "HTML", "CSS", "API"],
         img: card1,
       },
-     
+
     ];
 
     return (
@@ -85,34 +85,33 @@ class Portfolio extends Component {
           //itterates through an array and call create card function for every item in array
           // creates a card
           return (
-              <div className="wrapper" key={index}>
-                   <Fade left>
+            <div className="wrapper" key={index}>
+              <Fade left>
                 <a href={project.url} target="blank">
                   {" "}
                   <div
                     key={project.title}
                     className="projectCard"
                     style={{
-                      backgroundImage: `url( ${
-                        project.img || this.state.backgroundImage
-                      })`,
+                      backgroundImage: `url( ${project.img || this.state.backgroundImage
+                        })`,
                     }}
                   ></div>
                 </a>
-                </Fade>
-                <Fade right>
+              </Fade>
+              <Fade right>
                 <div className="PortfolioText">
                   <h2>{project.title}</h2>
                   <p>{project.desc}</p>
                   <div className='techWrapper'>
-                  {project.tech.map((tech, idx) => (
-                    <span className='tech' key={idx}> {tech}</span>
-                  ))}
+                    {project.tech.map((tech, idx) => (
+                      <span className='tech' key={idx}> {tech}</span>
+                    ))}
                   </div>
                 </div>
-                </Fade>
-              </div>
-          
+              </Fade>
+            </div>
+
           );
         })
     );
@@ -120,11 +119,11 @@ class Portfolio extends Component {
 
   render() {
     return (
-      <Fade bottom cascade>
       <div className="Portfolio" name="Portfolio">
-        <div className="ProjectTitle">
-          {" "}
-          <p>
+        <Fade bottom cascade>
+          <div className="ProjectTitle">
+            {" "}
+            <p>
               {" "}
               <Wave
                 effect="color"
@@ -134,10 +133,10 @@ class Portfolio extends Component {
                 text="Organizations + Projects"
               />{" "}
             </p>{" "}
-        </div>
+          </div>
+        </Fade>
         <div className="ProjectsContainer">{this.createCard()}</div>
       </div>
-      </Fade>
     );
   }
 }

@@ -18,7 +18,7 @@ class About extends Component {
             {" "}
             <Wave
               effect="color"
-              effectDirection="up"
+              effectDirection="left"
               effectDuration={1}
               effectChange={"#80ed99"}
               text="Methodology"

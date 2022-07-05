@@ -15,8 +15,8 @@ class LifeExperience extends Component {
   render() {
     return (
       <Fade bottom >
-        <Fade bottom >
           <div className="LifeExperience" name="LifeExperience">
+          <Fade bottom > 
             <div className="LifeExperienceTitle">
               {" "}
               <p>
@@ -30,6 +30,7 @@ class LifeExperience extends Component {
                 />{" "}
               </p>{" "}
             </div>
+            </Fade>
             <div className="LifeExperienceCardCOTA">
               <a
                 className="cOTALink"
@@ -50,7 +51,6 @@ class LifeExperience extends Component {
               </p>
             </div>
           </div>
-        </Fade>
         <Fade bottom cascade>
           <div className="LifeExperience" name="LifeExperience">
             <div className="LifeExperienceTitle">

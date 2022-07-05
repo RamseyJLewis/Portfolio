@@ -14,9 +14,9 @@ const LandingPage = () => {
           <Fade right><div className='headshotHov'><img className="headShot" src={headshot} alt="headshot" />{" "}</div></Fade> 
         </h1>
       </div>
-      <Fade left >
-        {" "}
+      <Fade left>        
         <div>
+        {" "}
         <p className="Greeting">
               {" "}
               <Wave

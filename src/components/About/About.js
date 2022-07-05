@@ -11,7 +11,7 @@ class About extends Component {
   render() {
     return (
       <div className="About" name="About">
-        <Fade left>
+        <Fade left cascade>
         <div className="AboutTitle">
           {" "}
           <p>

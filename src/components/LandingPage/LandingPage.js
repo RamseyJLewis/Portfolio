@@ -20,7 +20,7 @@ const LandingPage = () => {
               {" "}
               <Wave
                 effect="color"
-                effectDirection="up"
+                effectDirection="left"
                 effectDuration={1}
                 effectChange={'#80ed99'}
                 text="Software Engineer"

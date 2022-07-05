@@ -120,6 +120,7 @@ class Portfolio extends Component {
 
   render() {
     return (
+      <Fade bottom cascade>
       <div className="Portfolio" name="Portfolio">
         <div className="ProjectTitle">
           {" "}
@@ -136,6 +137,7 @@ class Portfolio extends Component {
         </div>
         <div className="ProjectsContainer">{this.createCard()}</div>
       </div>
+      </Fade>
     );
   }
 }

@@ -15,7 +15,7 @@ const LandingPage = () => {
         </h1>
       </div>
       <div>
-        <Fade left>
+        <Fade left cascade>
           <div>
             {" "}
             <p className="Greeting">

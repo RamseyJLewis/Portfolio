@@ -2,6 +2,10 @@ import "./LandingPage.css";
 import Fade from "react-reveal/Fade";
 import headshot from "../../Assets/RamseyHeadShot.jpg";
 import { Wave } from "react-animated-text";
+import { Container, Row, Col } from "react-bootstrap";
+import Type from "./Type";
+
+
 
 const LandingPage = () => {
   return (
@@ -25,16 +29,18 @@ const LandingPage = () => {
                 effectDirection="left"
                 effectDuration={1}
                 effectChange={'#80ed99'}
-                text="Software Engineer"
+                text=""
               />{" "}
+                      <Type />
             </p>{" "}
           </div>
         </Fade>
       </div>
       <Fade bottom>
         <p className="Objective">
-          Make every project like a great friendship,
-          with a flow as natural as good conversation.
+        “Dig deep within yourself, 
+        for there is a fountain of goodness ever ready to flow if you will keep digging.”
+         ~ Marcus Aurelius
         </p>
       </Fade>
     </div>

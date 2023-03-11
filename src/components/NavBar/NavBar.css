@@ -82,35 +82,7 @@ color: #F0EAD6;
 }
 }
 
-@media (max-width: 780px) {
-  .NavBar{
-    display: none;
-    }
-  }
-@media (max-width: 780px) {
-  .NavBarText{
-    display: none;
-    }
-  }
 
-@media (max-width: 780px) {
-  .navlink{
-    display: none;
-
-    }
-  }
-
-@media(max-width: 780px){
-  .NavBar img{
-    
- }
-  
-}
-  @media (max-width: 780px) {
-    .ResumeNav{
-    display: none;
-      }
-    }
     
         /* MOBILE  NAV BAR **********************************************/
             
@@ -216,3 +188,36 @@ color: #F0EAD6;
         display: flex;
         flex-direction: row;
       }
+
+      .navBarPullOut {
+        flex-direction: column;
+        position: fixed;
+        padding: 20px;
+        height: 500px;
+        width: 50vw;
+        z-index: 4;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        -webkit-backdrop-filter: blur(10px);
+        backdrop-filter: blur(10px);
+        box-shadow: 0 5px 20px -15px black;
+    }
+    .NavBarText {
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      height: 100%;
+      width: 100%;
+      justify-content: space-evenly;
+  }
+    .hamburgerMenue {
+      margin: 20px;
+  }
+  .navXOut {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px;
+}

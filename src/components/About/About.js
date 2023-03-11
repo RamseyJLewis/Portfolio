@@ -29,10 +29,10 @@ class About extends Component {
           <div className="AboutCard">
             <p>
               {" "}
-              As a Software Engineer my approach is framed by years in technology and design. At the top design school The Fashion Institute of Technology my studies included the formal analysis of art, communications as well as User Experience.
-               I’ve always been proud of my ability to appreciate and understand art and
-              design with their loose boundaries and interprications, while on the other hand having a deep understanding and love for logic, puzzles and their natural
-              rigidity.
+              As a DEV my approach is framed by years in technology and design. At the top design school The Fashion Institute of Technology my studies included Advertising and Marketing, Communications as well as User Experience.
+              I’ve always been proud of my ability to appreciate and understand the users experience and
+              design. I also deep understanding and love for logic, puzzles and their natural
+              rigidity. I combine these abilities everyday to do my part in helping the world run more efficient.
             </p>
             <a
               className="logo"
@@ -59,10 +59,10 @@ class About extends Component {
             </a>
             <p>
               {" "}
-              A few technologies I've been working with recently are below:{" "}
+              Some tech close to my ❤️...{" "}
             </p>
             <p>
-              Front-End: JavaScript (ES6), TypeScript, React, Next, JSX, HTML5,
+             Front-End: JavaScript (ES6), TypeScript, React, Next, JSX, HTML5,
               CSS3, Bootstrap, Material UI, SCSS
             </p>
             <p>
@@ -70,7 +70,7 @@ class About extends Component {
               PostgreSQL, RESTful API, JWT
             </p>
             <p>
-              Tools: Git, VS Code, DevOps, Trello, MSFT Teams, MSFT OneNote,
+              Other Tools: Git, VS Code, DevOps, Trello, MSFT Teams, MSFT OneNote,
               Slack, Google Analytics, Mixpanel{" "}
             </p>
           </div>

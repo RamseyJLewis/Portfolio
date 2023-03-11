@@ -14,7 +14,7 @@ class LifeExperience extends Component {
 
   render() {
     return (
-      <Fade bottom >
+      <div>
           <div className="LifeExperience" name="LifeExperience">
           <Fade bottom cascade > 
             <div className="LifeExperienceTitle">
@@ -46,12 +46,11 @@ class LifeExperience extends Component {
                 youth while also helping parents & adults find work. The
                 objective of C.O.T.A. is to increase employment rates among the
                 formerly incarcerated while reducing re-incarceration rates,
-                improving individual’s lives and developing opportunities for
-                at-risk youth.
+                improving individual’s lives and developing opportunities.
               </p>
             </div>
           </div>
-        <Fade bottom cascade>
+    
           <div className="LifeExperience" name="LifeExperience">
             <div className="LifeExperienceTitle">
               {" "}
@@ -79,7 +78,7 @@ class LifeExperience extends Component {
                   </div>
                 </Fade>
               </div>
-              <p> 
+              <p class="modelingBio"> 
                 {" "}
                 My modeling career got its start at the Fashion Institute of
                 Technology in 2019. Since then I've worked on countless
@@ -103,8 +102,8 @@ class LifeExperience extends Component {
               </div>
             </div>
           </div>
-        </Fade>
-      </Fade>
+
+      </div>
     );
   }
 }

@@ -27,14 +27,7 @@ class Portfolio extends Component {
         desc: "Dentsu Inc. is a Japanese international advertising and public relations joint stock company headquartered in Tokyo. Dentsu is currently the largest advertising agency and the fifth largest advertising agency network in the world in terms of worldwide revenues.",
         tech: ["JavaScript (ES6)", "CSS", "Adobe Target", "BitBucket", "Jira"],
         img: dentsu,
-      },
-      {
-        url: "https://www.teammateme.com/",
-        title: "TeammateMe",
-        desc: "TeammateMe helps users find and create teams for their course, projects, classes, and extracurricular activities. Also, it helps them gain professional experience and sharpen their teamwork skills. At the same time, they can build lasting reputation scores for their resume.",
-        tech: ["JavaScript (ES6)", "SCSS", "API", "Next.js", "PostgreSQL"],
-        img: TeammateMe,
-      },
+      },   
       {
         url: "https://fishcat.org/",
         title: "FishCat",
@@ -43,12 +36,19 @@ class Portfolio extends Component {
         img: card4,
       },
       {
-        url: "https://energimeuniversity.org/",
-        title: "Energime University",
-        desc: "Energime University has the single mission of providing the means by which we mentor and empower our global population with the critical skills necessary to carry out this monumental effort. By creating a central education platform that connects the world in a unified and structured approach, we can manage our finite resources and protect our fragile environment.",
-        tech: ["HTML", "CSS", "JavaScript (ES6)", "API", "React.js", "ASP.NET"],
-        img: Energime,
+        url: "https://www.teammateme.com/",
+        title: "TeammateMe",
+        desc: "TeammateMe helps users find and create teams for their course, projects, classes, and extracurricular activities. Also, it helps them gain professional experience and sharpen their teamwork skills. At the same time, they can build lasting reputation scores for their resume.",
+        tech: ["JavaScript (ES6)", "SCSS", "API", "Next.js", "PostgreSQL"],
+        img: TeammateMe,
       },
+      // {
+      //   url: "https://energimeuniversity.org/",
+      //   title: "Energime University",
+      //   desc: "Energime University has the single mission of providing the means by which we mentor and empower our global population with the critical skills necessary to carry out this monumental effort. By creating a central education platform that connects the world in a unified and structured approach, we can manage our finite resources and protect our fragile environment.",
+      //   tech: ["HTML", "CSS", "JavaScript (ES6)", "API", "React.js", "ASP.NET"],
+      //   img: Energime,
+      // },
       // {
       //   url: "https://www.unlockthebox.io/",
       //   title: "Unlock The Box",
@@ -64,13 +64,13 @@ class Portfolio extends Component {
         img: card2,
       },
 
-      {
-        url: "https://ramseyjlewis.github.io/Not-Flix/",
-        title: "Not-Flix",
-        desc: "A Netflix search imitation using the IMBD API. This project focuses on making a seamless design using JavaScript, HTML and CSS. Pulling information from the IMBD database, the app then displays movie information onto cards. Initially the cards have a front and upon hovering over the movie-card a new request gathers more detailed information which is displayed after flipping the card.",
-        tech: ["Vanilla-JavaScript", "HTML", "CSS", "API"],
-        img: card1,
-      },
+      // {
+      //   url: "https://ramseyjlewis.github.io/Not-Flix/",
+      //   title: "Not-Flix",
+      //   desc: "A Netflix search imitation using the IMBD API. This project focuses on making a seamless design using JavaScript, HTML and CSS. Pulling information from the IMBD database, the app then displays movie information onto cards. Initially the cards have a front and upon hovering over the movie-card a new request gathers more detailed information which is displayed after flipping the card.",
+      //   tech: ["Vanilla-JavaScript", "HTML", "CSS", "API"],
+      //   img: card1,
+      // },
 
     ];
 

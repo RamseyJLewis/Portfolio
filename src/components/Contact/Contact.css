@@ -3,11 +3,10 @@
     flex-direction: column;
     justify-content: center; 
     align-items: center;
-
     z-index: 2; 
     font-size: large;  
-
     padding-bottom: 200px;
+    margin: 20px;
     }
     
     .ContactTitle{

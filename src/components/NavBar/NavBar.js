@@ -3,11 +3,14 @@ import { useState } from "react";
 import "./NavBar.css";
 import { Link } from "react-scroll";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars, faFileDownload, faEnvelopeOpen } from "@fortawesome/free-solid-svg-icons";
+import {
+  faBars,
+  faWindowClose,
+  faEnvelopeOpen,
+} from "@fortawesome/free-solid-svg-icons";
 // import React, { useLayoutEffect, useState } from 'react';
-import resume from "../../Assets/RamseyJLewisResume.pdf";
 import Fade from "react-reveal/Fade";
-import { Wave } from "react-animated-text"
+import { Wave } from "react-animated-text";
 
 function NavBar() {
   const [hover, setHover] = useState(false);
@@ -17,99 +20,145 @@ function NavBar() {
   return (
     <>
       <div className="NavBar">
-      <Fade >
-        <div className='navLogo'><Logo /></div>
+        {/* <Fade>
+          <div className="navLogo">
+            <Logo />
+          </div>
         </Fade>
         <Fade right>
           <div className="NavBarText">
             <Link className="navlink" to="About" smooth={true}>
-              {" "}
-              About{" "}
+              <span>&lt;</span>
+              Start
+              <span>/&gt;</span>
             </Link>
             <Link className="navlink" to="Portfolio" smooth={true}>
-              {" "}
-              Portfolio{" "}
+              <span>&lt;</span>
+              Work
+              <span>/&gt;</span>
             </Link>
             <Link className="navlink" to="LifeExperience" smooth={true}>
-              {" "}
-              Life-Experience{" "}
+              <span>&lt;</span>
+              Life
+              <span>/&gt;</span>
             </Link>
             <Link className="navlink" to="Contact" smooth={true}>
-              {" "}
-              Contact{" "}
+              <span>&lt;</span>
+              Contact
+              <span>/&gt;</span>
             </Link>
             <a
               onMouseEnter={() => setHover(true)}
               onMouseLeave={() => setHover(false)}
               className="ResumeNav"
               style={{ width: "100px" }}
-              href={"https://docs.google.com/document/d/e/2PACX-1vQ9E0qSxZ7EOVq4O_pop_LBhdkP-E7Ozrw1jmKMooVABYZlS9lvr6ErqnBeNgK_O-TsCkZsMdAncOMR/pub" }
+              href={
+                "https://docs.google.com/document/d/e/2PACX-1vQ9E0qSxZ7EOVq4O_pop_LBhdkP-E7Ozrw1jmKMooVABYZlS9lvr6ErqnBeNgK_O-TsCkZsMdAncOMR/pub"
+              }
               target="blank"
               download
             >
-              {hover ? <FontAwesomeIcon icon={faEnvelopeOpen} /> : 
-              <Wave
-                effect="jump"                  
-                delay={5}
-                effectChange={1}         
-                text="Resume"
-              />
-              // <Wave text="Resume" effect="jump " effectChange={2.2} />
+              {
+                hover ? (
+                  <FontAwesomeIcon icon={faEnvelopeOpen} />
+                ) : (
+                  <Wave
+                    effect="jump"
+                    delay={5}
+                    effectChange={1}
+                    text="Resume"
+                  />
+                )
+                // <Wave text="Resume" effect="jump " effectChange={2.2} />
               }
             </a>
           </div>
-        </Fade>
+        </Fade> */}
+         <div className="hamburgerMenue">
+        <FontAwesomeIcon className="Bars" icon={faBars} onClick={mobileNav} />
+      </div>
       </div>
 
-      <div className="mobileButton">
-        {" "}
-        <FontAwesomeIcon
-          className="Bars"
-          icon={faBars}
-          onClick={mobileNav}
-        />{" "}
-      </div>
+      
       {click ? (
-        <div className="NavBarMobile">
-          <div className="NavBarTextMobile">
-            <Link className="navlinkMobile" to="Home" smooth={true} onClick={mobileNav}>
-              {" "}
-              Home{" "}
+        <div className="navBarPullOut">
+                   <div className="navXOut">
+        <FontAwesomeIcon className="Bars" icon={faWindowClose} onClick={mobileNav} />
+
+      </div>
+          <div className="NavBarText">
+            <Link
+              className="navlink"
+              to="Home"
+              smooth={true}
+              onClick={mobileNav}
+            >
+              <span>&lt;</span>
+              Home
+              <span>/&gt;</span>
             </Link>
-            <Link className="navlinkMobile" to="About" smooth={true} onClick={mobileNav}>
-              {" "}
-              About{" "}
+            <Link
+              className="navlink"
+              to="About"
+              smooth={true}
+              onClick={mobileNav}
+            >
+              <span>&lt;</span>
+              Start
+              <span>/&gt;</span>
             </Link>
-            <Link className="navlinkMobile" to="Portfolio" smooth={true} onClick={mobileNav}>
-              {" "}
-              Portfolio{" "}
+            <Link
+              className="navlink"
+              to="Portfolio"
+              smooth={true}
+              onClick={mobileNav}
+            >
+              <span>&lt;</span>
+              Work
+              <span>/&gt;</span>
             </Link>
-            <Link className="navlinkMobile" to="LifeExperience" smooth={true} onClick={mobileNav}>
-              {" "}
-              Life-Experience{" "}
+            <Link
+              className="navlink"
+              to="LifeExperience"
+              smooth={true}
+              onClick={mobileNav}
+            >
+              <span>&lt;</span>
+              Life
+              <span>/&gt;</span>
             </Link>
-            <Link className="navlinkMobile" to="Contact" smooth={true} onClick={mobileNav}>
-              {" "}
-              Contact{" "}
+            <Link
+              className="navlink"
+              to="Contact"
+              smooth={true}
+              onClick={mobileNav}
+            >
+              <span>&lt;</span>
+              Contact
+              <span>/&gt;</span>
             </Link>
-            <div className="Resume">
-              <p className="navlinkMobile">Resume</p>{" "}
+            {/* <div className="Resume">
+              <p className="navlink">Resume</p>
               <a
                 onMouseEnter={() => setHover(true)}
                 onMouseLeave={() => setHover(false)}
                 className="ResumeNavMobile"
                 style={{}}
-                href={"https://docs.google.com/document/d/e/2PACX-1vQ9E0qSxZ7EOVq4O_pop_LBhdkP-E7Ozrw1jmKMooVABYZlS9lvr6ErqnBeNgK_O-TsCkZsMdAncOMR/pub" }
+                href={
+                  "https://docs.google.com/document/d/e/2PACX-1vQ9E0qSxZ7EOVq4O_pop_LBhdkP-E7Ozrw1jmKMooVABYZlS9lvr6ErqnBeNgK_O-TsCkZsMdAncOMR/pub"
+                }
                 target="blank"
               >
                 {
                   <FontAwesomeIcon className="resumeIcon" icon={faEnvelopeOpen}>
-                    {" "}
-                    Resume{" "}
+                    <span>&lt;</span>
+                    Resume
+                    <span>/&gt;</span>
                   </FontAwesomeIcon>
                 }
               </a>
-            </div>
+            </div> */}
+   
           </div>
         </div>
       ) : (

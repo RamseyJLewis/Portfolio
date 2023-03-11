@@ -115,6 +115,9 @@
     display: flex;
     flex-direction: row;
     }
+    .modelingBio{
+        margin: 20px;
+     }
     @media (max-width: 780px) {
         .react-reveal .wwd2{
         display: flex;
@@ -133,9 +136,8 @@
             display: none;
         }
         .wwd2 {
-            /* width: 90%;
-            margin: 20px; */
+            width: 100%;
         }
       }
+    
 
- 

@@ -25,7 +25,7 @@
     flex-direction: row;
     justify-content: center; 
     align-items: center;
-    color: #F0EAD6;
+    color: rgba(0, 0, 0, .8);
  }
 
  .contactText{
@@ -33,7 +33,7 @@
     flex-direction: column;
     justify-content: center; 
     align-items: center;
-    color: #F0EAD6;
+    color: rgba(0, 0, 0, .8);
  }
  .email :hover{
    color:  #afd377;
@@ -44,7 +44,7 @@
  .logo svg{
     margin: 30px;
     font-size: 200%;
-    color: #F0EAD6;
+    color: rgba(0, 0, 0, .8);
     background: 50px color transparent;
     border-radius: 10px;
     cursor: pointer;

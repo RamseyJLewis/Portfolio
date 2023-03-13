@@ -26,7 +26,7 @@
         justify-content: center;
         flex-direction: column; 
         text-align: center;
-        color: #F0EAD6;
+        color: rgba(0, 0, 0, .8);
 
         border-radius: 10px;
       
@@ -43,7 +43,7 @@
     }
     
     body{
-        font-family: 'Rockwell';
+      font-family: -apple-system, BlinkMacSystemFont, sans-serif;
         
       }
         .container{

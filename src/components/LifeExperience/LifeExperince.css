@@ -47,7 +47,7 @@
     .cOTALink{
         text-decoration: none;
         cursor: pointer;
-        color: #F0EAD6;
+        color: rgba(0, 0, 0, .8);
         text-decoration: underline;
     }
 
@@ -77,7 +77,7 @@
         justify-content: center;
         flex-direction: column; 
         text-align: center;  
-        color: #F0EAD6;
+        color: rgba(0, 0, 0, .8);
         border-radius: 10px;
         transition: opacity 1s;
         transition: box-shadow .4s;
@@ -85,7 +85,7 @@
         line-height: 1.6;
     }
     .LifeExperienceCardCOTA:hover{
-        color: #F0EAD6;
+        color: rgba(0, 0, 0, .8);
         opacity: 1;       
     }
 
@@ -98,7 +98,7 @@
         background-color: rgb(146 146 146 / 15%);;
         display: flex;
         justify-content: center;
-        color: #F0EAD6;
+        color: rgba(0, 0, 0, .8);
         flex-direction: row; 
         text-align: center;
         border-radius: 10px;
@@ -108,7 +108,7 @@
         line-height: 1.6;
     }
     .LifeExperienceCardBIF:hover{
-        color: #F0EAD6;
+        color: rgba(0, 0, 0, .8);
         opacity: 1;
     }
     .LifeExperiencesContainer{

@@ -9,7 +9,7 @@ function Type() {
           "Software Development",
           "UX Design",
           "Web Optimization",
-          "Cloud computing"
+          "Cloud Computing"
         ],
         autoStart: true,
         loop: true,

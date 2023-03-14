@@ -8,6 +8,8 @@ import Portfolio from "./components/Portfolio/Portfolio";
 import About from  "./components/About/About";
 import LifeExperience from  "./components/LifeExperience/LifeExperience";
 import Contact from  "./components/Contact/Contact";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css"
 
 function App() {
   return (

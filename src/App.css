@@ -1,3 +1,9 @@
+
+ 
+
+
+
+
 .App {
   text-align: center;
   min-height: 300px;
@@ -66,24 +72,37 @@
   background-size: cover;
 }
 
-@media (max-width: 557px){
-  .Container{
-      padding-top: 50px;
-  }
-}
+
 
 ::-webkit-scrollbar {
-  width: 6px;
-  border-radius: 20px;
+  width: 8px;
+  /* border-radius: 20px; */
 }
 ::-webkit-scrollbar-track {
-  background: #0d0f11;
+  /* background-color: whitesmoke; */
+  /* width: 20px; */
+    /* background-color:  5s infinite; */
+    /* background: red; */
+    animation: rainbow 1s infinite;
+    background: linear-gradient(
+        180deg,
+        rgba(94, 189, 62, 0.74) 0%,
+        rgba(255, 187, 0, 0.685) 20%,
+        rgba(247, 132, 0, 0.678) 40%,
+        rgba(226, 56, 56, 0.644) 60%,
+        rgba(151, 57, 153, 0.685) 80%,
+        rgba(0, 156, 223, 0.562) 100%
+    );
+    backdrop-filter: blur(10px);
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #afd377;
-  border-radius: 20px;
-  height: 5.6em;
-  margin: 2px;
+  /* background: rgba(0, 0, 0, .8); */
+  background: rgba(0, 0, 0, 0.842);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 5px 20px -15px rgb(255, 255, 255);
+  backdrop-filter: blur(90px);
+  border-radius: 10px ;
+  height: 7.18em;
 }
 

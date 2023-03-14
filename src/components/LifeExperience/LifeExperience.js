@@ -78,7 +78,7 @@ class LifeExperience extends Component {
                   </div>
                 </Fade>
               </div>
-              <p class="modelingBio"> 
+              <p className="modelingBio"> 
                 {" "}
                 My modeling career got its start at the Fashion Institute of
                 Technology in 2019. Since then I've worked on countless

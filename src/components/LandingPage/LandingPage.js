@@ -13,36 +13,36 @@ const LandingPage = () => {
         <h2 className="MainText">
           {" "}
           Ramsey J. Lewis{" "}
-          <Fade right>
+          <Fade >
             <div className="headshotHov">
               <img className="headShot" src={headshot} alt="headshot" />{" "}
+              <Fade right >
               <p className="headPtag">
-                {" "}
-                As a developer with a background in technology and design, my
-                studies at the Fashion Institute of Technology included
-                Advertising, Marketing, Communications, and User Experience.
-                With a passion for logic and puzzles, I aim to apply my skills
-                to help make the world run more efficiently.{" "}
+                 My experience includes
+                Advertising, Marketing, Communications, User Experience & Software Development.
+              <br></br>
+              <br></br>
+              <span> As a creator I'm constantly sharpening my skills
+                to make the web beautiful & efficient.{" "}</span>
               </p>
+              </Fade>
             </div>
           </Fade>
           <div className="greetingWrapper">
-            <Fade left cascade>
               <div>
                 {" "}
-                <p className="Greeting">
+                <div className="Greeting">
                   {" "}
                   <Wave
                     effect="color"
                     effectDirection="left"
                     effectDuration={1}
-                    effectChange={"#333336;"}
+                    effectChange={" #ff0000, #ffa500, #ffff00. HEX colors #ff0000, #ffa500, #ffff00, #008000, #0000ff, #4b0082, #ee82ee.;"}
                     text=""
                   />{" "}
                   <Type />
-                </p>{" "}
+                </div>{" "}
               </div>
-            </Fade>
           </div>
         </h2>
       </div>

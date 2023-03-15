@@ -12,7 +12,8 @@ const LandingPage = () => {
         {" "}
         <h2 className="MainText">
           {" "}
-          Ramsey J. Lewis{" "}
+
+         <div className="nameIntro">Ramsey J. Lewis{" "}</div> 
           <Fade >
             <div className="headshotHov">
               <img className="headShot" src={headshot} alt="headshot" />{" "}

@@ -1,35 +1,62 @@
-import React, { Component } from "react";
 import Slider from "react-slick";
-import card0 from "../../Assets/UnlockTheBox.png";
-import card1 from "../../Assets/Not-Flix.png";
-import card2 from "../../Assets/SPACE-FORCE.png";
-import card4 from "../../Assets/FishCat.png"
-import TeammateMe from "../../Assets/TeammateMe.png";
+import ProductCard from "./ProductCard";
 import dentsu from "../../Assets/dentsu.jpg";
+import FishCat from "../../Assets/FishCat.png"
+import TeammateMe from "../../Assets/TeammateMe.png";
 import Energime from "../../Assets/EnergimeUniversity.png";
+export const SimpleSlider = () => {
 
-export const  SimpleSlider = () => {
-    const settings = {
-      dots: true,
-      infinite: true,
-      speed: 500,
-      slidesToShow: 1,
-      slidesToScroll: 1
-    };
-    return (
-        <Slider {...settings}>
-          <div>
-            <h3>DENTSU</h3>
-          </div>
-          <div>
-            <h3>TEAMMATE ME</h3>
-          </div>
-          <div>
-            <h3>FISH CAT </h3>
-          </div>
-          <div>
-            <h3>ENERGIME</h3>
-          </div>
-        </Slider> 
-    );
-  }
+  const products = [
+    {
+      image: dentsu,
+      title: "Dentsu",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    },
+    {
+      image: FishCat,
+      title: "FishCat",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    },
+    {
+      image: TeammateMe,
+      title: "TeammateMe",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    },
+    {
+      image: Energime,
+      title: "Energime",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    },
+  ];
+
+  const settings = {
+    dots: true,
+    infinite: true,
+    autoplay: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+  };
+
+  return (
+    <Slider {...settings}>
+      {products.map((product, index) => (
+        <div key={index}>
+          <ProductCard
+            image={product.image}
+            title={product.title}
+            description={product.description}
+          />
+        </div>
+      ))}
+    </Slider>
+
+
+  );
+};
+
+export default SimpleSlider;

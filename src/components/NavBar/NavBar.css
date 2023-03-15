@@ -194,6 +194,7 @@ color: rgba(0, 0, 0, .8);
         -webkit-backdrop-filter: blur(10px);
         backdrop-filter: blur(10px);
         box-shadow: 0 5px 20px -15px black;
+        transition: transform 0.3s ease-in-out;
     }
     .NavBarText {
       text-align: center;

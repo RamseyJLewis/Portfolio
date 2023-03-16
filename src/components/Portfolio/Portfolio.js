@@ -3,7 +3,7 @@ import "./Portfolio.css";
 import card0 from "../../Assets/UnlockTheBox.png";
 import card1 from "../../Assets/Not-Flix.png";
 import card2 from "../../Assets/SPACE-FORCE.png";
-import card4 from "../../Assets/FishCat.png"
+import card4 from "../../Assets/FishCat.png";
 import TeammateMe from "../../Assets/TeammateMe.png";
 import dentsu from "../../Assets/dentsu.jpg";
 import Energime from "../../Assets/EnergimeUniversity.png";
@@ -27,7 +27,7 @@ class Portfolio extends Component {
         desc: "Dentsu Inc. is a Japanese international advertising and public relations joint stock company headquartered in Tokyo. Dentsu is currently the largest advertising agency and the fifth largest advertising agency network in the world in terms of worldwide revenues.",
         tech: ["JavaScript (ES6)", "CSS", "Adobe Target", "BitBucket", "Jira"],
         img: dentsu,
-      },   
+      },
       {
         url: "https://fishcat.org/",
         title: "FishCat",
@@ -71,7 +71,6 @@ class Portfolio extends Component {
       //   tech: ["Vanilla-JavaScript", "HTML", "CSS", "API"],
       //   img: card1,
       // },
-
     ];
 
     return (
@@ -93,8 +92,9 @@ class Portfolio extends Component {
                     key={project.title}
                     className="projectCard"
                     style={{
-                      backgroundImage: `url( ${project.img || this.state.backgroundImage
-                        })`,
+                      backgroundImage: `url( ${
+                        project.img || this.state.backgroundImage
+                      })`,
                     }}
                   ></div>
                 </a>
@@ -103,15 +103,17 @@ class Portfolio extends Component {
                 <div className="PortfolioText">
                   <h2>{project.title}</h2>
                   <p>{project.desc}</p>
-                  <div className='techWrapper'>
+                  <div className="techWrapper">
                     {project.tech.map((tech, idx) => (
-                      <span className='tech' key={idx}> {tech}</span>
+                      <span className="tech" key={idx}>
+                        {" "}
+                        {tech}
+                      </span>
                     ))}
                   </div>
                 </div>
               </Fade>
             </div>
-
           );
         })
     );
@@ -119,7 +121,7 @@ class Portfolio extends Component {
 
   render() {
     return (
-      <div className="Portfolio" name="Portfolio">
+      <div className="Portfolio" name="Portfolio">    
         <Fade bottom cascade>
           <div className="ProjectTitle">
             {" "}
@@ -129,7 +131,7 @@ class Portfolio extends Component {
                 effect="color"
                 effectDirection="up"
                 effectDuration={1}
-                effectChange={'#80ed99'}
+                effectChange={"#80ed99"}
                 text="Organizations + Projects"
               />{" "}
             </p>{" "}

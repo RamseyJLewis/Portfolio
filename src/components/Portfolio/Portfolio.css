@@ -149,3 +149,42 @@ border-radius: 10px;
     display: flex;
 }
 
+.pvs-entity {
+    display: flex;
+    padding: 16px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 16px;
+  }
+  
+  .pvs-entity__image img {
+    border-radius: 50%;
+  }
+  
+  .optional-action-target-wrapper {
+    color: #0073B1;
+    text-decoration: none;
+  }
+  
+  .optional-action-target-wrapper:hover {
+    text-decoration: underline;
+  }
+  
+  .pvs-entity__supplementary-info {
+    color: #A6A6A6;
+  }
+  
+  .pvs-list {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 16px;
+  }
+  
+  .pvs-list__item--with-top-padding {
+    padding-top: 8px;
+  }
+  
+  .pv-shared-text-with-see-more {
+    line-height: 1.4;
+  }

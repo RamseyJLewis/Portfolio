@@ -3,7 +3,7 @@ import ProductCard from "./ProductCard";
 import dentsu from "../../Assets/dentsu.jpg";
 import FishCat from "../../Assets/FishCat.png"
 import TeammateMe from "../../Assets/TeammateMe.png";
-import Energime from "../../Assets/EnergimeUniversity.png";
+// import Energime from "../../Assets/EnergimeUniversity.png";
 export const SimpleSlider = () => {
 
   const products = [
@@ -25,19 +25,21 @@ export const SimpleSlider = () => {
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     },
-    {
-      image: Energime,
-      title: "Energime",
-      description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    },
+    // {
+    //   image: Energime,
+    //   title: "Energime",
+    //   description:
+    //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    // },
   ];
 
   const settings = {
     dots: true,
     infinite: true,
     autoplay: true,
-    speed: 500,
+    autoplaySpeed: 2700,
+    dotsClass:'slick-dots',
+    speed: 700,
     slidesToShow: 1,
     slidesToScroll: 1,
   };

@@ -37,10 +37,13 @@ margin: 25px;
 text-align: left;
 }
 .LandingPage{    
-    justify-content: center;
-    align-items: center;
-    padding-left: 5%;
-    padding-bottom: 280px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 5%;
+  width: 100%;
+  padding-top: 100px;
+  min-height: 600px;
   }
 
 .headShot {
@@ -72,13 +75,39 @@ text-align: left;
 }
 @media (max-width: 570px) {
     .headShot{
-        display: block;
-        display: inline-block;
-        width: 40%;
+      display: flex;
+    width: 80%;
+    max-width: 156px;
+    height: 42%;
     }
     .Typewriter {
         font-size: 20px;
     }
+    .LandingPage{    
+      width: 100%;
+      margin: 13px;
+      padding-bottom: 280px; 
+    }
+    
+element.style {
+  animation-fill-mode: both;
+  animation-duration: 1000ms;
+  animation-delay: 0ms;
+  animation-iteration-count: 1;
+  opacity: 1;
+  animation-name: react-reveal-703520590819889-2;
+}
+.react-reveal.headshotHov {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+}
+p.headPtag {
+  font-size: 14px;
+  width: 74%;
+  margin: 60px 10px 10px 10px;
+}
 }
 .Typewriter {
     font-size: 25px;

@@ -9,7 +9,7 @@ const ProductCard = ({ image, title, author,description }) => {
     <div class="container">
       <div class="testimonial-card">
         <div class="testimonial-text">
-          <p>
+          <p className="description">
          "{description}"
           </p>
         </div>
@@ -17,7 +17,7 @@ const ProductCard = ({ image, title, author,description }) => {
           <img src={image} alt="author image" />
           <h3>{author}</h3>
           <br></br>
-          <p>{title}</p>
+          <p >{title}</p>
         </div>
       </div>
     </div>

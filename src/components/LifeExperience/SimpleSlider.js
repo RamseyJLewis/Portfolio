@@ -10,28 +10,28 @@ export const SimpleSlider = () => {
   const products = [
     {
       image: headAnon,
-      author: "Chase Marlow",
+      author: "Chase .M",
       title:
-        "Adobe Target Consultant at Adobe",
-        description: "Ramsey is an extremely driven and reliable engineer who solves problems, asks great questions, is always willing to jump in and work towards a solution, and is dedicated to learning and improving. He was an immensely valuable asset to our team and made significant contributions to the experimentation projects we worked on.",
+        "Consultant at Adobe",
+        description: "Ramsey is an extremely driven and reliable engineer who solves problems, asks great questions, is always willing to jump in and work towards a solution, and is dedicated to learning and improving. He was an immensely valuable asset to our team.",
     },
     {
       image: headAnon,
-      author: "Suzanne Wagner",
+      author: "Suzanne .W",
       title:
-      "Senior Product Manage",
+      "S.r Product Manager",
       description: "Ramsey is a dedicated developer, who drives himself to conquer new challenges at every turn. He is very talented at understanding a complex problem and testing new ways to approach and solve for it",
   },
     {
       image: headAnon,
-      author: "John Buchta",
+      author: "John .B",
       title:
       "Design Leader",
       description: "Ramsey was always available to brainstorm ideas and has an inherent collaborative nature about his approach to development. I highly recommend Ramsey.",
   },
   {
     image: headAnon,
-    author: "Eduardo Valencia",
+    author: "Eduardo .V",
     title:
     "Full Stack Engineer",
     description: "He is a brilliant developer and is great at problem-solving. I am happy to work alongside him and would recommend him to anyone looking for an experienced programmer.",

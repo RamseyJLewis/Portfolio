@@ -10,18 +10,28 @@ import {
 import Fade from "react-reveal/Fade";
 import { Wave } from "react-animated-text";
 
+
+  function sendEmail(message) {
+    var email = 'ramseylewis99@gmail.com';
+    var subject = message.subject;
+    var emailBody = 'Hi ' ;
+    document.location = "mailto:" + email + "?subject=" + subject + "&body=" + emailBody;
+  }
+
 function Contact() {
+  
   return (
+    
     <div className="Contact" name="Contact">
       <Fade bottom cascade>
         <div className="ContactTitle">
-        {" "}
+          {" "}
           <p>
             {" "}
             <Wave
               effect="color"
               effectDuration={1}
-              effectChange={'#80ed99'}
+              effectChange={"#80ed99"}
               text="Get In Touch"
             />{" "}
           </p>{" "}
@@ -37,8 +47,24 @@ function Contact() {
                 download
               >
                 {<p> E-Mail: TheRamseyLewis@gmail.com</p>}
+
               </a>
             </div>
+
+            <div
+              class="main-slider-btn-wrap"
+            >
+              <button    
+                className="btn btn-medium btn--dark btn-hover-shadow  "
+                onClick={sendEmail}
+
+              >
+                <span className="text">email</span>
+                <span className="semicircle"></span>
+              </button>
+           
+            </div>
+      
           </Fade>
         </div>
 

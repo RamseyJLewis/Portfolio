@@ -10,3 +10,27 @@ code {
   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
+
+ 
+/* Set the scrollbar width and height */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+/* Set the scrollbar track style */
+::-webkit-scrollbar-track {
+  background: linear-gradient(to bottom, red, orange, yellow, green, blue, indigo, violet);
+  animation: scrollRainbow 1s linear infinite;
+}
+
+/* Define the rainbow animation */
+@keyframes scrollRainbow {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 100% 0%;
+  }
+}
+

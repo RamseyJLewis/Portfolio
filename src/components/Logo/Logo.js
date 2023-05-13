@@ -1,5 +1,6 @@
-import logo from "../../myLogo.png";
+import logo from "../../RJL_GLOBE.png";
 import { Link } from "react-scroll";
+
 
 function Logo() {
   return (

@@ -17,7 +17,7 @@ function NavBar() {
   return (
     <>
       <div className="NavBar">
-      <Fade >
+      <Fade left>
         <div className='navLogo'><Logo /></div>
         </Fade>
         <Fade right>

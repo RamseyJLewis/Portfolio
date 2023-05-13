@@ -37,8 +37,8 @@ const LandingPage = () => {
       </div>
       <Fade bottom>
         <p className="Objective">
-          Connecting customers and businesses through software solutions,
-          bridging gaps and driving growth.
+          Connecting customers to businesses through software solutions,
+          bridging gaps & driving growth.
         </p>
       </Fade>
     </div>

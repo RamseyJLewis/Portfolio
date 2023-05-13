@@ -29,10 +29,8 @@ class About extends Component {
           <div className="AboutCard">
             <p>
               {" "}
-              As a Software Engineer my approach is framed by years in technology and design. At the top design school The Fashion Institute of Technology my studies included the formal analysis of art, communications as well as User Experience.
-               I’ve always been proud of my ability to appreciate and understand art and
-              design with their loose boundaries and interprications, while on the other hand having a deep understanding and love for logic, puzzles and their natural
-              rigidity.
+              
+With a background in both technology and design, I bring a well-rounded approach to my role as a Software Engineer. Having studied at The Fashion Institute of Technology, I gained valuable insights into art, communications, and User Experience. This fusion of creative interpretation and logical problem-solving allows me to excel in my work. I pride myself on bridging the gap between the fluidity of design and the rigidity of logic.
             </p>
             <a
               className="logo"

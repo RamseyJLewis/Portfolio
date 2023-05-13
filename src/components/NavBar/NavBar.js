@@ -50,7 +50,7 @@ function NavBar() {
               {hover ? <FontAwesomeIcon icon={faEnvelopeOpen} /> : 
               <Wave
                 effect="jump"                  
-                delay={5}
+                delay={10}
                 effectChange={1}         
                 text="Resume"
               />

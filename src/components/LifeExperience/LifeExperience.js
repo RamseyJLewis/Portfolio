@@ -14,9 +14,9 @@ class LifeExperience extends Component {
 
   render() {
     return (
-      <Fade bottom >
+      <div>
+        <Fade bottom cascade>
           <div className="LifeExperience" name="LifeExperience">
-          <Fade bottom cascade > 
             <div className="LifeExperienceTitle">
               {" "}
               <p>
@@ -30,7 +30,6 @@ class LifeExperience extends Component {
                 />{" "}
               </p>{" "}
             </div>
-            </Fade>
             <div className="LifeExperienceCardCOTA">
               <a
                 className="cOTALink"
@@ -41,70 +40,75 @@ class LifeExperience extends Component {
               </a>
               <p>
                 {" "}
-                Organized projects and events such as job fairs and ran summer
-                classes for youth. This led me to co-manage a summer camp for
-                youth while also helping parents & adults find work. The
-                objective of C.O.T.A. is to increase employment rates among the
-                formerly incarcerated while reducing re-incarceration rates,
-                improving individual’s lives and developing opportunities for
+                I have experience organizing projects and events, including job
+                fairs and summer classes for youth. This involvement eventually
+                led me to a role in co-managing a summer camp for young
+                individuals, simultaneously assisting parents and adults in
+                their job search. My work with C.O.T.A. is driven by a clear
+                objective: to enhance employment rates among formerly
+                incarcerated individuals, reduce re-incarceration rates, and
+                ultimately improve lives while creating opportunities for
                 at-risk youth.
               </p>
             </div>
           </div>
-        <Fade bottom cascade>
-          <div className="LifeExperience" name="LifeExperience">
-            <div className="LifeExperienceTitle">
-              {" "}
-              <p>
-                {" "}
-                <Wave
-                  effect="color"
-                  effectDirection="up"
-                  effectDuration={1}
-                  effectChange={"#80ed99"}
-                  text="Fashion + The Arts"
-                />{" "}
-              </p>{" "}
-            </div>
-            <div className="LifeExperienceCardBIF">
-              <div>
-                <Fade>
-                  <div className="wwd1">
-                    <a
-                      href="https://www.qmanagementinc.com/talent/ramsey-lewis"
-                      target="blank"
-                    >
-                      <img className="wwd1" src={pause2} alt="calvinK" />
-                    </a>
-                  </div>
-                </Fade>
-              </div>
-              <p> 
-                {" "}
-                My modeling career got its start at the Fashion Institute of
-                Technology in 2019. Since then I've worked on countless
-                photoshoots, been in multiple magazines and walked on runways.
-                One of my main takeaways from modeling is the importance of the
-                work environment. Cooperation, collaboration and decorum are the
-                key skills to have in every industry. Often how well a team
-                works is how well the final product comes out.{" "}
-              </p>
-              <div>
-                <Fade>
-                  <div className="wwd2">
-                    <a
-                      href="https://www.qmanagementinc.com/talent/ramsey-lewis"
-                      target="blank"
-                    >
-                      <img className="wwd2" src={calvin} alt="calvinK" />
-                    </a>
-                  </div>
-                </Fade>
-              </div>
-            </div>
-          </div>
         </Fade>
-      </Fade>
+        <div>
+          <Fade>
+            <div className="LifeExperience" name="LifeExperience">
+              <div className="LifeExperienceTitle">
+                {" "}
+                <p>
+                  {" "}
+                  <Wave
+                    effect="color"
+                    effectDirection="up"
+                    effectDuration={1}
+                    effectChange={"#80ed99"}
+                    text="Fashion & The Arts"
+                  />{" "}
+                </p>{" "}
+              </div>
+              <div className="LifeExperienceCardBIF">
+                <div>
+                  <div>
+                    <div className="wwd1">
+                      <a
+                        href="https://www.qmanagementinc.com/talent/ramsey-lewis"
+                        target="blank"
+                      >
+                        <img className="wwd1" src={pause2} alt="calvinK" />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <p>
+                  {" "}
+                  My fashion career began at the renowned Fashion Institute of
+                  Technology in 2019, where I immersed myself in the world of
+                  art. Through countless photoshoots, magazine features, and
+                  runway experiences, I gained a deep appreciation for the
+                  importance of a positive work environment. Collaboration,
+                  cooperation, and professionalism proved to be vital skills
+                  that enhance the final artistic outcome.{" "}
+                </p>
+                <div>
+                  <div>
+                    <div className="wwd2">
+                      <a
+                        href="https://www.qmanagementinc.com/talent/ramsey-lewis"
+                        target="blank"
+                      >
+                        <img className="wwd2" src={calvin} alt="calvinK" />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Fade>
+        </div>
+      </div>
     );
   }
 }

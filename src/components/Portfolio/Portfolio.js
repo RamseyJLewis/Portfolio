@@ -29,13 +29,6 @@ class Portfolio extends Component {
         img: dentsu,
       },
       {
-        url: "https://www.teammateme.com/",
-        title: "TeammateMe",
-        desc: "TeammateMe helps users find and create teams for their course, projects, classes, and extracurricular activities. Also, it helps them gain professional experience and sharpen their teamwork skills. At the same time, they can build lasting reputation scores for their resume.",
-        tech: ["JavaScript (ES6)", "SCSS", "API", "Next.js", "PostgreSQL"],
-        img: TeammateMe,
-      },
-      {
         url: "https://fishcat.org/",
         title: "FishCat",
         desc: "FishCats goal is to empower global communities with conservation jobs that restore ecosystems, and help solve deforestation, extinction, and climate change. I created and updated the UX/UI of the site. The goal here was to make an inspiring and comfortable site in order to drive up Donations.",
@@ -43,12 +36,20 @@ class Portfolio extends Component {
         img: card4,
       },
       {
-        url: "https://energimeuniversity.org/",
-        title: "Energime University",
-        desc: "Energime University has the single mission of providing the means by which we mentor and empower our global population with the critical skills necessary to carry out this monumental effort. By creating a central education platform that connects the world in a unified and structured approach, we can manage our finite resources and protect our fragile environment.",
-        tech: ["HTML", "CSS", "JavaScript (ES6)", "API", "React.js", "ASP.NET"],
-        img: Energime,
+        url: "https://www.teammateme.com/",
+        title: "TeammateMe",
+        desc: "TeammateMe helps users find and create teams for their course, projects, classes, and extracurricular activities. Also, it helps them gain professional experience and sharpen their teamwork skills. At the same time, they can build lasting reputation scores for their resume.",
+        tech: ["JavaScript (ES6)", "SCSS", "API", "Next.js", "PostgreSQL"],
+        img: TeammateMe,
       },
+ 
+      // {
+      //   url: "https://energimeuniversity.org/",
+      //   title: "Energime University",
+      //   desc: "Energime University has the single mission of providing the means by which we mentor and empower our global population with the critical skills necessary to carry out this monumental effort. By creating a central education platform that connects the world in a unified and structured approach, we can manage our finite resources and protect our fragile environment.",
+      //   tech: ["HTML", "CSS", "JavaScript (ES6)", "API", "React.js", "ASP.NET"],
+      //   img: Energime,
+      // },
       // {
       //   url: "https://www.unlockthebox.io/",
       //   title: "Unlock The Box",
@@ -130,7 +131,7 @@ class Portfolio extends Component {
                 effectDirection="up"
                 effectDuration={1}
                 effectChange={'#80ed99'}
-                text="Organizations + Projects"
+                text="Organizations & Projects"
               />{" "}
             </p>{" "}
           </div>

@@ -33,8 +33,7 @@ const LandingPage = () => {
       </div>
       <Fade bottom>
         <p className="Objective">
-          Make every project like a great friendship,
-          with a flow as natural as good conversation.
+        Connecting customers and businesses through software solutions that bridge gaps and drive growth.
         </p>
       </Fade>
     </div>

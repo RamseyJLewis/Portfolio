@@ -11,7 +11,11 @@ const LandingPage = () => {
         <h1 className="MainText">
           {" "}
           Ramsey Lewis{" "}
-          <Fade right><div className='headshotHov'><img className="headShot" src={headshot} alt="headshot" />{" "}</div></Fade>
+          <Fade right>
+            <div className="headshotHov">
+              <img className="headShot" src={headshot} alt="headshot" />{" "}
+            </div>
+          </Fade>
         </h1>
       </div>
       <div>
@@ -24,7 +28,7 @@ const LandingPage = () => {
                 effect="color"
                 effectDirection="left"
                 effectDuration={1}
-                effectChange={'#80ed99'}
+                effectChange={"#80ed99"}
                 text="Software Engineer"
               />{" "}
             </p>{" "}
@@ -33,7 +37,8 @@ const LandingPage = () => {
       </div>
       <Fade bottom>
         <p className="Objective">
-        Connecting customers and businesses through software solutions that bridge gaps and drive growth.
+          Connecting customers and businesses through software solutions,
+          bridging gaps and driving growth.
         </p>
       </Fade>
     </div>

@@ -17,6 +17,14 @@
   height: 136px;
 }
 
+.NavBar .navLogo a {
+  transition: transform .60s ease-in-out;
+}
+
+.NavBar .navLogo a:hover {
+  transform: rotate(370deg);
+}
+
 .NavBar a {
   margin-right: 2em;
   transition: .1s;

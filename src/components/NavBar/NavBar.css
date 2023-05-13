@@ -50,8 +50,6 @@
   min-width: 10px;
 }
 
-/* ///////////////////////////// */
-
 .ResumeNav:hover {
   top: 0 !important;
   color: #ffffff;
@@ -104,8 +102,6 @@
     display: none;
   }
 }
-
-    /* // */
         /* MOBILE  NAV BAR **********************************************/
         .NavBarMobile {
           visibility: hidden;

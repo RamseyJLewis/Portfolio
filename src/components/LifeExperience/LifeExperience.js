@@ -93,7 +93,6 @@ class LifeExperience extends Component {
                   that enhance the final artistic outcome.{" "}
                 </p>
                 <div>
-                  <div>
                     <div className="wwd2">
                       <a
                         href="https://www.qmanagementinc.com/talent/ramsey-lewis"
@@ -102,7 +101,6 @@ class LifeExperience extends Component {
                         <img className="wwd2" src={calvin} alt="calvinK" />
                       </a>
                     </div>
-                  </div>
                 </div>
               </div>
             </div>

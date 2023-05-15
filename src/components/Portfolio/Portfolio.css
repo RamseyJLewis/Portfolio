@@ -65,7 +65,7 @@ border-radius: 10px;
     background-size: cover;
     background-repeat: no-repeat;
     margin: 2em;    
-    border-radius: 10px;
+    border-radius: 0.2rem;
     transition: box-shadow 1s;  
 	animation: pulse 3s infinite; 
 }
@@ -117,7 +117,7 @@ border-radius: 10px;
     text-align: center;
     align-items: center;
     transition: box-shadow .5s;
-    border-radius: 10px;
+    border-radius: 0.2rem;
 }
 
 @media (max-width: 557px) {

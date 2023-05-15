@@ -61,9 +61,8 @@ text-align: left;
 .headShot{
     width: 300px;
     float: right;
-    border-radius: 10px;  
     border-color: #3E735C;
-    border-radius: 20px;
+    border-radius: 160px;
     padding: 2px;
 }
 @media (max-width: 570px) {

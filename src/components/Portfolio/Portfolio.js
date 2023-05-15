@@ -5,6 +5,7 @@ import card1 from "../../Assets/Not-Flix.png";
 import card2 from "../../Assets/SPACE-FORCE.png";
 import card4 from "../../Assets/FishCat.png"
 import TeammateMe from "../../Assets/TeammateMe.png";
+import Merkle from "../../Assets/Merkle.png";
 import dentsu from "../../Assets/dentsu.jpg";
 import Energime from "../../Assets/EnergimeUniversity.png";
 import Fade from "react-reveal/Fade";
@@ -22,24 +23,31 @@ class Portfolio extends Component {
   createCard = () => {
     const allProjects = [
       {
+        url: "https://www.merkle.com",
+        title: "Merkle",
+        desc: "Merkle is a leading data-driven customer experience management (CXM) company that specializes in the delivery of unique, personalized customer experiences.",
+        tech: ["S.r Software Engineer"],
+        img: Merkle,
+      },
+      {
         url: "https://www.dentsu.com",
         title: "Dentsu",
-        desc: "Dentsu Inc. is a Japanese international advertising and public relations joint stock company headquartered in Tokyo. Dentsu is currently the largest advertising agency and the fifth largest advertising agency network in the world in terms of worldwide revenues.",
-        tech: ["JavaScript (ES6)", "CSS", "Adobe Target", "BitBucket", "Jira"],
+        desc: "Dentsu Inc. is a Japanese advertising with a headquartered in Tokyo, currently Dentsu is the fifth largest advertising agency network internationally.",
+        tech: ["Optimization Engineer"],
         img: dentsu,
       },
       {
         url: "https://fishcat.org/",
         title: "FishCat",
-        desc: "FishCats goal is to empower global communities with conservation jobs that restore ecosystems, and help solve deforestation, extinction, and climate change. I created and updated the UX/UI of the site. The goal here was to make an inspiring and comfortable site in order to drive up Donations.",
-        tech: ["HTML", "CSS", "JavaScript (ES6)", "React.JS.", "Gatsby"],
+        desc: "FishCats goal is to empower global communities with conservation jobs that restore ecosystems, and help solve deforestation, extinction, and climate change.",
+        tech: ["Software Developer"],
         img: card4,
       },
       {
         url: "https://www.teammateme.com/",
         title: "TeammateMe",
-        desc: "TeammateMe helps users find and create teams for their course, projects, classes, and extracurricular activities. Also, it helps them gain professional experience and sharpen their teamwork skills. At the same time, they can build lasting reputation scores for their resume.",
-        tech: ["JavaScript (ES6)", "SCSS", "API", "Next.js", "PostgreSQL"],
+        desc: "TeammateMe is a social media web app that helps users find and create teams for their course, projects, classes, and extracurricular activities.",
+        tech: ["Full Stack Engineer"],
         img: TeammateMe,
       },
  
@@ -60,18 +68,18 @@ class Portfolio extends Component {
       {
         url: "https://ramseyjlewis.github.io/Space-Force-moon-of-gold/",
         title: "Space Force Moon of gold",
-        desc: "An arcade shooter inspired by Space Invaders but with 360-degree gameplay. Escape the massive swarm of churning aliens, all of which are being tracked through mathematics, objects and arrays. This object-oriented program is built using JavaScript, HTML and CSS. The Swarm of enemies try to crash into the player. The objective is to last until backup arrives",
-        tech: ["Vanilla-JavaScript", "HTML", "CSS"],
+        desc: "An arcade shooter inspired by Space Invaders. Escape the massive swarm of churning aliens, all of which are being tracked through mathematics built using ES6.",
+        tech: ["Developer"],
         img: card2,
       },
 
-      {
-        url: "https://ramseyjlewis.github.io/Not-Flix/",
-        title: "Not-Flix",
-        desc: "A Netflix search imitation using the IMBD API. This project focuses on making a seamless design using JavaScript, HTML and CSS. Pulling information from the IMBD database, the app then displays movie information onto cards. Initially the cards have a front and upon hovering over the movie-card a new request gathers more detailed information which is displayed after flipping the card.",
-        tech: ["Vanilla-JavaScript", "HTML", "CSS", "API"],
-        img: card1,
-      },
+      // {
+      //   url: "https://ramseyjlewis.github.io/Not-Flix/",
+      //   title: "Not-Flix",
+      //   desc: "A Netflix search imitation using the IMBD API. This project focuses on making a seamless design using JavaScript, HTML and CSS. Pulling information from the IMBD database, the app then displays movie information onto cards. Initially the cards have a front and upon hovering over the movie-card a new request gathers more detailed information which is displayed after flipping the card.",
+      //   tech: ["Vanilla-JavaScript", "HTML", "CSS", "API"],
+      //   img: card1,
+      // },
 
     ];
 

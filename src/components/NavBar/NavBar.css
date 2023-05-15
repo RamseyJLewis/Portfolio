@@ -184,8 +184,8 @@
         
         @media (max-width: 780px) {
           .NavBarTextMobile img {
-            height: 30px;
-            width: 30px;
+            /* height: 30px;
+            width: 30px; */
           }
         }
         
@@ -204,7 +204,11 @@
             margin-top: 0.5em;
           }
         }
-        
+        @media (max-width: 400px) {
+          a.ResumeNavMobile{
+            display: none;
+          }
+        }
         .Resume {
           display: flex;
           flex-direction: row;

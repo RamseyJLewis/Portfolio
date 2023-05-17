@@ -24,6 +24,9 @@
 .NavBar .navLogo a:hover {
   transform: rotate(370deg);
 }
+.NavBar .navLogo a:active {
+  transform: rotate(370deg);
+}
 
 .NavBar a {
   margin-right: 2em;

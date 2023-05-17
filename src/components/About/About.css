@@ -27,9 +27,7 @@
         flex-direction: column; 
         text-align: center;
         color: #F0EAD6;
-
         border-radius: 0.2rem;
-      
         transition: opacity 1s;
         transition: color  1s;
         transition: box-shadow 1s;

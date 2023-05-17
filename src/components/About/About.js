@@ -60,6 +60,7 @@ class About extends Component {
               </span>
             </div>
           </a>
+
         </div>
       </div>
     );

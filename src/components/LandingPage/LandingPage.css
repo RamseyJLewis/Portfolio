@@ -75,6 +75,27 @@ text-align: left;
 }
 
 
+.embed-widget-container div:last-child {
+    /* CSS styles for the last child divs */
+    display: none;
+
+  }
+
+  .embed-widget-container.has-track-list .pILb1Mxt1ADw55uBp9MT {
+    height: 0px !important;
+    display: none;
+}
+  div > .embed-widget-container.has-track-list > div {
+    display: none !important;
+    height: 0px;
+}
 p.react-reveal.Objective {
     width: 60%;
+}
+.spotify_widget{
+    margin: 25px 0px;
+    max-width: 90%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }

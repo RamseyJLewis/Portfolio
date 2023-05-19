@@ -8,6 +8,7 @@ import Portfolio from "./components/Portfolio/Portfolio";
 import About from  "./components/About/About";
 import LifeExperience from  "./components/LifeExperience/LifeExperience";
 import Contact from  "./components/Contact/Contact";
+import Testimonials from "./components/Testimonials/SimpleSlider"
 
 function App() {
   return (
@@ -29,6 +30,8 @@ function App() {
        <Portfolio/>
        <LifeExperience/>
        <Contact/>
+       <Testimonials/>
+
       </div>
     </div>
   );

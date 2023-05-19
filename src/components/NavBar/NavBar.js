@@ -24,6 +24,7 @@ function NavBar() {
         <Fade left>
           <div className="navLogo">
             <Logo />
+            
           </div>
         </Fade>
         <Fade right>

@@ -67,17 +67,20 @@ function Contact() {
           </Fade>
           <Fade bottom>
             <div className="gitubLogo">
+              
               <a
                 className="logo"
                 href="https://www.instagram.com/ramseyjlewis/"
                 target="blank"
               >
+                
                 {<FontAwesomeIcon icon={faInstagram} />}
               </a>
             </div>
           </Fade>
         </div>
       </div>
+      
     </div>
   );
 }

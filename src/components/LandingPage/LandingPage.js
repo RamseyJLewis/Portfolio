@@ -38,11 +38,11 @@ const LandingPage = () => {
           bridging gaps & driving growth.
           <br />
           <div className="spotify_widget">
-            {/* <iframe
+            <iframe
               src="https://open.spotify.com/embed/playlist/6BSHtS011hwW4GU2g2SciM?utm_source=generator&theme=0"
               frameBorder="0"
               loading="lazy"
-            ></iframe> */}
+            ></iframe>
           </div>
           {/* with this elemnt you can play and pause the spot player document.querySelector('[data-testid="preview-play-pause"] button').click() */}
         </p>

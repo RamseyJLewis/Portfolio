@@ -5,8 +5,6 @@ import headshot from "../../Assets/RamseyHeadShot.jpg";
 import { Wave } from "react-animated-text";
 
 const LandingPage = () => {
-
-
   return (
     <div className="LandingPage">
       <div>
@@ -36,15 +34,17 @@ const LandingPage = () => {
       </div>
       <Fade bottom>
         <p className="Objective">
-          Connecting customers to businesses through software solutions, bridging gaps & driving growth.
+          Connecting customers to businesses through software solutions,
+          bridging gaps & driving growth.
           <br />
           <div className="spotify_widget">
             <iframe
-              src="https://open.spotify.com/embed/playlist/4VmZ3r9QR1qXj4EsGxPoNt?utm_source=generator&theme=0"
+              src="https://open.spotify.com/embed/playlist/6BSHtS011hwW4GU2g2SciM?utm_source=generator&theme=0"
               frameBorder="0"
               loading="lazy"
             ></iframe>
           </div>
+          {/* with this elemnt you can play and pause the spot player document.querySelector('[data-testid="preview-play-pause"] button').click() */}
         </p>
       </Fade>
     </div>

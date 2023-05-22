@@ -27,6 +27,12 @@ const TestimonialSlider = () => {
       description:
         "He is a brilliant developer and is great at problem-solving. I am happy to work alongside him and would recommend him to anyone looking for an experienced programmer.",
     },
+    {
+      author: "Giselle .B",
+      title: "User Researcher",
+      description:
+        "Ramsey was always great at helping bring my designs to life and worked every step of the way with me to ensure that we created a beautiful product!",
+    },
   ];
 
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -42,12 +48,13 @@ const TestimonialSlider = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       handleNextSlide();
-    }, 10000);
+    }, 7000);
     return () => clearInterval(interval);
   }, []);
 
   return (
     <div className="testimonial-container">
+      <p className="kindwords">A few testimonials...</p>
       <div className="testimonial-slider">
         <div className="testimonial-card">
           <h3>{testimonials[currentSlide].author}</h3>

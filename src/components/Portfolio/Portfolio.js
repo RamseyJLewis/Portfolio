@@ -110,7 +110,7 @@ class Portfolio extends Component {
               </Fade>
               <Fade right>
                 <div className="PortfolioText">
-                  <h2>{project.title}</h2>
+                  <h3>{project.title}</h3>
                   <p>{project.desc}</p>
                   <div className='techWrapper'>
                     {project.tech.map((tech, idx) => (

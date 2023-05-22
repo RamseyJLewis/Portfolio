@@ -1,6 +1,7 @@
 
-.testimonial-Container{
+.testimonial-container{
   min-height: 500px;
+  padding-top: 150px;
 }
 .testimonial-slider {
   display: flex;
@@ -9,10 +10,11 @@
 }
 
 .testimonial-card {
-  width: 415px;
-  height: 270px; /* Set a fixed height for uniformity */
+  width: 70%;
+  max-width: 555px;
   padding: 20px;
-  background-color: #f0f0f0;
+
+  background-color: rgb(146 146 146 / 15%);
   border-radius: 8px;
   margin-bottom: 20px;
   text-align: center;
@@ -22,17 +24,29 @@
 .testimonial-card h3 {
   font-size: 18px;
   margin-bottom: 5px;
+  color: #F0EAD6;
 }
+.kindwords{
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #F0EAD6;
 
+}
 .testimonial-card h4 {
   font-size: 16px;
   margin-bottom: 10px;
-  color: #555555;
+  color: #F0EAD6;
 }
 
 .testimonial-card p {
-  font-size: 14px;
-  color: #777777;
+  font-size: 16px;
+  margin-top: 0px;
+  height: 270px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-style: italic;
+  color: #F0EAD6;
 }
 
 .slider-controls {

@@ -28,10 +28,9 @@ function App() {
         </Router>
         <About/>
        <Portfolio/>
+       <Testimonials/>
        <LifeExperience/>
        <Contact/>
-       <Testimonials/>
-
       </div>
     </div>
   );

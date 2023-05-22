@@ -1,151 +1,158 @@
-.wrapper{
+.wrapper {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
     transition: opacity 1s;
-    color:#F0EAD6; 
-    height: fit-content;
-    padding: 15px;  
-}
-.techWrap{
+    color: #F0EAD6;
+  }
+  
+  .techWrap {
     display: flex;
     justify-content: left;
     text-align: left;
     align-items: left;
     flex-direction: row;
-    width: 25% !important;
-
-
-    display : inline;
+    width: 25%;
+  
     flex-wrap: wrap;
-    display: inline-flex;
-    width: 33%
-}
-.techWrapper{
-    padding: 20px;
-}
-.tech{
-    margin: 0px 5px 0px 5px;
-    color:  #878da6;
-
-}
-@media (max-width: 557px) {
-    .wrapper {
-        width: 0px;
-    }
+    width: 33%;
   }
-
-
-.Portfolio{
-display: flex;
-flex-wrap: wrap;
-flex-direction: column;
-justify-content: center;
-align-items: center; 
-padding-top: 175px; 
-
-max-width: 100%; 
-z-index: 2; 
-
-font-size: medium;  
-border-radius: 10px;
-}
-
-.projectCard {
+  
+  .techWrapper {
+    padding: 20px;
+  }
+  
+  .tech {
+    margin: 0 5px;
+    color: #878da6;
+  }
+  .wrapper p{
+    margin: 0px 20px;
+    font-size: 16px;
+  }
+  
+  /* @media (max-width: 557px) {
+    .wrapper {
+      width: 0;
+    }
+  } */
+  
+  .Portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 175px;
+    max-width: 100%;
+    z-index: 2;
+    font-size: medium;
+    border-radius: 10px;
+  }
+  
+  .projectCard {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 400px;
-    width: 650px;  
+    height: 298px;
+    width: 535px;
     background-color: rgb(146 146 146 / 15%);
-    display: flex;
-    flex-direction: column; 
+    flex-direction: column;
     background-size: cover;
     background-repeat: no-repeat;
-    margin: 2em;    
+    margin: 2em;
     border-radius: 0.2rem;
-    transition: box-shadow 1s;  
-	animation: pulse 3s infinite; 
-}
-
-@keyframes pulse {
-	0% {
-		transform: scale(0.98);
-		box-shadow: 0 0 0 0 rgb(146, 229, 161);;
-	}
-
-	70% {
-		transform: scale(1);
-		box-shadow: 0 0 0 19px #8fbc4204;
-	}
-
-	100% {
-		transform: scale(0.98);
-		box-shadow: 0 0 0 0 #8fbc4200;
-	}
-}
-
-
-.projectCard:hover{
+    transition: box-shadow 1s;
+    animation: pulse 3s infinite;
+  }
+  
+  @keyframes pulse {
+    0% {
+      transform: scale(0.98);
+      box-shadow: 0 0 0 0 rgb(146, 229, 161);
+    }
+    70% {
+      transform: scale(1);
+      box-shadow: 0 0 0 19px #8fbc4204;
+    }
+    100% {
+      transform: scale(0.98);
+      box-shadow: 0 0 0 0 #8fbc4200;
+    }
+  }
+  
+  .projectCard:hover {
     transition: filter .9s;
     filter: none;
-}
-@media (max-width: 700px) {
+  }
+  
+  @media (max-width: 700px) {
     .projectCard {
-        width: 525px;
-        height: 337px;
-        filter: none;
+      width: 525px;
+      height: 337px;
+      filter: none;
     }
   }
+  
   @media (max-width: 557px) {
     .projectCard {
-        width: 250px;
-        height: 150px;
+      width: 311px;
+      height: 150px;
     }
   }
-
-.PortfolioText{
-    height: fit-content;
+  
+  .PortfolioText {
     min-width: 425px;
     max-width: 30%;
     display: flex;
-    background-color: rgb(146 146 146 / 15%);;
+    background-color: rgb(146 146 146 / 15%);
     flex-direction: column;
     padding: 2%;
     text-align: center;
     align-items: center;
     transition: box-shadow .5s;
     border-radius: 0.2rem;
-}
-
-@media (max-width: 557px) {
+  }
+  
+  @media (max-width: 557px) {
     .PortfolioText {
-        display: flex;
-        justify-content: center;
-        flex-direction: column; 
-        text-align: center;
-
-        padding: 20px;
- 
-        min-width: 80vw;
-        background-color: rgb(146 146 146 / 15%);
-
-        border-radius: 10px;
-        transition: opacity 1s;
-        opacity: 0.9;
-        transition: box-shadow .4s;
-        margin-bottom: 100px;
-        line-height: 1.6;
+      min-width: 76vw;
+      background-color: rgb(146 146 146 / 15%);
+      border-radius: 0.2rem;
+      transition: opacity 1s;
+      opacity: 0.9;
+      transition: box-shadow .4s;
+      margin-bottom: 100px;
+      line-height: 1.6;
     }
   }
-
-.ProjectTitle{
-    color:  #3E735C;
+  
+  .ProjectTitle {
+    color: #3E735C;
     font-size: x-large;
     justify-content: center;
     align-items: center;
     display: flex;
-}
+  }
+  
+  .LifeExperienceCardBIF {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .LifeExperienceCardBIF img {
+    width: 50%;
+    object-fit: cover;
+    object-position: center;
+    max-height: 100%;
+    /* margin-right: 20px; */
+  }
+  
+  .LifeExperienceCardBIF p {
+    flex: 1;
+  }
 
+  
+  

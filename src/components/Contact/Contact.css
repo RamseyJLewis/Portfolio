@@ -72,3 +72,8 @@
    position: relative; 
    top: -1px;   
 }
+
+.ContactCard {
+   max-width: 70%;
+   font-size: 16px;
+}

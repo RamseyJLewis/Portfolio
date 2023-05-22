@@ -13,7 +13,6 @@
         width: 20vw; 
         border-radius: 10px;
         cursor: pointer;
-        margin-right: 10px;   
         z-index: 3;  
         transition: box-shadow 1s;  
         box-shadow: 0 0 0 0 #3E735C;
@@ -22,10 +21,10 @@
     }
     
     .wwd2{
-        width: 20vw; 
+        width: 16vw; 
         border-radius: 10px;
         cursor: pointer;
-        margin-right: 10px;   
+        margin: 10px;   
         z-index: 3;  
         transition: box-shadow 1s;  
         box-shadow: 0 0 0 0 #3E735C;
@@ -69,8 +68,10 @@
 
     .LifeExperienceCardCOTA{
         height: fit-content;
+        font-size: 16px;
         padding: 20px;
         height: 90%;
+        max-width: 1210px;
         width: 80%;
         background-color: rgb(146 146 146 / 15%);;
         display: flex;
@@ -94,19 +95,28 @@
         height: fit-content;
         padding: 2%;
         height: 90%;
+        max-width: 1210px;
         width: 80%;
         background-color: rgb(146 146 146 / 15%);;
         display: flex;
         justify-content: center;
         color: #F0EAD6;
         flex-direction: row; 
-        text-align: center;
         border-radius: 0.2rem;
         transition: opacity 1s;
         transition: box-shadow .4s;        
         margin-bottom: 100px;
         line-height: 1.6;
     }
+    .LifeExperienceCardBIF img {
+        flex: 0 0 auto;
+        width: auto;
+        height: auto;
+        max-height: 300px;
+        object-fit: cover;
+        object-position: center;
+        margin-right: 20px;
+      }
     .LifeExperienceCardBIF:hover{
         color: #F0EAD6;
         opacity: 1;
@@ -115,12 +125,23 @@
     display: flex;
     flex-direction: row;
     }
+
+    .wwd1{
+        display: none;
+    }
+
+    .LifeExperienceCardBIF p {
+        flex: 1 1;
+        text-align: left;
+        font-size: 16px;
+        padding-left: 40px;
+    }
     @media (max-width: 780px) {
         .react-reveal .wwd2{
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 100%;
+        /* width: 100%; */
         }
         .LifeExperienceCardBIF {            
             flex-direction: column;
@@ -129,13 +150,15 @@
         img.wwd{
             filter: none;
         }
-        .wwd1{
-            display: none;
-        }
-        .wwd2 {
-            /* width: 90%;
-            margin: 20px; */
+        .LifeExperienceCardBIF p {
+            flex: 1 1;
+            text-align: center;
+            padding-left: 0px;
         }
       }
-
- 
+      @media (max-width: 500px) {
+        .LifeExperienceCardBIF, .LifeExperienceCardCOTA{
+            width: 70%;
+        }
+      }
+   

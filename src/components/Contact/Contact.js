@@ -36,7 +36,7 @@ function Contact() {
                 href="mailto:TheRamseyLewis@gmail.com"
                 download
               >
-                {<p> E-Mail: TheRamseyLewis@gmail.com</p>}
+                {<p>TheRamseyLewis@gmail.com</p>}
               </a>
             </div>
           </Fade>

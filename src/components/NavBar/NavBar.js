@@ -112,7 +112,7 @@ function NavBar() {
               onClick={mobileNav}
             >
               {" "}
-              Portfolio{" "}
+              Work{" "}
             </Link>
             <Link
               className="navlinkMobile"
@@ -121,7 +121,7 @@ function NavBar() {
               onClick={mobileNav}
             >
               {" "}
-              Life-Experience{" "}
+              Life{" "}
             </Link>
             <Link
               className="navlinkMobile"

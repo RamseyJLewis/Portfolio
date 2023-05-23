@@ -26,7 +26,7 @@ class LifeExperience extends Component {
                   effectDirection="bottom"
                   effectDuration={1}
                   effectChange={"#80ed99"}
-                  text="Humanitarian Work"
+                  text="Giving Back"
                 />{" "}
               </p>{" "}
             </div>

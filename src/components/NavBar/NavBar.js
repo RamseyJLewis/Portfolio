@@ -37,11 +37,11 @@ function NavBar() {
             </Link>
             <Link className="navlink" to="Portfolio" smooth={true}>
               {" "}
-              Portfolio{" "}
+              Work{" "}
             </Link>
             <Link className="navlink" to="LifeExperience" smooth={true}>
               {" "}
-              Life-Experience{" "}
+              Life{" "}
             </Link>
             <Link className="navlink" to="Contact" smooth={true}>
               {" "}

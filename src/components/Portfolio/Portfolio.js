@@ -139,7 +139,7 @@ class Portfolio extends Component {
                 effectDirection="up"
                 effectDuration={1}
                 effectChange={'#80ed99'}
-                text="Organizations & Projects"
+                text="Organizations"
               />{" "}
             </p>{" "}
           </div>

@@ -19,12 +19,6 @@
     "react-scroll": "^1.8.9",
     "web-vitals": "^0.2.4"
   },
-  "overrides": {
-    "react-vis": {
-      "react": "^15.3.0"
-    }
-  },
-  
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -49,5 +43,4 @@
       "last 1 safari version"
     ]
   }
-  
 }

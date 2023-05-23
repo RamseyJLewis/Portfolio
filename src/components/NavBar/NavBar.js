@@ -12,6 +12,8 @@ import {
 import resume from "../../Assets/RamseyJLewisResume.pdf";
 import Fade from "react-reveal/Fade";
 import { Wave } from "react-animated-text";
+import React, { Component } from "react";
+
 
 function NavBar() {
   const [hover, setHover] = useState(false);

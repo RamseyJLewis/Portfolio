@@ -1,5 +1,7 @@
 import logo from "../../RJL_GLOBE.png";
 import { Link } from "react-scroll";
+import React, { Component } from "react";
+
 
 
 function Logo() {

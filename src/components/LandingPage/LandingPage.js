@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import "./LandingPage.css";
 import Fade from "react-reveal/Fade";
-import headshot from "../../Assets/AI_HeadShot.JPG";
+import headshot from "../../Assets/AI_HeadShot.jpg";
 import { Wave } from "react-animated-text";
 
 const LandingPage = () => {

@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import "./LandingPage.css";
 import Fade from "react-reveal/Fade";
-import headshot from "../../Assets/RamseyHeadShot.webp";
+import headshot from "../../Assets/RamseyHeadShotWebP.webp";
 import { Wave } from "react-animated-text";
 
 const LandingPage = () => {
@@ -22,7 +22,7 @@ const LandingPage = () => {
                 className="headShot"
                 src={headshot}
                 alt="headshot"
-                loading="eager"
+                loading="auto"
               />
             </div>
           </Fade>

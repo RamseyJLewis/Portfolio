@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import "./LandingPage.css";
 import Fade from "react-reveal/Fade";
-import headshot from "../../Assets/headShot-Ai-Ramsey.JPG";
+import headshot from "../../Assets/RamseyHeadShot-AI-1.jpg";
 import { Wave } from "react-animated-text";
 
 const LandingPage = () => {
@@ -52,7 +52,7 @@ const LandingPage = () => {
               <iframe
                 src="https://open.spotify.com/embed/playlist/6BSHtS011hwW4GU2g2SciM?utm_source=generator&theme=0"
                 frameBorder="0"
-                loading="eager"
+                loading="lazy"
               ></iframe>
             </div>
           </Fade>

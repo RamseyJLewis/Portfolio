@@ -22,7 +22,6 @@ const LandingPage = () => {
                 className="headShot"
                 src={headshot}
                 alt="headshot"
-                loading="auto"
               />
             </div>
           </Fade>

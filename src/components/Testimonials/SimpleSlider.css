@@ -10,6 +10,7 @@
 }
 
 .testimonial-card {
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px;
   width: 70%;
   max-width: 555px;
   padding: 20px;

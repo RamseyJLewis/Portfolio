@@ -65,7 +65,7 @@ function NavBar() {
                   <Wave
                     effect="jump"
                     delay={10}
-                    effectChange={1}
+                    effectChange={.5}
                     text="Resume"
                   />
                 )

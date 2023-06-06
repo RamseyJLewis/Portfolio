@@ -67,6 +67,7 @@
     }
 
     .LifeExperienceCardCOTA{
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px;
         height: fit-content;
         font-size: 16px;
         padding: 20px;
@@ -92,6 +93,7 @@
 
     
     .LifeExperienceCardBIF{
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px;
         height: fit-content;
         padding: 2%;
         height: 90%;

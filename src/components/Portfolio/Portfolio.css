@@ -103,6 +103,7 @@
   }
   
   .PortfolioText {
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px;
     min-width: 425px;
     max-width: 30%;
     display: flex;

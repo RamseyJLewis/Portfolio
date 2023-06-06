@@ -34,11 +34,6 @@
         transition: box-shadow 1s;
         opacity: 0.9;
     }
-
-    .AboutCard:hover{
-        color: #F0EAD6;
-        opacity: 1;
-    }
     
     .AboutsContainer{
     display: flex;

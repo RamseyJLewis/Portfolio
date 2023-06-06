@@ -1,18 +1,29 @@
 import React, { useEffect, useRef } from "react";
 import "./LandingPage.css";
 import Fade from "react-reveal/Fade";
-import headshot from "../../Assets/RamseyHeadShot.jpg";
+import headshot from "../../Assets/RamseyHeadShot.webp";
 import { Wave } from "react-animated-text";
 
 const LandingPage = () => {
+  useEffect(() => {
+    setTimeout(() => {
+      document.querySelector(".headShot").classList.add("shadow");
+    }, 500);
+  }, []);
+
   return (
     <div className="LandingPage">
       <div>
         <h1 className="MainText">
           Ramsey Lewis
-          <Fade right>
+          <Fade>
             <div className="headshotHov">
-              <img className="headShot" src={headshot} alt="headshot" />
+              <img
+                className="headShot"
+                src={headshot}
+                alt="headshot"
+                loading="eager"
+              />
             </div>
           </Fade>
         </h1>
@@ -37,14 +48,15 @@ const LandingPage = () => {
           Connecting customers to businesses through software solutions,
           bridging gaps & driving growth.
           <br />
-          <div className="spotify_widget">
-            <iframe
-              src="https://open.spotify.com/embed/playlist/6BSHtS011hwW4GU2g2SciM?utm_source=generator&theme=0"
-              frameBorder="0"
-              loading="lazy"
-            ></iframe>
-          </div>
-          {/* with this elemnt you can play and pause the spot player document.querySelector('[data-testid="preview-play-pause"] button').click() */}
+          <Fade>
+            <div className="spotify_widget">
+              <iframe
+                src="https://open.spotify.com/embed/playlist/6BSHtS011hwW4GU2g2SciM?utm_source=generator&theme=0"
+                frameBorder="0"
+                loading="eager"
+              ></iframe>
+            </div>
+          </Fade>
         </p>
       </Fade>
     </div>

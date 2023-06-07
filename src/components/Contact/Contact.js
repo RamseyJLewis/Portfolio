@@ -13,7 +13,7 @@ import { Wave } from "react-animated-text";
 function Contact() {
   return (
     <div className="Contact" name="Contact">
-      <Fade bottom cascade>
+      <Fade >
         <div className="ContactTitle">
         {" "}
           <p>
@@ -29,7 +29,7 @@ function Contact() {
       </Fade>
       <div className="ContactCard">
         <div className="contactText">
-          <Fade right>
+          <Fade >
             <div className="email">
               <a
                 className="logo"
@@ -43,7 +43,7 @@ function Contact() {
         </div>
 
         <div className="logo">
-          <Fade bottom>
+          <Fade left>
             <div className="gitubLogo">
               <a
                 className="logo"
@@ -54,7 +54,7 @@ function Contact() {
               </a>
             </div>
           </Fade>
-          <Fade top>
+          <Fade bottom>
             <div className="gitubLogo">
               <a
                 className="logo"
@@ -65,7 +65,7 @@ function Contact() {
               </a>
             </div>
           </Fade>
-          <Fade bottom>
+          <Fade right>
             <div className="gitubLogo">
               
               <a

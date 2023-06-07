@@ -15,7 +15,7 @@ class LifeExperience extends Component {
   render() {
     return (
       <div>
-        <Fade bottom cascade>
+        <Fade >
           <div className="LifeExperience" name="LifeExperience">
             <div className="LifeExperienceTitle">
               {" "}

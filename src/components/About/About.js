@@ -10,8 +10,9 @@ class About extends Component {
 
   render() {
     return (
+      <Fade >
+
       <div className="About" name="About">
-        <Fade bottom cascade>
           <div className="AboutTitle">
             {" "}
             <p>
@@ -25,7 +26,7 @@ class About extends Component {
               />{" "}
             </p>{" "}
           </div>
-        </Fade>
+       
         <div className="AboutCard">
           <p>
             {" "}
@@ -63,6 +64,7 @@ class About extends Component {
 
         </div>
       </div>
+      </Fade>
     );
   }
 }

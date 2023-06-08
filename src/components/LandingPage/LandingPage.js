@@ -18,11 +18,7 @@ const LandingPage = () => {
           Ramsey Lewis
           <Fade>
             <div className="headshotHov">
-              <img
-                className="headShot"
-                src={headshot}
-                alt="headshot"
-              />
+              <img className="headShot" src={headshot} alt="headshot" />
             </div>
           </Fade>
         </h1>
@@ -49,8 +45,13 @@ const LandingPage = () => {
           <br />
           <Fade>
             <div className="spotify_widget">
-              <iframe
+              {/* <iframe
                 src="https://open.spotify.com/embed/playlist/6BSHtS011hwW4GU2g2SciM?utm_source=generator&theme=0"
+                frameBorder="0"
+                loading="lazy"
+              ></iframe> */}
+              <iframe
+                src="https://open.spotify.com/embed/playlist/22yVU6XHTuhoiAeRP6VpcQ?utm_source=generator&theme=0"
                 frameBorder="0"
                 loading="lazy"
               ></iframe>

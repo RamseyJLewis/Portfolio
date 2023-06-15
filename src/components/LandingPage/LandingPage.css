@@ -75,7 +75,7 @@ text-align: left;
         width: 40%;
     }
     .planetCont{
-     display: none;
+     /* display: none; */
       }
 }
 

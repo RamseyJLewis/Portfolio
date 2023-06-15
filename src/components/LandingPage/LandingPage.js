@@ -60,9 +60,9 @@ const LandingPage = () => {
           </Fade>
         </p>
       </Fade>
-      {/* <div className="planetCont">
+      <div className="planetCont">
       <iframe src='https://my.spline.design/planetcopy-5b02927538e75c4cd8c29bc99eb55c4e/' frameborder='0' width='100%' height='100%'></iframe>
-      </div> */}
+      </div>
     </div>
   );
 };

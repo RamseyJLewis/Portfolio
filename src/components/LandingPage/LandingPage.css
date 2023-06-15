@@ -34,7 +34,7 @@ text-align: left;
 .LandingPage{    
     justify-content: center;
     align-items: center;
-    padding-left: 5%;
+    /* padding-left: 5%; */
     /* padding-bottom: 5%; */
     background-image: url('https://my.spline.design/3dconcreteshapecopy-70b555b14ea5beadce8585eefb7c3667/');
     background-size: cover;

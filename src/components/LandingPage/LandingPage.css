@@ -35,7 +35,7 @@ text-align: left;
     justify-content: center;
     align-items: center;
     padding-left: 5%;
-    padding-bottom: 5%;
+    /* padding-bottom: 5%; */
     background-image: url('https://my.spline.design/3dconcreteshapecopy-70b555b14ea5beadce8585eefb7c3667/');
     background-size: cover;
       background-position: center;
@@ -58,10 +58,6 @@ text-align: left;
         padding-bottom: 140px;
         padding-top: 22px;
     } 
-    .Objective{
-        padding-bottom: 260px;
-    } 
-    
   }
 
 .headShot{

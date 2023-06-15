@@ -15,7 +15,6 @@
     color: #878da6;
     font-size: medium;
     font-style: italic;
-    padding-bottom: 260px;
     font-size: large;
     position: relative;
     opacity: 0;
@@ -59,6 +58,10 @@ text-align: left;
         padding-bottom: 140px;
         padding-top: 22px;
     } 
+    .Objective{
+        padding-bottom: 260px;
+    } 
+    
   }
 
 .headShot{

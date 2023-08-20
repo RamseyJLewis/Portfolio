@@ -14,7 +14,6 @@ import Fade from "react-reveal/Fade";
 import { Wave } from "react-animated-text";
 import React, { Component } from "react";
 
-
 function NavBar() {
   const [hover, setHover] = useState(false);
   const [click, setClick] = useState(false);
@@ -26,7 +25,6 @@ function NavBar() {
         <Fade left>
           <div className="navLogo">
             <Logo />
-            
           </div>
         </Fade>
         <Fade right>
@@ -65,7 +63,7 @@ function NavBar() {
                   <Wave
                     effect="jump"
                     delay={10}
-                    effectChange={.5}
+                    effectChange={0.5}
                     text="Resume"
                   />
                 )
@@ -133,24 +131,15 @@ function NavBar() {
               Contact{" "}
             </Link>
             <div className="Resume">
-              <p className="navlinkMobile">Resume</p>{" "}
               <a
-                onMouseEnter={() => setHover(true)}
-                onMouseLeave={() => setHover(false)}
-                className="ResumeNavMobile"
-                style={{}}
+                className="navlinkMobile"
                 href={
                   "https://docs.google.com/document/d/e/2PACX-1vQ9E0qSxZ7EOVq4O_pop_LBhdkP-E7Ozrw1jmKMooVABYZlS9lvr6ErqnBeNgK_O-TsCkZsMdAncOMR/pub"
                 }
                 target="blank"
               >
-                {
-                  <FontAwesomeIcon className="resumeIcon" icon={faEnvelopeOpen}>
-                    {" "}
-                    Resume{" "}
-                  </FontAwesomeIcon>
-                }
-              </a>
+                Resume       
+              </a>{" "}
             </div>
             <div className="navLogo">
               <Logo />

@@ -65,13 +65,13 @@ class Portfolio extends Component {
       //   tech: ["React J.S", "JavaScript (ES6)" ,"HTML" ,"CSS" ,"AWS","PostgreSQL"],
       //   img: card0,
       // },
-      {
-        url: "https://ramseyjlewis.github.io/Space-Force-moon-of-gold/",
-        title: "Space Force Moon of gold",
-        desc: "An arcade shooter inspired by Space Invaders. Escape the massive swarm of churning aliens, all of which are being tracked through mathematics built using ES6.",
-        tech: ["Developer"],
-        img: card2,
-      },
+      // {
+      //   url: "https://ramseyjlewis.github.io/Space-Force-moon-of-gold/",
+      //   title: "Space Force Moon of gold",
+      //   desc: "An arcade shooter inspired by Space Invaders. Escape the massive swarm of churning aliens, all of which are being tracked through mathematics built using ES6.",
+      //   tech: ["Developer"],
+      //   img: card2,
+      // },
 
       // {
       //   url: "https://ramseyjlewis.github.io/Not-Flix/",

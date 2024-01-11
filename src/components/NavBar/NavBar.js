@@ -61,9 +61,9 @@ function NavBar() {
                   <FontAwesomeIcon icon={faEnvelopeOpen} />
                 ) : (
                   <Wave
-                    effect="jump"
-                    delay={10}
-                    effectChange={0.5}
+                    effect="pop"
+                    delay={5}
+                    effectChange={0.1}
                     text="Resume"
                   />
                 )

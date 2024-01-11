@@ -107,7 +107,7 @@
   border-radius: 160px;
   padding: 2px;
   position: relative;
-  z-index: 10;
+  z-index: 2;
 }
 @media (max-width: 570px) {
   .headShot {
